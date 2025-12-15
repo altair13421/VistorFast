@@ -1,0 +1,3295 @@
+[
+    {
+        "label": "with_statement",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "with_statement",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "with_statement",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Boolean",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "importPath": "app.db.base",
+        "description": "app.db.base",
+        "isExtraImport": true,
+        "detail": "app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.crud.anilist",
+        "description": "app.crud.anilist",
+        "isExtraImport": true,
+        "detail": "app.crud.anilist",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.schemas.anilist",
+        "description": "app.schemas.anilist",
+        "isExtraImport": true,
+        "detail": "app.schemas.anilist",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.schemas.anilist",
+        "description": "app.schemas.anilist",
+        "isExtraImport": true,
+        "detail": "app.schemas.anilist",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "app.db.session",
+        "description": "app.db.session",
+        "isExtraImport": true,
+        "detail": "app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
+        "label": "crud",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "schemas",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "crud",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "schemas",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "crud",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "schemas",
+        "importPath": "app",
+        "description": "app",
+        "isExtraImport": true,
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "app.auth.jwt",
+        "description": "app.auth.jwt",
+        "isExtraImport": true,
+        "detail": "app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "verify_token",
+        "importPath": "app.auth.jwt",
+        "description": "app.auth.jwt",
+        "isExtraImport": true,
+        "detail": "app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "app.auth.jwt",
+        "description": "app.auth.jwt",
+        "isExtraImport": true,
+        "detail": "app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "verify_token",
+        "importPath": "app.auth.jwt",
+        "description": "app.auth.jwt",
+        "isExtraImport": true,
+        "detail": "app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "app.auth.jwt",
+        "description": "app.auth.jwt",
+        "isExtraImport": true,
+        "detail": "app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "verify_token",
+        "importPath": "app.auth.jwt",
+        "description": "app.auth.jwt",
+        "isExtraImport": true,
+        "detail": "app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.auth.oauth2",
+        "description": "app.auth.oauth2",
+        "isExtraImport": true,
+        "detail": "app.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.auth.oauth2",
+        "description": "app.auth.oauth2",
+        "isExtraImport": true,
+        "detail": "app.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "app.auth.oauth2",
+        "description": "app.auth.oauth2",
+        "isExtraImport": true,
+        "detail": "app.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "importPath": "app.core.security",
+        "description": "app.core.security",
+        "isExtraImport": true,
+        "detail": "app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "importPath": "app.schemas.user_schema",
+        "description": "app.schemas.user_schema",
+        "isExtraImport": true,
+        "detail": "app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
+        "isExtraImport": true,
+        "detail": "app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user_model",
+        "description": "app.models.user_model",
+        "isExtraImport": true,
+        "detail": "app.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user_model",
+        "description": "app.models.user_model",
+        "isExtraImport": true,
+        "detail": "app.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user_model",
+        "description": "app.models.user_model",
+        "isExtraImport": true,
+        "detail": "app.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user_model",
+        "description": "app.models.user_model",
+        "isExtraImport": true,
+        "detail": "app.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user_model",
+        "description": "app.models.user_model",
+        "isExtraImport": true,
+        "detail": "app.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "app.models.user_model",
+        "description": "app.models.user_model",
+        "isExtraImport": true,
+        "detail": "app.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "BaseSettings",
+        "importPath": "pydantic_settings",
+        "description": "pydantic_settings",
+        "isExtraImport": true,
+        "detail": "pydantic_settings",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.models.anilist",
+        "description": "app.models.anilist",
+        "isExtraImport": true,
+        "detail": "app.models.anilist",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "TestClient",
+        "importPath": "fastapi.testclient",
+        "description": "fastapi.testclient",
+        "isExtraImport": true,
+        "detail": "fastapi.testclient",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "importPath": "app.main",
+        "description": "app.main",
+        "isExtraImport": true,
+        "detail": "app.main",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.endpoints.anilist_endpoint",
+        "description": "app.api.v1.endpoints.anilist_endpoint",
+        "isExtraImport": true,
+        "detail": "app.api.v1.endpoints.anilist_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.crud.music",
+        "description": "app.crud.music",
+        "isExtraImport": true,
+        "detail": "app.crud.music",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.schemas.music",
+        "description": "app.schemas.music",
+        "isExtraImport": true,
+        "detail": "app.schemas.music",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.schemas.music",
+        "description": "app.schemas.music",
+        "isExtraImport": true,
+        "detail": "app.schemas.music",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.models.music",
+        "description": "app.models.music",
+        "isExtraImport": true,
+        "detail": "app.models.music",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.endpoints.music_endpoint",
+        "description": "app.api.v1.endpoints.music_endpoint",
+        "isExtraImport": true,
+        "detail": "app.api.v1.endpoints.music_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "create_nyaa",
+        "importPath": "app.crud.nyaa",
+        "description": "app.crud.nyaa",
+        "isExtraImport": true,
+        "detail": "app.crud.nyaa",
+        "documentation": {}
+    },
+    {
+        "label": "get_nyaa",
+        "importPath": "app.crud.nyaa",
+        "description": "app.crud.nyaa",
+        "isExtraImport": true,
+        "detail": "app.crud.nyaa",
+        "documentation": {}
+    },
+    {
+        "label": "update_nyaa",
+        "importPath": "app.crud.nyaa",
+        "description": "app.crud.nyaa",
+        "isExtraImport": true,
+        "detail": "app.crud.nyaa",
+        "documentation": {}
+    },
+    {
+        "label": "delete_nyaa",
+        "importPath": "app.crud.nyaa",
+        "description": "app.crud.nyaa",
+        "isExtraImport": true,
+        "detail": "app.crud.nyaa",
+        "documentation": {}
+    },
+    {
+        "label": "Nyaa",
+        "importPath": "app.schemas.nyaa",
+        "description": "app.schemas.nyaa",
+        "isExtraImport": true,
+        "detail": "app.schemas.nyaa",
+        "documentation": {}
+    },
+    {
+        "label": "NyaaCreate",
+        "importPath": "app.schemas.nyaa",
+        "description": "app.schemas.nyaa",
+        "isExtraImport": true,
+        "detail": "app.schemas.nyaa",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.schemas.nyaa",
+        "description": "app.schemas.nyaa",
+        "isExtraImport": true,
+        "detail": "app.schemas.nyaa",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.models.nyaa",
+        "description": "app.models.nyaa",
+        "isExtraImport": true,
+        "detail": "app.models.nyaa",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.endpoints.nyaa_endpoint",
+        "description": "app.api.v1.endpoints.nyaa_endpoint",
+        "isExtraImport": true,
+        "detail": "app.api.v1.endpoints.nyaa_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.alembic.env",
+        "description": "vistor.microservices.anilist.alembic.env",
+        "peekOfCode": "def run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well. By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "vistor.microservices.anilist.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.alembic.env",
+        "description": "vistor.microservices.anilist.alembic.env",
+        "peekOfCode": "def run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "vistor.microservices.anilist.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.alembic.env",
+        "description": "vistor.microservices.anilist.alembic.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\ntarget_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,",
+        "detail": "vistor.microservices.anilist.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.alembic.env",
+        "description": "vistor.microservices.anilist.alembic.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well. By skipping the Engine creation",
+        "detail": "vistor.microservices.anilist.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "create_anilist",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.api.v1.endpoints.anilist_endpoint",
+        "description": "vistor.microservices.anilist.app.api.v1.endpoints.anilist_endpoint",
+        "peekOfCode": "def create_anilist(item: AnilistCreate, db: Session = Depends(get_db)):\n    return create_anilist(db=db, item=item)\n@router.get(\"/{item_id}\", response_model=Anilist)\ndef read_anilist(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_anilist(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Anilist not found\")\n    return db_item\n@router.put(\"/{item_id}\", response_model=Anilist)\ndef update_anilist(item_id: int, item: AnilistCreate, db: Session = Depends(get_db)):",
+        "detail": "vistor.microservices.anilist.app.api.v1.endpoints.anilist_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "read_anilist",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.api.v1.endpoints.anilist_endpoint",
+        "description": "vistor.microservices.anilist.app.api.v1.endpoints.anilist_endpoint",
+        "peekOfCode": "def read_anilist(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_anilist(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Anilist not found\")\n    return db_item\n@router.put(\"/{item_id}\", response_model=Anilist)\ndef update_anilist(item_id: int, item: AnilistCreate, db: Session = Depends(get_db)):\n    db_item = get_anilist(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Anilist not found\")",
+        "detail": "vistor.microservices.anilist.app.api.v1.endpoints.anilist_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "update_anilist",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.api.v1.endpoints.anilist_endpoint",
+        "description": "vistor.microservices.anilist.app.api.v1.endpoints.anilist_endpoint",
+        "peekOfCode": "def update_anilist(item_id: int, item: AnilistCreate, db: Session = Depends(get_db)):\n    db_item = get_anilist(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Anilist not found\")\n    return update_anilist(db=db, db_item=db_item, item=item)\n@router.delete(\"/{item_id}\", response_model=Anilist)\ndef delete_anilist(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_anilist(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Anilist not found\")",
+        "detail": "vistor.microservices.anilist.app.api.v1.endpoints.anilist_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "delete_anilist",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.api.v1.endpoints.anilist_endpoint",
+        "description": "vistor.microservices.anilist.app.api.v1.endpoints.anilist_endpoint",
+        "peekOfCode": "def delete_anilist(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_anilist(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Anilist not found\")\n    return delete_anilist(db=db, item_id=item_id)\n# Add more routes as needed",
+        "detail": "vistor.microservices.anilist.app.api.v1.endpoints.anilist_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.app.api.v1.endpoints.anilist_endpoint",
+        "description": "vistor.microservices.anilist.app.api.v1.endpoints.anilist_endpoint",
+        "peekOfCode": "router = APIRouter()\n@router.post(\"/\", response_model=Anilist)\ndef create_anilist(item: AnilistCreate, db: Session = Depends(get_db)):\n    return create_anilist(db=db, item=item)\n@router.get(\"/{item_id}\", response_model=Anilist)\ndef read_anilist(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_anilist(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Anilist not found\")\n    return db_item",
+        "detail": "vistor.microservices.anilist.app.api.v1.endpoints.anilist_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "login_for_access_token",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.api.v1.endpoints.auth",
+        "description": "vistor.microservices.anilist.app.api.v1.endpoints.auth",
+        "peekOfCode": "def login_for_access_token(db: Session = Depends(get_db), form_data: OAuth2PasswordRequestForm = Depends()):\n    user = crud.get_user_by_username(db, username=form_data.username)\n    if not user or not verify_password(form_data.password, user.hashed_password):\n        raise HTTPException(\n            status_code=400,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )\n    access_token = create_access_token(data={\"sub\": user.username})\n    return {\"access_token\": access_token, \"token_type\": \"bearer\"}",
+        "detail": "vistor.microservices.anilist.app.api.v1.endpoints.auth",
+        "documentation": {}
+    },
+    {
+        "label": "read_users_me",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.api.v1.endpoints.auth",
+        "description": "vistor.microservices.anilist.app.api.v1.endpoints.auth",
+        "peekOfCode": "def read_users_me(current_user: schemas.User = Depends(get_current_user)):\n    return current_user",
+        "detail": "vistor.microservices.anilist.app.api.v1.endpoints.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.app.api.v1.endpoints.auth",
+        "description": "vistor.microservices.anilist.app.api.v1.endpoints.auth",
+        "peekOfCode": "router = APIRouter()\n@router.post(\"/token\", response_model=schemas.Token)\ndef login_for_access_token(db: Session = Depends(get_db), form_data: OAuth2PasswordRequestForm = Depends()):\n    user = crud.get_user_by_username(db, username=form_data.username)\n    if not user or not verify_password(form_data.password, user.hashed_password):\n        raise HTTPException(\n            status_code=400,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )",
+        "detail": "vistor.microservices.anilist.app.api.v1.endpoints.auth",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.auth.jwt",
+        "description": "vistor.microservices.anilist.app.auth.jwt",
+        "peekOfCode": "def create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username: str = payload.get(\"sub\")",
+        "detail": "vistor.microservices.anilist.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "verify_token",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.auth.jwt",
+        "description": "vistor.microservices.anilist.app.auth.jwt",
+        "peekOfCode": "def verify_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username: str = payload.get(\"sub\")\n        if username is None:\n            raise credentials_exception\n        token_data = TokenData(username=username)\n    except JWTError:\n        raise credentials_exception\n    return token_data",
+        "detail": "vistor.microservices.anilist.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.app.auth.jwt",
+        "description": "vistor.microservices.anilist.app.auth.jwt",
+        "peekOfCode": "SECRET_KEY = settings.secret_key\nALGORITHM = settings.algorithm\nACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):",
+        "detail": "vistor.microservices.anilist.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.app.auth.jwt",
+        "description": "vistor.microservices.anilist.app.auth.jwt",
+        "peekOfCode": "ALGORITHM = settings.algorithm\nACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):\n    try:",
+        "detail": "vistor.microservices.anilist.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.app.auth.jwt",
+        "description": "vistor.microservices.anilist.app.auth.jwt",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])",
+        "detail": "vistor.microservices.anilist.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.auth.oauth2",
+        "description": "vistor.microservices.anilist.app.auth.oauth2",
+        "peekOfCode": "def get_current_user(db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    token_data = verify_token(token, credentials_exception)\n    user = db.query(User).filter(User.username == token_data.username).first()\n    if user is None:\n        raise credentials_exception",
+        "detail": "vistor.microservices.anilist.app.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.app.auth.oauth2",
+        "description": "vistor.microservices.anilist.app.auth.oauth2",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\ndef get_current_user(db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    token_data = verify_token(token, credentials_exception)\n    user = db.query(User).filter(User.username == token_data.username).first()\n    if user is None:",
+        "detail": "vistor.microservices.anilist.app.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "vistor.microservices.anilist.app.core.config",
+        "description": "vistor.microservices.anilist.app.core.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    database_url: str = \"sqlite:///./test.db\"\n    secret_key: str = \"supersecretkey\"\n    algorithm: str = \"HS256\"\n    access_token_expire_minutes: int = 30\n    class Config:\n        env_file = \".env\"\nsettings = Settings()",
+        "detail": "vistor.microservices.anilist.app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.app.core.config",
+        "description": "vistor.microservices.anilist.app.core.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "vistor.microservices.anilist.app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.core.security",
+        "description": "vistor.microservices.anilist.app.core.security",
+        "peekOfCode": "def verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    return pwd_context.hash(password)",
+        "detail": "vistor.microservices.anilist.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "get_password_hash",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.core.security",
+        "description": "vistor.microservices.anilist.app.core.security",
+        "peekOfCode": "def get_password_hash(password):\n    return pwd_context.hash(password)",
+        "detail": "vistor.microservices.anilist.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.app.core.security",
+        "description": "vistor.microservices.anilist.app.core.security",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    return pwd_context.hash(password)",
+        "detail": "vistor.microservices.anilist.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "get_anilist",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.crud.anilist",
+        "description": "vistor.microservices.anilist.app.crud.anilist",
+        "peekOfCode": "def get_anilist(db: Session, item_id: int):\n    return db.query(Anilist).filter(Anilist.id == item_id).first()\ndef create_anilist(db: Session, item: AnilistCreate):\n    db_item = Anilist(name=item.name, description=item.description)\n    db.add(db_item)\n    db.commit()\n    db.refresh(db_item)\n    return db_item\ndef update_anilist(db: Session, db_item: Anilist, item: AnilistCreate):\n    db_item.name = item.name",
+        "detail": "vistor.microservices.anilist.app.crud.anilist",
+        "documentation": {}
+    },
+    {
+        "label": "create_anilist",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.crud.anilist",
+        "description": "vistor.microservices.anilist.app.crud.anilist",
+        "peekOfCode": "def create_anilist(db: Session, item: AnilistCreate):\n    db_item = Anilist(name=item.name, description=item.description)\n    db.add(db_item)\n    db.commit()\n    db.refresh(db_item)\n    return db_item\ndef update_anilist(db: Session, db_item: Anilist, item: AnilistCreate):\n    db_item.name = item.name\n    db_item.description = item.description\n    db.commit()",
+        "detail": "vistor.microservices.anilist.app.crud.anilist",
+        "documentation": {}
+    },
+    {
+        "label": "update_anilist",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.crud.anilist",
+        "description": "vistor.microservices.anilist.app.crud.anilist",
+        "peekOfCode": "def update_anilist(db: Session, db_item: Anilist, item: AnilistCreate):\n    db_item.name = item.name\n    db_item.description = item.description\n    db.commit()\n    db.refresh(db_item)\n    return db_item\ndef delete_anilist(db: Session, item_id: int):\n    db_item = db.query(Anilist).filter(Anilist.id == item_id).first()\n    db.delete(db_item)\n    db.commit()",
+        "detail": "vistor.microservices.anilist.app.crud.anilist",
+        "documentation": {}
+    },
+    {
+        "label": "delete_anilist",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.crud.anilist",
+        "description": "vistor.microservices.anilist.app.crud.anilist",
+        "peekOfCode": "def delete_anilist(db: Session, item_id: int):\n    db_item = db.query(Anilist).filter(Anilist.id == item_id).first()\n    db.delete(db_item)\n    db.commit()\n    return db_item",
+        "detail": "vistor.microservices.anilist.app.crud.anilist",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.crud.user_crud",
+        "description": "vistor.microservices.anilist.app.crud.user_crud",
+        "peekOfCode": "def get_user(db: Session, user_id: int):\n    return db.query(User).filter(User.id == user_id).first()\ndef get_user_by_username(db: Session, username: str):\n    return db.query(User).filter(User.username == username).first()\ndef create_user(db: Session, user: UserCreate):\n    fake_hashed_password = user.password + \"notreallyhashed\"\n    db_user = User(username=user.username, email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)",
+        "detail": "vistor.microservices.anilist.app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_username",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.crud.user_crud",
+        "description": "vistor.microservices.anilist.app.crud.user_crud",
+        "peekOfCode": "def get_user_by_username(db: Session, username: str):\n    return db.query(User).filter(User.username == username).first()\ndef create_user(db: Session, user: UserCreate):\n    fake_hashed_password = user.password + \"notreallyhashed\"\n    db_user = User(username=user.username, email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user",
+        "detail": "vistor.microservices.anilist.app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.crud.user_crud",
+        "description": "vistor.microservices.anilist.app.crud.user_crud",
+        "peekOfCode": "def create_user(db: Session, user: UserCreate):\n    fake_hashed_password = user.password + \"notreallyhashed\"\n    db_user = User(username=user.username, email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user",
+        "detail": "vistor.microservices.anilist.app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.app.db.base",
+        "description": "vistor.microservices.anilist.app.db.base",
+        "peekOfCode": "Base = declarative_base()",
+        "detail": "vistor.microservices.anilist.app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.db.session",
+        "description": "vistor.microservices.anilist.app.db.session",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "vistor.microservices.anilist.app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.app.db.session",
+        "description": "vistor.microservices.anilist.app.db.session",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = \"sqlite:///./test.db\"\nengine = create_engine(SQLALCHEMY_DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "vistor.microservices.anilist.app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.app.db.session",
+        "description": "vistor.microservices.anilist.app.db.session",
+        "peekOfCode": "engine = create_engine(SQLALCHEMY_DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "vistor.microservices.anilist.app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.app.db.session",
+        "description": "vistor.microservices.anilist.app.db.session",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "vistor.microservices.anilist.app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "Anilist",
+        "kind": 6,
+        "importPath": "vistor.microservices.anilist.app.models.anilist",
+        "description": "vistor.microservices.anilist.app.models.anilist",
+        "peekOfCode": "class Anilist(Base):\n    __tablename__ = \"anilists\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    description = Column(String, index=True)",
+        "detail": "vistor.microservices.anilist.app.models.anilist",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "vistor.microservices.anilist.app.models.user_model",
+        "description": "vistor.microservices.anilist.app.models.user_model",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    username = Column(String, unique=True, index=True)\n    email = Column(String, unique=True, index=True)\n    full_name = Column(String, index=True)\n    hashed_password = Column(String)\n    is_active = Column(Boolean, default=True)\n    is_superuser = Column(Boolean, default=False)",
+        "detail": "vistor.microservices.anilist.app.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "AnilistBase",
+        "kind": 6,
+        "importPath": "vistor.microservices.anilist.app.schemas.anilist",
+        "description": "vistor.microservices.anilist.app.schemas.anilist",
+        "peekOfCode": "class AnilistBase(BaseModel):\n    name: str\n    description: str\nclass AnilistCreate(AnilistBase):\n    pass\nclass Anilist(AnilistBase):\n    id: int\n    class Config:\n        from_attributes = True",
+        "detail": "vistor.microservices.anilist.app.schemas.anilist",
+        "documentation": {}
+    },
+    {
+        "label": "AnilistCreate",
+        "kind": 6,
+        "importPath": "vistor.microservices.anilist.app.schemas.anilist",
+        "description": "vistor.microservices.anilist.app.schemas.anilist",
+        "peekOfCode": "class AnilistCreate(AnilistBase):\n    pass\nclass Anilist(AnilistBase):\n    id: int\n    class Config:\n        from_attributes = True",
+        "detail": "vistor.microservices.anilist.app.schemas.anilist",
+        "documentation": {}
+    },
+    {
+        "label": "Anilist",
+        "kind": 6,
+        "importPath": "vistor.microservices.anilist.app.schemas.anilist",
+        "description": "vistor.microservices.anilist.app.schemas.anilist",
+        "peekOfCode": "class Anilist(AnilistBase):\n    id: int\n    class Config:\n        from_attributes = True",
+        "detail": "vistor.microservices.anilist.app.schemas.anilist",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
+        "importPath": "vistor.microservices.anilist.app.schemas.user_schema",
+        "description": "vistor.microservices.anilist.app.schemas.user_schema",
+        "peekOfCode": "class UserBase(BaseModel):\n    username: str\n    email: str\nclass UserCreate(UserBase):\n    password: str\nclass User(UserBase):\n    id: int\n    full_name: str\n    is_active: bool\n    is_superuser: bool",
+        "detail": "vistor.microservices.anilist.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "vistor.microservices.anilist.app.schemas.user_schema",
+        "description": "vistor.microservices.anilist.app.schemas.user_schema",
+        "peekOfCode": "class UserCreate(UserBase):\n    password: str\nclass User(UserBase):\n    id: int\n    full_name: str\n    is_active: bool\n    is_superuser: bool\n    class Config:\n        orm_mode = True\nclass Token(BaseModel):",
+        "detail": "vistor.microservices.anilist.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "vistor.microservices.anilist.app.schemas.user_schema",
+        "description": "vistor.microservices.anilist.app.schemas.user_schema",
+        "peekOfCode": "class User(UserBase):\n    id: int\n    full_name: str\n    is_active: bool\n    is_superuser: bool\n    class Config:\n        orm_mode = True\nclass Token(BaseModel):\n    access_token: str\n    token_type: str",
+        "detail": "vistor.microservices.anilist.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "vistor.microservices.anilist.app.schemas.user_schema",
+        "description": "vistor.microservices.anilist.app.schemas.user_schema",
+        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    username: str | None = None",
+        "detail": "vistor.microservices.anilist.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "kind": 6,
+        "importPath": "vistor.microservices.anilist.app.schemas.user_schema",
+        "description": "vistor.microservices.anilist.app.schemas.user_schema",
+        "peekOfCode": "class TokenData(BaseModel):\n    username: str | None = None",
+        "detail": "vistor.microservices.anilist.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "test_login",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.tests.test_auth",
+        "description": "vistor.microservices.anilist.app.tests.test_auth",
+        "peekOfCode": "def test_login():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    assert response.status_code == 200\n    assert \"access_token\" in response.json()\ndef test_get_current_user():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    token = response.json()[\"access_token\"]\n    response = client.get(\"/users/me/\", headers={\"Authorization\": f\"Bearer {token}\"})\n    assert response.status_code == 200\n    assert response.json()[\"username\"] == \"testuser\"",
+        "detail": "vistor.microservices.anilist.app.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_current_user",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.tests.test_auth",
+        "description": "vistor.microservices.anilist.app.tests.test_auth",
+        "peekOfCode": "def test_get_current_user():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    token = response.json()[\"access_token\"]\n    response = client.get(\"/users/me/\", headers={\"Authorization\": f\"Bearer {token}\"})\n    assert response.status_code == 200\n    assert response.json()[\"username\"] == \"testuser\"",
+        "detail": "vistor.microservices.anilist.app.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.app.tests.test_auth",
+        "description": "vistor.microservices.anilist.app.tests.test_auth",
+        "peekOfCode": "client = TestClient(app)\ndef test_login():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    assert response.status_code == 200\n    assert \"access_token\" in response.json()\ndef test_get_current_user():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    token = response.json()[\"access_token\"]\n    response = client.get(\"/users/me/\", headers={\"Authorization\": f\"Bearer {token}\"})\n    assert response.status_code == 200",
+        "detail": "vistor.microservices.anilist.app.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_anilist",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.tests.test_example",
+        "description": "vistor.microservices.anilist.app.tests.test_example",
+        "peekOfCode": "def test_create_anilist():\n    response = client.post(\"/anilist/\", json={\"name\": \"Test Anilist\", \"description\": \"A anilist for testing\"})\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Anilist\"\ndef test_read_anilist():\n    response = client.post(\"/anilist/\", json={\"name\": \"Test Anilist\", \"description\": \"A anilist for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.get(f\"/anilist/{item_id}\")\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Anilist\"",
+        "detail": "vistor.microservices.anilist.app.tests.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "test_read_anilist",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.tests.test_example",
+        "description": "vistor.microservices.anilist.app.tests.test_example",
+        "peekOfCode": "def test_read_anilist():\n    response = client.post(\"/anilist/\", json={\"name\": \"Test Anilist\", \"description\": \"A anilist for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.get(f\"/anilist/{item_id}\")\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Anilist\"\ndef test_update_anilist():\n    response = client.post(\"/anilist/\", json={\"name\": \"Test Anilist\", \"description\": \"A anilist for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.put(f\"/anilist/{item_id}\", json={\"name\": \"Updated Anilist\", \"description\": \"Updated description\"})",
+        "detail": "vistor.microservices.anilist.app.tests.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "test_update_anilist",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.tests.test_example",
+        "description": "vistor.microservices.anilist.app.tests.test_example",
+        "peekOfCode": "def test_update_anilist():\n    response = client.post(\"/anilist/\", json={\"name\": \"Test Anilist\", \"description\": \"A anilist for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.put(f\"/anilist/{item_id}\", json={\"name\": \"Updated Anilist\", \"description\": \"Updated description\"})\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Updated Anilist\"\ndef test_delete_anilist():\n    response = client.post(\"/anilist/\", json={\"name\": \"Test Anilist\", \"description\": \"A anilist for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.delete(f\"/anilist/{item_id}\")",
+        "detail": "vistor.microservices.anilist.app.tests.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "test_delete_anilist",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.app.tests.test_example",
+        "description": "vistor.microservices.anilist.app.tests.test_example",
+        "peekOfCode": "def test_delete_anilist():\n    response = client.post(\"/anilist/\", json={\"name\": \"Test Anilist\", \"description\": \"A anilist for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.delete(f\"/anilist/{item_id}\")\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Anilist\"",
+        "detail": "vistor.microservices.anilist.app.tests.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.app.tests.test_example",
+        "description": "vistor.microservices.anilist.app.tests.test_example",
+        "peekOfCode": "client = TestClient(app)\ndef test_create_anilist():\n    response = client.post(\"/anilist/\", json={\"name\": \"Test Anilist\", \"description\": \"A anilist for testing\"})\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Anilist\"\ndef test_read_anilist():\n    response = client.post(\"/anilist/\", json={\"name\": \"Test Anilist\", \"description\": \"A anilist for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.get(f\"/anilist/{item_id}\")\n    assert response.status_code == 200",
+        "detail": "vistor.microservices.anilist.app.tests.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.app.main",
+        "description": "vistor.microservices.anilist.app.main",
+        "peekOfCode": "app = FastAPI()\norigins = [\n    \"http://localhost\",\n    \"http://localhost:3000\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],",
+        "detail": "vistor.microservices.anilist.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "origins",
+        "kind": 5,
+        "importPath": "vistor.microservices.anilist.app.main",
+        "description": "vistor.microservices.anilist.app.main",
+        "peekOfCode": "origins = [\n    \"http://localhost\",\n    \"http://localhost:3000\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],",
+        "detail": "vistor.microservices.anilist.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "kind": 2,
+        "importPath": "vistor.microservices.anilist.scripts.init_db",
+        "description": "vistor.microservices.anilist.scripts.init_db",
+        "peekOfCode": "def init_db():\n    Base.metadata.create_all(bind=engine)\nif __name__ == \"__main__\":\n    init_db()",
+        "detail": "vistor.microservices.anilist.scripts.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.alembic.env",
+        "description": "vistor.microservices.music.alembic.env",
+        "peekOfCode": "def run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well. By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "vistor.microservices.music.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.alembic.env",
+        "description": "vistor.microservices.music.alembic.env",
+        "peekOfCode": "def run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "vistor.microservices.music.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.alembic.env",
+        "description": "vistor.microservices.music.alembic.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\ntarget_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,",
+        "detail": "vistor.microservices.music.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.alembic.env",
+        "description": "vistor.microservices.music.alembic.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well. By skipping the Engine creation",
+        "detail": "vistor.microservices.music.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "login_for_access_token",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.api.v1.endpoints.auth",
+        "description": "vistor.microservices.music.app.api.v1.endpoints.auth",
+        "peekOfCode": "def login_for_access_token(db: Session = Depends(get_db), form_data: OAuth2PasswordRequestForm = Depends()):\n    user = crud.get_user_by_username(db, username=form_data.username)\n    if not user or not verify_password(form_data.password, user.hashed_password):\n        raise HTTPException(\n            status_code=400,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )\n    access_token = create_access_token(data={\"sub\": user.username})\n    return {\"access_token\": access_token, \"token_type\": \"bearer\"}",
+        "detail": "vistor.microservices.music.app.api.v1.endpoints.auth",
+        "documentation": {}
+    },
+    {
+        "label": "read_users_me",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.api.v1.endpoints.auth",
+        "description": "vistor.microservices.music.app.api.v1.endpoints.auth",
+        "peekOfCode": "def read_users_me(current_user: schemas.User = Depends(get_current_user)):\n    return current_user",
+        "detail": "vistor.microservices.music.app.api.v1.endpoints.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.api.v1.endpoints.auth",
+        "description": "vistor.microservices.music.app.api.v1.endpoints.auth",
+        "peekOfCode": "router = APIRouter()\n@router.post(\"/token\", response_model=schemas.Token)\ndef login_for_access_token(db: Session = Depends(get_db), form_data: OAuth2PasswordRequestForm = Depends()):\n    user = crud.get_user_by_username(db, username=form_data.username)\n    if not user or not verify_password(form_data.password, user.hashed_password):\n        raise HTTPException(\n            status_code=400,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )",
+        "detail": "vistor.microservices.music.app.api.v1.endpoints.auth",
+        "documentation": {}
+    },
+    {
+        "label": "create_music",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
+        "description": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
+        "peekOfCode": "def create_music(item: MusicCreate, db: Session = Depends(get_db)):\n    return create_music(db=db, item=item)\n@router.get(\"/{item_id}\", response_model=Music)\ndef read_music(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_music(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Music not found\")\n    return db_item\n@router.put(\"/{item_id}\", response_model=Music)\ndef update_music(item_id: int, item: MusicCreate, db: Session = Depends(get_db)):",
+        "detail": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "read_music",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
+        "description": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
+        "peekOfCode": "def read_music(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_music(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Music not found\")\n    return db_item\n@router.put(\"/{item_id}\", response_model=Music)\ndef update_music(item_id: int, item: MusicCreate, db: Session = Depends(get_db)):\n    db_item = get_music(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Music not found\")",
+        "detail": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "update_music",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
+        "description": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
+        "peekOfCode": "def update_music(item_id: int, item: MusicCreate, db: Session = Depends(get_db)):\n    db_item = get_music(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Music not found\")\n    return update_music(db=db, db_item=db_item, item=item)\n@router.delete(\"/{item_id}\", response_model=Music)\ndef delete_music(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_music(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Music not found\")",
+        "detail": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "delete_music",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
+        "description": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
+        "peekOfCode": "def delete_music(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_music(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Music not found\")\n    return delete_music(db=db, item_id=item_id)\n# Add more routes as needed",
+        "detail": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
+        "description": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
+        "peekOfCode": "router = APIRouter()\n@router.post(\"/\", response_model=Music)\ndef create_music(item: MusicCreate, db: Session = Depends(get_db)):\n    return create_music(db=db, item=item)\n@router.get(\"/{item_id}\", response_model=Music)\ndef read_music(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_music(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Music not found\")\n    return db_item",
+        "detail": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.auth.jwt",
+        "description": "vistor.microservices.music.app.auth.jwt",
+        "peekOfCode": "def create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username: str = payload.get(\"sub\")",
+        "detail": "vistor.microservices.music.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "verify_token",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.auth.jwt",
+        "description": "vistor.microservices.music.app.auth.jwt",
+        "peekOfCode": "def verify_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username: str = payload.get(\"sub\")\n        if username is None:\n            raise credentials_exception\n        token_data = TokenData(username=username)\n    except JWTError:\n        raise credentials_exception\n    return token_data",
+        "detail": "vistor.microservices.music.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.auth.jwt",
+        "description": "vistor.microservices.music.app.auth.jwt",
+        "peekOfCode": "SECRET_KEY = settings.secret_key\nALGORITHM = settings.algorithm\nACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):",
+        "detail": "vistor.microservices.music.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.auth.jwt",
+        "description": "vistor.microservices.music.app.auth.jwt",
+        "peekOfCode": "ALGORITHM = settings.algorithm\nACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):\n    try:",
+        "detail": "vistor.microservices.music.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.auth.jwt",
+        "description": "vistor.microservices.music.app.auth.jwt",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])",
+        "detail": "vistor.microservices.music.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.auth.oauth2",
+        "description": "vistor.microservices.music.app.auth.oauth2",
+        "peekOfCode": "def get_current_user(db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    token_data = verify_token(token, credentials_exception)\n    user = db.query(User).filter(User.username == token_data.username).first()\n    if user is None:\n        raise credentials_exception",
+        "detail": "vistor.microservices.music.app.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.auth.oauth2",
+        "description": "vistor.microservices.music.app.auth.oauth2",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\ndef get_current_user(db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    token_data = verify_token(token, credentials_exception)\n    user = db.query(User).filter(User.username == token_data.username).first()\n    if user is None:",
+        "detail": "vistor.microservices.music.app.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.core.config",
+        "description": "vistor.microservices.music.app.core.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    database_url: str = \"sqlite:///./test.db\"\n    secret_key: str = \"supersecretkey\"\n    algorithm: str = \"HS256\"\n    access_token_expire_minutes: int = 30\n    class Config:\n        env_file = \".env\"\nsettings = Settings()",
+        "detail": "vistor.microservices.music.app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.core.config",
+        "description": "vistor.microservices.music.app.core.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "vistor.microservices.music.app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.core.security",
+        "description": "vistor.microservices.music.app.core.security",
+        "peekOfCode": "def verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    return pwd_context.hash(password)",
+        "detail": "vistor.microservices.music.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "get_password_hash",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.core.security",
+        "description": "vistor.microservices.music.app.core.security",
+        "peekOfCode": "def get_password_hash(password):\n    return pwd_context.hash(password)",
+        "detail": "vistor.microservices.music.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.core.security",
+        "description": "vistor.microservices.music.app.core.security",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    return pwd_context.hash(password)",
+        "detail": "vistor.microservices.music.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "get_music",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.music",
+        "description": "vistor.microservices.music.app.crud.music",
+        "peekOfCode": "def get_music(db: Session, item_id: int):\n    return db.query(Music).filter(Music.id == item_id).first()\ndef create_music(db: Session, item: MusicCreate):\n    db_item = Music(name=item.name, description=item.description)\n    db.add(db_item)\n    db.commit()\n    db.refresh(db_item)\n    return db_item\ndef update_music(db: Session, db_item: Music, item: MusicCreate):\n    db_item.name = item.name",
+        "detail": "vistor.microservices.music.app.crud.music",
+        "documentation": {}
+    },
+    {
+        "label": "create_music",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.music",
+        "description": "vistor.microservices.music.app.crud.music",
+        "peekOfCode": "def create_music(db: Session, item: MusicCreate):\n    db_item = Music(name=item.name, description=item.description)\n    db.add(db_item)\n    db.commit()\n    db.refresh(db_item)\n    return db_item\ndef update_music(db: Session, db_item: Music, item: MusicCreate):\n    db_item.name = item.name\n    db_item.description = item.description\n    db.commit()",
+        "detail": "vistor.microservices.music.app.crud.music",
+        "documentation": {}
+    },
+    {
+        "label": "update_music",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.music",
+        "description": "vistor.microservices.music.app.crud.music",
+        "peekOfCode": "def update_music(db: Session, db_item: Music, item: MusicCreate):\n    db_item.name = item.name\n    db_item.description = item.description\n    db.commit()\n    db.refresh(db_item)\n    return db_item\ndef delete_music(db: Session, item_id: int):\n    db_item = db.query(Music).filter(Music.id == item_id).first()\n    db.delete(db_item)\n    db.commit()",
+        "detail": "vistor.microservices.music.app.crud.music",
+        "documentation": {}
+    },
+    {
+        "label": "delete_music",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.music",
+        "description": "vistor.microservices.music.app.crud.music",
+        "peekOfCode": "def delete_music(db: Session, item_id: int):\n    db_item = db.query(Music).filter(Music.id == item_id).first()\n    db.delete(db_item)\n    db.commit()\n    return db_item",
+        "detail": "vistor.microservices.music.app.crud.music",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.user_crud",
+        "description": "vistor.microservices.music.app.crud.user_crud",
+        "peekOfCode": "def get_user(db: Session, user_id: int):\n    return db.query(User).filter(User.id == user_id).first()\ndef get_user_by_username(db: Session, username: str):\n    return db.query(User).filter(User.username == username).first()\ndef create_user(db: Session, user: UserCreate):\n    fake_hashed_password = user.password + \"notreallyhashed\"\n    db_user = User(username=user.username, email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)",
+        "detail": "vistor.microservices.music.app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_username",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.user_crud",
+        "description": "vistor.microservices.music.app.crud.user_crud",
+        "peekOfCode": "def get_user_by_username(db: Session, username: str):\n    return db.query(User).filter(User.username == username).first()\ndef create_user(db: Session, user: UserCreate):\n    fake_hashed_password = user.password + \"notreallyhashed\"\n    db_user = User(username=user.username, email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user",
+        "detail": "vistor.microservices.music.app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.user_crud",
+        "description": "vistor.microservices.music.app.crud.user_crud",
+        "peekOfCode": "def create_user(db: Session, user: UserCreate):\n    fake_hashed_password = user.password + \"notreallyhashed\"\n    db_user = User(username=user.username, email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user",
+        "detail": "vistor.microservices.music.app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.db.base",
+        "description": "vistor.microservices.music.app.db.base",
+        "peekOfCode": "Base = declarative_base()",
+        "detail": "vistor.microservices.music.app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.db.session",
+        "description": "vistor.microservices.music.app.db.session",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "vistor.microservices.music.app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.db.session",
+        "description": "vistor.microservices.music.app.db.session",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = \"sqlite:///./test.db\"\nengine = create_engine(SQLALCHEMY_DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "vistor.microservices.music.app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.db.session",
+        "description": "vistor.microservices.music.app.db.session",
+        "peekOfCode": "engine = create_engine(SQLALCHEMY_DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "vistor.microservices.music.app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.db.session",
+        "description": "vistor.microservices.music.app.db.session",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "vistor.microservices.music.app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "Music",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.models.music",
+        "description": "vistor.microservices.music.app.models.music",
+        "peekOfCode": "class Music(Base):\n    __tablename__ = \"musics\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    description = Column(String, index=True)",
+        "detail": "vistor.microservices.music.app.models.music",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.models.user_model",
+        "description": "vistor.microservices.music.app.models.user_model",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    username = Column(String, unique=True, index=True)\n    email = Column(String, unique=True, index=True)\n    full_name = Column(String, index=True)\n    hashed_password = Column(String)\n    is_active = Column(Boolean, default=True)\n    is_superuser = Column(Boolean, default=False)",
+        "detail": "vistor.microservices.music.app.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "MusicBase",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.music",
+        "description": "vistor.microservices.music.app.schemas.music",
+        "peekOfCode": "class MusicBase(BaseModel):\n    name: str\n    description: str\nclass MusicCreate(MusicBase):\n    pass\nclass Music(MusicBase):\n    id: int\n    class Config:\n        from_attributes = True",
+        "detail": "vistor.microservices.music.app.schemas.music",
+        "documentation": {}
+    },
+    {
+        "label": "MusicCreate",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.music",
+        "description": "vistor.microservices.music.app.schemas.music",
+        "peekOfCode": "class MusicCreate(MusicBase):\n    pass\nclass Music(MusicBase):\n    id: int\n    class Config:\n        from_attributes = True",
+        "detail": "vistor.microservices.music.app.schemas.music",
+        "documentation": {}
+    },
+    {
+        "label": "Music",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.music",
+        "description": "vistor.microservices.music.app.schemas.music",
+        "peekOfCode": "class Music(MusicBase):\n    id: int\n    class Config:\n        from_attributes = True",
+        "detail": "vistor.microservices.music.app.schemas.music",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.user_schema",
+        "description": "vistor.microservices.music.app.schemas.user_schema",
+        "peekOfCode": "class UserBase(BaseModel):\n    username: str\n    email: str\nclass UserCreate(UserBase):\n    password: str\nclass User(UserBase):\n    id: int\n    full_name: str\n    is_active: bool\n    is_superuser: bool",
+        "detail": "vistor.microservices.music.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.user_schema",
+        "description": "vistor.microservices.music.app.schemas.user_schema",
+        "peekOfCode": "class UserCreate(UserBase):\n    password: str\nclass User(UserBase):\n    id: int\n    full_name: str\n    is_active: bool\n    is_superuser: bool\n    class Config:\n        orm_mode = True\nclass Token(BaseModel):",
+        "detail": "vistor.microservices.music.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.user_schema",
+        "description": "vistor.microservices.music.app.schemas.user_schema",
+        "peekOfCode": "class User(UserBase):\n    id: int\n    full_name: str\n    is_active: bool\n    is_superuser: bool\n    class Config:\n        orm_mode = True\nclass Token(BaseModel):\n    access_token: str\n    token_type: str",
+        "detail": "vistor.microservices.music.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.user_schema",
+        "description": "vistor.microservices.music.app.schemas.user_schema",
+        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    username: str | None = None",
+        "detail": "vistor.microservices.music.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.user_schema",
+        "description": "vistor.microservices.music.app.schemas.user_schema",
+        "peekOfCode": "class TokenData(BaseModel):\n    username: str | None = None",
+        "detail": "vistor.microservices.music.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "test_login",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.tests.test_auth",
+        "description": "vistor.microservices.music.app.tests.test_auth",
+        "peekOfCode": "def test_login():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    assert response.status_code == 200\n    assert \"access_token\" in response.json()\ndef test_get_current_user():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    token = response.json()[\"access_token\"]\n    response = client.get(\"/users/me/\", headers={\"Authorization\": f\"Bearer {token}\"})\n    assert response.status_code == 200\n    assert response.json()[\"username\"] == \"testuser\"",
+        "detail": "vistor.microservices.music.app.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_current_user",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.tests.test_auth",
+        "description": "vistor.microservices.music.app.tests.test_auth",
+        "peekOfCode": "def test_get_current_user():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    token = response.json()[\"access_token\"]\n    response = client.get(\"/users/me/\", headers={\"Authorization\": f\"Bearer {token}\"})\n    assert response.status_code == 200\n    assert response.json()[\"username\"] == \"testuser\"",
+        "detail": "vistor.microservices.music.app.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.tests.test_auth",
+        "description": "vistor.microservices.music.app.tests.test_auth",
+        "peekOfCode": "client = TestClient(app)\ndef test_login():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    assert response.status_code == 200\n    assert \"access_token\" in response.json()\ndef test_get_current_user():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    token = response.json()[\"access_token\"]\n    response = client.get(\"/users/me/\", headers={\"Authorization\": f\"Bearer {token}\"})\n    assert response.status_code == 200",
+        "detail": "vistor.microservices.music.app.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_music",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.tests.test_example",
+        "description": "vistor.microservices.music.app.tests.test_example",
+        "peekOfCode": "def test_create_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Music\"\ndef test_read_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.get(f\"/music/{item_id}\")\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Music\"",
+        "detail": "vistor.microservices.music.app.tests.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "test_read_music",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.tests.test_example",
+        "description": "vistor.microservices.music.app.tests.test_example",
+        "peekOfCode": "def test_read_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.get(f\"/music/{item_id}\")\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Music\"\ndef test_update_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.put(f\"/music/{item_id}\", json={\"name\": \"Updated Music\", \"description\": \"Updated description\"})",
+        "detail": "vistor.microservices.music.app.tests.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "test_update_music",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.tests.test_example",
+        "description": "vistor.microservices.music.app.tests.test_example",
+        "peekOfCode": "def test_update_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.put(f\"/music/{item_id}\", json={\"name\": \"Updated Music\", \"description\": \"Updated description\"})\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Updated Music\"\ndef test_delete_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.delete(f\"/music/{item_id}\")",
+        "detail": "vistor.microservices.music.app.tests.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "test_delete_music",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.tests.test_example",
+        "description": "vistor.microservices.music.app.tests.test_example",
+        "peekOfCode": "def test_delete_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.delete(f\"/music/{item_id}\")\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Music\"",
+        "detail": "vistor.microservices.music.app.tests.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.tests.test_example",
+        "description": "vistor.microservices.music.app.tests.test_example",
+        "peekOfCode": "client = TestClient(app)\ndef test_create_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Music\"\ndef test_read_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.get(f\"/music/{item_id}\")\n    assert response.status_code == 200",
+        "detail": "vistor.microservices.music.app.tests.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.main",
+        "description": "vistor.microservices.music.app.main",
+        "peekOfCode": "app = FastAPI()\norigins = [\n    \"http://localhost\",\n    \"http://localhost:3000\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],",
+        "detail": "vistor.microservices.music.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "origins",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.main",
+        "description": "vistor.microservices.music.app.main",
+        "peekOfCode": "origins = [\n    \"http://localhost\",\n    \"http://localhost:3000\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],",
+        "detail": "vistor.microservices.music.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.scripts.init_db",
+        "description": "vistor.microservices.music.scripts.init_db",
+        "peekOfCode": "def init_db():\n    Base.metadata.create_all(bind=engine)\nif __name__ == \"__main__\":\n    init_db()",
+        "detail": "vistor.microservices.music.scripts.init_db",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.alembic.env",
+        "description": "vistor.microservices.nyaa.alembic.env",
+        "peekOfCode": "def run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well. By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "vistor.microservices.nyaa.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.alembic.env",
+        "description": "vistor.microservices.nyaa.alembic.env",
+        "peekOfCode": "def run_migrations_online():\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "vistor.microservices.nyaa.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.alembic.env",
+        "description": "vistor.microservices.nyaa.alembic.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nfileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\ntarget_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,",
+        "detail": "vistor.microservices.nyaa.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.alembic.env",
+        "description": "vistor.microservices.nyaa.alembic.env",
+        "peekOfCode": "target_metadata = Base.metadata\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline():\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well. By skipping the Engine creation",
+        "detail": "vistor.microservices.nyaa.alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "login_for_access_token",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
+        "description": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
+        "peekOfCode": "def login_for_access_token(db: Session = Depends(get_db), form_data: OAuth2PasswordRequestForm = Depends()):\n    user = crud.get_user_by_username(db, username=form_data.username)\n    if not user or not verify_password(form_data.password, user.hashed_password):\n        raise HTTPException(\n            status_code=400,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )\n    access_token = create_access_token(data={\"sub\": user.username})\n    return {\"access_token\": access_token, \"token_type\": \"bearer\"}",
+        "detail": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
+        "documentation": {}
+    },
+    {
+        "label": "read_users_me",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
+        "description": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
+        "peekOfCode": "def read_users_me(current_user: schemas.User = Depends(get_current_user)):\n    return current_user",
+        "detail": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
+        "description": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
+        "peekOfCode": "router = APIRouter()\n@router.post(\"/token\", response_model=schemas.Token)\ndef login_for_access_token(db: Session = Depends(get_db), form_data: OAuth2PasswordRequestForm = Depends()):\n    user = crud.get_user_by_username(db, username=form_data.username)\n    if not user or not verify_password(form_data.password, user.hashed_password):\n        raise HTTPException(\n            status_code=400,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )",
+        "detail": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
+        "documentation": {}
+    },
+    {
+        "label": "create_nyaa",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
+        "description": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
+        "peekOfCode": "def create_nyaa(item: NyaaCreate, db: Session = Depends(get_db)):\n    return create_nyaa(db=db, item=item)\n@router.get(\"/{item_id}\", response_model=Nyaa)\ndef read_nyaa(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_nyaa(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Nyaa not found\")\n    return db_item\n@router.put(\"/{item_id}\", response_model=Nyaa)\ndef update_nyaa(item_id: int, item: NyaaCreate, db: Session = Depends(get_db)):",
+        "detail": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "read_nyaa",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
+        "description": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
+        "peekOfCode": "def read_nyaa(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_nyaa(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Nyaa not found\")\n    return db_item\n@router.put(\"/{item_id}\", response_model=Nyaa)\ndef update_nyaa(item_id: int, item: NyaaCreate, db: Session = Depends(get_db)):\n    db_item = get_nyaa(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Nyaa not found\")",
+        "detail": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "update_nyaa",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
+        "description": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
+        "peekOfCode": "def update_nyaa(item_id: int, item: NyaaCreate, db: Session = Depends(get_db)):\n    db_item = get_nyaa(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Nyaa not found\")\n    return update_nyaa(db=db, db_item=db_item, item=item)\n@router.delete(\"/{item_id}\", response_model=Nyaa)\ndef delete_nyaa(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_nyaa(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Nyaa not found\")",
+        "detail": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "delete_nyaa",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
+        "description": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
+        "peekOfCode": "def delete_nyaa(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_nyaa(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Nyaa not found\")\n    return delete_nyaa(db=db, item_id=item_id)\n# Add more routes as needed",
+        "detail": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
+        "description": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
+        "peekOfCode": "router = APIRouter()\n@router.post(\"/\", response_model=Nyaa)\ndef create_nyaa(item: NyaaCreate, db: Session = Depends(get_db)):\n    return create_nyaa(db=db, item=item)\n@router.get(\"/{item_id}\", response_model=Nyaa)\ndef read_nyaa(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_nyaa(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Nyaa not found\")\n    return db_item",
+        "detail": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.auth.jwt",
+        "description": "vistor.microservices.nyaa.app.auth.jwt",
+        "peekOfCode": "def create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username: str = payload.get(\"sub\")",
+        "detail": "vistor.microservices.nyaa.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "verify_token",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.auth.jwt",
+        "description": "vistor.microservices.nyaa.app.auth.jwt",
+        "peekOfCode": "def verify_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username: str = payload.get(\"sub\")\n        if username is None:\n            raise credentials_exception\n        token_data = TokenData(username=username)\n    except JWTError:\n        raise credentials_exception\n    return token_data",
+        "detail": "vistor.microservices.nyaa.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.app.auth.jwt",
+        "description": "vistor.microservices.nyaa.app.auth.jwt",
+        "peekOfCode": "SECRET_KEY = settings.secret_key\nALGORITHM = settings.algorithm\nACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):",
+        "detail": "vistor.microservices.nyaa.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.app.auth.jwt",
+        "description": "vistor.microservices.nyaa.app.auth.jwt",
+        "peekOfCode": "ALGORITHM = settings.algorithm\nACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):\n    try:",
+        "detail": "vistor.microservices.nyaa.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.app.auth.jwt",
+        "description": "vistor.microservices.nyaa.app.auth.jwt",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])",
+        "detail": "vistor.microservices.nyaa.app.auth.jwt",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.auth.oauth2",
+        "description": "vistor.microservices.nyaa.app.auth.oauth2",
+        "peekOfCode": "def get_current_user(db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    token_data = verify_token(token, credentials_exception)\n    user = db.query(User).filter(User.username == token_data.username).first()\n    if user is None:\n        raise credentials_exception",
+        "detail": "vistor.microservices.nyaa.app.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.app.auth.oauth2",
+        "description": "vistor.microservices.nyaa.app.auth.oauth2",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\ndef get_current_user(db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    token_data = verify_token(token, credentials_exception)\n    user = db.query(User).filter(User.username == token_data.username).first()\n    if user is None:",
+        "detail": "vistor.microservices.nyaa.app.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "Settings",
+        "kind": 6,
+        "importPath": "vistor.microservices.nyaa.app.core.config",
+        "description": "vistor.microservices.nyaa.app.core.config",
+        "peekOfCode": "class Settings(BaseSettings):\n    database_url: str = \"sqlite:///./test.db\"\n    secret_key: str = \"supersecretkey\"\n    algorithm: str = \"HS256\"\n    access_token_expire_minutes: int = 30\n    class Config:\n        env_file = \".env\"\nsettings = Settings()",
+        "detail": "vistor.microservices.nyaa.app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.app.core.config",
+        "description": "vistor.microservices.nyaa.app.core.config",
+        "peekOfCode": "settings = Settings()",
+        "detail": "vistor.microservices.nyaa.app.core.config",
+        "documentation": {}
+    },
+    {
+        "label": "verify_password",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.core.security",
+        "description": "vistor.microservices.nyaa.app.core.security",
+        "peekOfCode": "def verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    return pwd_context.hash(password)",
+        "detail": "vistor.microservices.nyaa.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "get_password_hash",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.core.security",
+        "description": "vistor.microservices.nyaa.app.core.security",
+        "peekOfCode": "def get_password_hash(password):\n    return pwd_context.hash(password)",
+        "detail": "vistor.microservices.nyaa.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_context",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.app.core.security",
+        "description": "vistor.microservices.nyaa.app.core.security",
+        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    return pwd_context.hash(password)",
+        "detail": "vistor.microservices.nyaa.app.core.security",
+        "documentation": {}
+    },
+    {
+        "label": "get_nyaa",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.crud.nyaa",
+        "description": "vistor.microservices.nyaa.app.crud.nyaa",
+        "peekOfCode": "def get_nyaa(db: Session, item_id: int):\n    return db.query(Nyaa).filter(Nyaa.id == item_id).first()\ndef create_nyaa(db: Session, item: NyaaCreate):\n    db_item = Nyaa(name=item.name, description=item.description)\n    db.add(db_item)\n    db.commit()\n    db.refresh(db_item)\n    return db_item\ndef update_nyaa(db: Session, db_item: Nyaa, item: NyaaCreate):\n    db_item.name = item.name",
+        "detail": "vistor.microservices.nyaa.app.crud.nyaa",
+        "documentation": {}
+    },
+    {
+        "label": "create_nyaa",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.crud.nyaa",
+        "description": "vistor.microservices.nyaa.app.crud.nyaa",
+        "peekOfCode": "def create_nyaa(db: Session, item: NyaaCreate):\n    db_item = Nyaa(name=item.name, description=item.description)\n    db.add(db_item)\n    db.commit()\n    db.refresh(db_item)\n    return db_item\ndef update_nyaa(db: Session, db_item: Nyaa, item: NyaaCreate):\n    db_item.name = item.name\n    db_item.description = item.description\n    db.commit()",
+        "detail": "vistor.microservices.nyaa.app.crud.nyaa",
+        "documentation": {}
+    },
+    {
+        "label": "update_nyaa",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.crud.nyaa",
+        "description": "vistor.microservices.nyaa.app.crud.nyaa",
+        "peekOfCode": "def update_nyaa(db: Session, db_item: Nyaa, item: NyaaCreate):\n    db_item.name = item.name\n    db_item.description = item.description\n    db.commit()\n    db.refresh(db_item)\n    return db_item\ndef delete_nyaa(db: Session, item_id: int):\n    db_item = db.query(Nyaa).filter(Nyaa.id == item_id).first()\n    db.delete(db_item)\n    db.commit()",
+        "detail": "vistor.microservices.nyaa.app.crud.nyaa",
+        "documentation": {}
+    },
+    {
+        "label": "delete_nyaa",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.crud.nyaa",
+        "description": "vistor.microservices.nyaa.app.crud.nyaa",
+        "peekOfCode": "def delete_nyaa(db: Session, item_id: int):\n    db_item = db.query(Nyaa).filter(Nyaa.id == item_id).first()\n    db.delete(db_item)\n    db.commit()\n    return db_item",
+        "detail": "vistor.microservices.nyaa.app.crud.nyaa",
+        "documentation": {}
+    },
+    {
+        "label": "get_user",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.crud.user_crud",
+        "description": "vistor.microservices.nyaa.app.crud.user_crud",
+        "peekOfCode": "def get_user(db: Session, user_id: int):\n    return db.query(User).filter(User.id == user_id).first()\ndef get_user_by_username(db: Session, username: str):\n    return db.query(User).filter(User.username == username).first()\ndef create_user(db: Session, user: UserCreate):\n    fake_hashed_password = user.password + \"notreallyhashed\"\n    db_user = User(username=user.username, email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)",
+        "detail": "vistor.microservices.nyaa.app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_username",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.crud.user_crud",
+        "description": "vistor.microservices.nyaa.app.crud.user_crud",
+        "peekOfCode": "def get_user_by_username(db: Session, username: str):\n    return db.query(User).filter(User.username == username).first()\ndef create_user(db: Session, user: UserCreate):\n    fake_hashed_password = user.password + \"notreallyhashed\"\n    db_user = User(username=user.username, email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user",
+        "detail": "vistor.microservices.nyaa.app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.crud.user_crud",
+        "description": "vistor.microservices.nyaa.app.crud.user_crud",
+        "peekOfCode": "def create_user(db: Session, user: UserCreate):\n    fake_hashed_password = user.password + \"notreallyhashed\"\n    db_user = User(username=user.username, email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user",
+        "detail": "vistor.microservices.nyaa.app.crud.user_crud",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.app.db.base",
+        "description": "vistor.microservices.nyaa.app.db.base",
+        "peekOfCode": "Base = declarative_base()",
+        "detail": "vistor.microservices.nyaa.app.db.base",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.db.session",
+        "description": "vistor.microservices.nyaa.app.db.session",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "vistor.microservices.nyaa.app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.app.db.session",
+        "description": "vistor.microservices.nyaa.app.db.session",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = \"sqlite:///./test.db\"\nengine = create_engine(SQLALCHEMY_DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "vistor.microservices.nyaa.app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.app.db.session",
+        "description": "vistor.microservices.nyaa.app.db.session",
+        "peekOfCode": "engine = create_engine(SQLALCHEMY_DATABASE_URL)\nSessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "vistor.microservices.nyaa.app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.app.db.session",
+        "description": "vistor.microservices.nyaa.app.db.session",
+        "peekOfCode": "SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "vistor.microservices.nyaa.app.db.session",
+        "documentation": {}
+    },
+    {
+        "label": "Nyaa",
+        "kind": 6,
+        "importPath": "vistor.microservices.nyaa.app.models.nyaa",
+        "description": "vistor.microservices.nyaa.app.models.nyaa",
+        "peekOfCode": "class Nyaa(Base):\n    __tablename__ = \"nyaas\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    description = Column(String, index=True)",
+        "detail": "vistor.microservices.nyaa.app.models.nyaa",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "vistor.microservices.nyaa.app.models.user_model",
+        "description": "vistor.microservices.nyaa.app.models.user_model",
+        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    username = Column(String, unique=True, index=True)\n    email = Column(String, unique=True, index=True)\n    full_name = Column(String, index=True)\n    hashed_password = Column(String)\n    is_active = Column(Boolean, default=True)\n    is_superuser = Column(Boolean, default=False)",
+        "detail": "vistor.microservices.nyaa.app.models.user_model",
+        "documentation": {}
+    },
+    {
+        "label": "NyaaBase",
+        "kind": 6,
+        "importPath": "vistor.microservices.nyaa.app.schemas.nyaa",
+        "description": "vistor.microservices.nyaa.app.schemas.nyaa",
+        "peekOfCode": "class NyaaBase(BaseModel):\n    name: str\n    description: str\nclass NyaaCreate(NyaaBase):\n    pass\nclass Nyaa(NyaaBase):\n    id: int\n    class Config:\n        from_attributes = True",
+        "detail": "vistor.microservices.nyaa.app.schemas.nyaa",
+        "documentation": {}
+    },
+    {
+        "label": "NyaaCreate",
+        "kind": 6,
+        "importPath": "vistor.microservices.nyaa.app.schemas.nyaa",
+        "description": "vistor.microservices.nyaa.app.schemas.nyaa",
+        "peekOfCode": "class NyaaCreate(NyaaBase):\n    pass\nclass Nyaa(NyaaBase):\n    id: int\n    class Config:\n        from_attributes = True",
+        "detail": "vistor.microservices.nyaa.app.schemas.nyaa",
+        "documentation": {}
+    },
+    {
+        "label": "Nyaa",
+        "kind": 6,
+        "importPath": "vistor.microservices.nyaa.app.schemas.nyaa",
+        "description": "vistor.microservices.nyaa.app.schemas.nyaa",
+        "peekOfCode": "class Nyaa(NyaaBase):\n    id: int\n    class Config:\n        from_attributes = True",
+        "detail": "vistor.microservices.nyaa.app.schemas.nyaa",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
+        "importPath": "vistor.microservices.nyaa.app.schemas.user_schema",
+        "description": "vistor.microservices.nyaa.app.schemas.user_schema",
+        "peekOfCode": "class UserBase(BaseModel):\n    username: str\n    email: str\nclass UserCreate(UserBase):\n    password: str\nclass User(UserBase):\n    id: int\n    full_name: str\n    is_active: bool\n    is_superuser: bool",
+        "detail": "vistor.microservices.nyaa.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreate",
+        "kind": 6,
+        "importPath": "vistor.microservices.nyaa.app.schemas.user_schema",
+        "description": "vistor.microservices.nyaa.app.schemas.user_schema",
+        "peekOfCode": "class UserCreate(UserBase):\n    password: str\nclass User(UserBase):\n    id: int\n    full_name: str\n    is_active: bool\n    is_superuser: bool\n    class Config:\n        orm_mode = True\nclass Token(BaseModel):",
+        "detail": "vistor.microservices.nyaa.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "vistor.microservices.nyaa.app.schemas.user_schema",
+        "description": "vistor.microservices.nyaa.app.schemas.user_schema",
+        "peekOfCode": "class User(UserBase):\n    id: int\n    full_name: str\n    is_active: bool\n    is_superuser: bool\n    class Config:\n        orm_mode = True\nclass Token(BaseModel):\n    access_token: str\n    token_type: str",
+        "detail": "vistor.microservices.nyaa.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "Token",
+        "kind": 6,
+        "importPath": "vistor.microservices.nyaa.app.schemas.user_schema",
+        "description": "vistor.microservices.nyaa.app.schemas.user_schema",
+        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    username: str | None = None",
+        "detail": "vistor.microservices.nyaa.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "TokenData",
+        "kind": 6,
+        "importPath": "vistor.microservices.nyaa.app.schemas.user_schema",
+        "description": "vistor.microservices.nyaa.app.schemas.user_schema",
+        "peekOfCode": "class TokenData(BaseModel):\n    username: str | None = None",
+        "detail": "vistor.microservices.nyaa.app.schemas.user_schema",
+        "documentation": {}
+    },
+    {
+        "label": "test_login",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.tests.test_auth",
+        "description": "vistor.microservices.nyaa.app.tests.test_auth",
+        "peekOfCode": "def test_login():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    assert response.status_code == 200\n    assert \"access_token\" in response.json()\ndef test_get_current_user():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    token = response.json()[\"access_token\"]\n    response = client.get(\"/users/me/\", headers={\"Authorization\": f\"Bearer {token}\"})\n    assert response.status_code == 200\n    assert response.json()[\"username\"] == \"testuser\"",
+        "detail": "vistor.microservices.nyaa.app.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_current_user",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.tests.test_auth",
+        "description": "vistor.microservices.nyaa.app.tests.test_auth",
+        "peekOfCode": "def test_get_current_user():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    token = response.json()[\"access_token\"]\n    response = client.get(\"/users/me/\", headers={\"Authorization\": f\"Bearer {token}\"})\n    assert response.status_code == 200\n    assert response.json()[\"username\"] == \"testuser\"",
+        "detail": "vistor.microservices.nyaa.app.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.app.tests.test_auth",
+        "description": "vistor.microservices.nyaa.app.tests.test_auth",
+        "peekOfCode": "client = TestClient(app)\ndef test_login():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    assert response.status_code == 200\n    assert \"access_token\" in response.json()\ndef test_get_current_user():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    token = response.json()[\"access_token\"]\n    response = client.get(\"/users/me/\", headers={\"Authorization\": f\"Bearer {token}\"})\n    assert response.status_code == 200",
+        "detail": "vistor.microservices.nyaa.app.tests.test_auth",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_nyaa",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.tests.test_example",
+        "description": "vistor.microservices.nyaa.app.tests.test_example",
+        "peekOfCode": "def test_create_nyaa():\n    response = client.post(\"/nyaa/\", json={\"name\": \"Test Nyaa\", \"description\": \"A nyaa for testing\"})\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Nyaa\"\ndef test_read_nyaa():\n    response = client.post(\"/nyaa/\", json={\"name\": \"Test Nyaa\", \"description\": \"A nyaa for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.get(f\"/nyaa/{item_id}\")\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Nyaa\"",
+        "detail": "vistor.microservices.nyaa.app.tests.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "test_read_nyaa",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.tests.test_example",
+        "description": "vistor.microservices.nyaa.app.tests.test_example",
+        "peekOfCode": "def test_read_nyaa():\n    response = client.post(\"/nyaa/\", json={\"name\": \"Test Nyaa\", \"description\": \"A nyaa for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.get(f\"/nyaa/{item_id}\")\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Nyaa\"\ndef test_update_nyaa():\n    response = client.post(\"/nyaa/\", json={\"name\": \"Test Nyaa\", \"description\": \"A nyaa for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.put(f\"/nyaa/{item_id}\", json={\"name\": \"Updated Nyaa\", \"description\": \"Updated description\"})",
+        "detail": "vistor.microservices.nyaa.app.tests.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "test_update_nyaa",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.tests.test_example",
+        "description": "vistor.microservices.nyaa.app.tests.test_example",
+        "peekOfCode": "def test_update_nyaa():\n    response = client.post(\"/nyaa/\", json={\"name\": \"Test Nyaa\", \"description\": \"A nyaa for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.put(f\"/nyaa/{item_id}\", json={\"name\": \"Updated Nyaa\", \"description\": \"Updated description\"})\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Updated Nyaa\"\ndef test_delete_nyaa():\n    response = client.post(\"/nyaa/\", json={\"name\": \"Test Nyaa\", \"description\": \"A nyaa for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.delete(f\"/nyaa/{item_id}\")",
+        "detail": "vistor.microservices.nyaa.app.tests.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "test_delete_nyaa",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.tests.test_example",
+        "description": "vistor.microservices.nyaa.app.tests.test_example",
+        "peekOfCode": "def test_delete_nyaa():\n    response = client.post(\"/nyaa/\", json={\"name\": \"Test Nyaa\", \"description\": \"A nyaa for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.delete(f\"/nyaa/{item_id}\")\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Nyaa\"",
+        "detail": "vistor.microservices.nyaa.app.tests.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.app.tests.test_example",
+        "description": "vistor.microservices.nyaa.app.tests.test_example",
+        "peekOfCode": "client = TestClient(app)\ndef test_create_nyaa():\n    response = client.post(\"/nyaa/\", json={\"name\": \"Test Nyaa\", \"description\": \"A nyaa for testing\"})\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Nyaa\"\ndef test_read_nyaa():\n    response = client.post(\"/nyaa/\", json={\"name\": \"Test Nyaa\", \"description\": \"A nyaa for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.get(f\"/nyaa/{item_id}\")\n    assert response.status_code == 200",
+        "detail": "vistor.microservices.nyaa.app.tests.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.app.main",
+        "description": "vistor.microservices.nyaa.app.main",
+        "peekOfCode": "app = FastAPI()\norigins = [\n    \"http://localhost\",\n    \"http://localhost:3000\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],",
+        "detail": "vistor.microservices.nyaa.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "origins",
+        "kind": 5,
+        "importPath": "vistor.microservices.nyaa.app.main",
+        "description": "vistor.microservices.nyaa.app.main",
+        "peekOfCode": "origins = [\n    \"http://localhost\",\n    \"http://localhost:3000\",\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=[\"*\"],\n    allow_headers=[\"*\"],",
+        "detail": "vistor.microservices.nyaa.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "init_db",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.scripts.init_db",
+        "description": "vistor.microservices.nyaa.scripts.init_db",
+        "peekOfCode": "def init_db():\n    Base.metadata.create_all(bind=engine)\nif __name__ == \"__main__\":\n    init_db()",
+        "detail": "vistor.microservices.nyaa.scripts.init_db",
+        "documentation": {}
+    }
+]
