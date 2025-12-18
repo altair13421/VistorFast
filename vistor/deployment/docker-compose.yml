@@ -27,3 +27,7 @@ services:
       - DATABASE_URL=sqlite:///./test.db
     volumes:
       - /mnt/games/Music:/app/music  # Music directory
+
+networks:
+  default:
+    driver: bridge

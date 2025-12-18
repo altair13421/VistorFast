@@ -610,54 +610,6 @@
         "documentation": {}
     },
     {
-        "label": "APIRouter",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "status",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -755,30 +707,6 @@
     },
     {
         "label": "sessionmaker",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -906,22 +834,6 @@
         "documentation": {}
     },
     {
-        "label": "get_db",
-        "importPath": "app.db.session",
-        "description": "app.db.session",
-        "isExtraImport": true,
-        "detail": "app.db.session",
-        "documentation": {}
-    },
-    {
-        "label": "get_db",
-        "importPath": "app.db.session",
-        "description": "app.db.session",
-        "isExtraImport": true,
-        "detail": "app.db.session",
-        "documentation": {}
-    },
-    {
         "label": "engine",
         "importPath": "app.db.session",
         "description": "app.db.session",
@@ -962,38 +874,6 @@
         "documentation": {}
     },
     {
-        "label": "OAuth2PasswordRequestForm",
-        "importPath": "fastapi.security",
-        "description": "fastapi.security",
-        "isExtraImport": true,
-        "detail": "fastapi.security",
-        "documentation": {}
-    },
-    {
-        "label": "OAuth2PasswordBearer",
-        "importPath": "fastapi.security",
-        "description": "fastapi.security",
-        "isExtraImport": true,
-        "detail": "fastapi.security",
-        "documentation": {}
-    },
-    {
-        "label": "crud",
-        "importPath": "app",
-        "description": "app",
-        "isExtraImport": true,
-        "detail": "app",
-        "documentation": {}
-    },
-    {
-        "label": "schemas",
-        "importPath": "app",
-        "description": "app",
-        "isExtraImport": true,
-        "detail": "app",
-        "documentation": {}
-    },
-    {
         "label": "crud",
         "importPath": "app",
         "description": "app",
@@ -1058,30 +938,6 @@
         "documentation": {}
     },
     {
-        "label": "create_access_token",
-        "importPath": "app.auth.jwt",
-        "description": "app.auth.jwt",
-        "isExtraImport": true,
-        "detail": "app.auth.jwt",
-        "documentation": {}
-    },
-    {
-        "label": "verify_token",
-        "importPath": "app.auth.jwt",
-        "description": "app.auth.jwt",
-        "isExtraImport": true,
-        "detail": "app.auth.jwt",
-        "documentation": {}
-    },
-    {
-        "label": "get_current_user",
-        "importPath": "app.auth.oauth2",
-        "description": "app.auth.oauth2",
-        "isExtraImport": true,
-        "detail": "app.auth.oauth2",
-        "documentation": {}
-    },
-    {
         "label": "get_current_user",
         "importPath": "app.auth.oauth2",
         "description": "app.auth.oauth2",
@@ -1111,30 +967,6 @@
         "description": "app.core.security",
         "isExtraImport": true,
         "detail": "app.core.security",
-        "documentation": {}
-    },
-    {
-        "label": "verify_password",
-        "importPath": "app.core.security",
-        "description": "app.core.security",
-        "isExtraImport": true,
-        "detail": "app.core.security",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -1218,46 +1050,6 @@
         "documentation": {}
     },
     {
-        "label": "JWTError",
-        "importPath": "jose",
-        "description": "jose",
-        "isExtraImport": true,
-        "detail": "jose",
-        "documentation": {}
-    },
-    {
-        "label": "jwt",
-        "importPath": "jose",
-        "description": "jose",
-        "isExtraImport": true,
-        "detail": "jose",
-        "documentation": {}
-    },
-    {
-        "label": "JWTError",
-        "importPath": "jose",
-        "description": "jose",
-        "isExtraImport": true,
-        "detail": "jose",
-        "documentation": {}
-    },
-    {
-        "label": "TokenData",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
-        "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
-        "documentation": {}
-    },
-    {
-        "label": "UserCreate",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
-        "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
-        "documentation": {}
-    },
-    {
         "label": "TokenData",
         "importPath": "app.schemas.user_schema",
         "description": "app.schemas.user_schema",
@@ -1330,30 +1122,6 @@
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "app.core.config",
-        "description": "app.core.config",
-        "isExtraImport": true,
-        "detail": "app.core.config",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.models.user_model",
-        "description": "app.models.user_model",
-        "isExtraImport": true,
-        "detail": "app.models.user_model",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.models.user_model",
-        "description": "app.models.user_model",
-        "isExtraImport": true,
-        "detail": "app.models.user_model",
-        "documentation": {}
-    },
-    {
         "label": "User",
         "importPath": "app.models.user_model",
         "description": "app.models.user_model",
@@ -1407,14 +1175,6 @@
         "description": "pydantic_settings",
         "isExtraImport": true,
         "detail": "pydantic_settings",
-        "documentation": {}
-    },
-    {
-        "label": "CryptContext",
-        "importPath": "passlib.context",
-        "description": "passlib.context",
-        "isExtraImport": true,
-        "detail": "passlib.context",
         "documentation": {}
     },
     {
@@ -1463,14 +1223,6 @@
         "description": "sqlalchemy.ext.declarative",
         "isExtraImport": true,
         "detail": "sqlalchemy.ext.declarative",
-        "documentation": {}
-    },
-    {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
-        "isExtraImport": true,
-        "detail": "pydantic",
         "documentation": {}
     },
     {
@@ -1738,11 +1490,53 @@
         "documentation": {}
     },
     {
+        "label": "query_nyaa",
+        "importPath": "app.utils.search",
+        "description": "app.utils.search",
+        "isExtraImport": true,
+        "detail": "app.utils.search",
+        "documentation": {}
+    },
+    {
         "label": "*",
         "importPath": "app.models.nyaa",
         "description": "app.models.nyaa",
         "isExtraImport": true,
         "detail": "app.models.nyaa",
+        "documentation": {}
+    },
+    {
+        "label": "urlencode",
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "isExtraImport": true,
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "urllib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib",
+        "description": "urllib",
+        "detail": "urllib",
+        "documentation": {}
+    },
+    {
+        "label": "etree",
+        "importPath": "lxml",
+        "description": "lxml",
+        "isExtraImport": true,
+        "detail": "lxml",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
         "documentation": {}
     },
     {
@@ -2816,65 +2610,20 @@
         "documentation": {}
     },
     {
-        "label": "login_for_access_token",
-        "kind": 2,
-        "importPath": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
-        "description": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
-        "peekOfCode": "def login_for_access_token(db: Session = Depends(get_db), form_data: OAuth2PasswordRequestForm = Depends()):\n    user = crud.get_user_by_username(db, username=form_data.username)\n    if not user or not verify_password(form_data.password, user.hashed_password):\n        raise HTTPException(\n            status_code=400,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )\n    access_token = create_access_token(data={\"sub\": user.username})\n    return {\"access_token\": access_token, \"token_type\": \"bearer\"}",
-        "detail": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
-        "documentation": {}
-    },
-    {
-        "label": "read_users_me",
-        "kind": 2,
-        "importPath": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
-        "description": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
-        "peekOfCode": "def read_users_me(current_user: schemas.User = Depends(get_current_user)):\n    return current_user",
-        "detail": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "kind": 5,
-        "importPath": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
-        "description": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
-        "peekOfCode": "router = APIRouter()\n@router.post(\"/token\", response_model=schemas.Token)\ndef login_for_access_token(db: Session = Depends(get_db), form_data: OAuth2PasswordRequestForm = Depends()):\n    user = crud.get_user_by_username(db, username=form_data.username)\n    if not user or not verify_password(form_data.password, user.hashed_password):\n        raise HTTPException(\n            status_code=400,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )",
-        "detail": "vistor.microservices.nyaa.app.api.v1.endpoints.auth",
-        "documentation": {}
-    },
-    {
-        "label": "create_nyaa",
+        "label": "search_nyaa",
         "kind": 2,
         "importPath": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
         "description": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
-        "peekOfCode": "def create_nyaa(item: NyaaCreate, db: Session = Depends(get_db)):\n    return create_nyaa(db=db, item=item)\n@router.get(\"/{item_id}\", response_model=Nyaa)\ndef read_nyaa(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_nyaa(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Nyaa not found\")\n    return db_item\n@router.put(\"/{item_id}\", response_model=Nyaa)\ndef update_nyaa(item_id: int, item: NyaaCreate, db: Session = Depends(get_db)):",
+        "peekOfCode": "def search_nyaa(\n    item: NyaaCreate, db: Session = Depends(get_db),\n    search:str = \"\", # search query\n    page:int = 1, # page number\n    c:str = \"0_0\", # category\n):\n    return query_nyaa(db=db, item=item)\n@router.get(\"/categories\")\ndef get_categories():\n    from app.core.config import settings",
         "detail": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
         "documentation": {}
     },
     {
-        "label": "read_nyaa",
+        "label": "get_categories",
         "kind": 2,
         "importPath": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
         "description": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
-        "peekOfCode": "def read_nyaa(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_nyaa(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Nyaa not found\")\n    return db_item\n@router.put(\"/{item_id}\", response_model=Nyaa)\ndef update_nyaa(item_id: int, item: NyaaCreate, db: Session = Depends(get_db)):\n    db_item = get_nyaa(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Nyaa not found\")",
-        "detail": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
-        "documentation": {}
-    },
-    {
-        "label": "update_nyaa",
-        "kind": 2,
-        "importPath": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
-        "description": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
-        "peekOfCode": "def update_nyaa(item_id: int, item: NyaaCreate, db: Session = Depends(get_db)):\n    db_item = get_nyaa(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Nyaa not found\")\n    return update_nyaa(db=db, db_item=db_item, item=item)\n@router.delete(\"/{item_id}\", response_model=Nyaa)\ndef delete_nyaa(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_nyaa(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Nyaa not found\")",
-        "detail": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
-        "documentation": {}
-    },
-    {
-        "label": "delete_nyaa",
-        "kind": 2,
-        "importPath": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
-        "description": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
-        "peekOfCode": "def delete_nyaa(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_nyaa(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Nyaa not found\")\n    return delete_nyaa(db=db, item_id=item_id)\n# Add more routes as needed",
+        "peekOfCode": "def get_categories():\n    from app.core.config import settings\n    return settings.categories",
         "detail": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
         "documentation": {}
     },
@@ -2883,71 +2632,8 @@
         "kind": 5,
         "importPath": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
         "description": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
-        "peekOfCode": "router = APIRouter()\n@router.post(\"/\", response_model=Nyaa)\ndef create_nyaa(item: NyaaCreate, db: Session = Depends(get_db)):\n    return create_nyaa(db=db, item=item)\n@router.get(\"/{item_id}\", response_model=Nyaa)\ndef read_nyaa(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_nyaa(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Nyaa not found\")\n    return db_item",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/search\", response_model=Nyaa)\ndef search_nyaa(\n    item: NyaaCreate, db: Session = Depends(get_db),\n    search:str = \"\", # search query\n    page:int = 1, # page number\n    c:str = \"0_0\", # category\n):\n    return query_nyaa(db=db, item=item)\n@router.get(\"/categories\")",
         "detail": "vistor.microservices.nyaa.app.api.v1.endpoints.nyaa_endpoint",
-        "documentation": {}
-    },
-    {
-        "label": "create_access_token",
-        "kind": 2,
-        "importPath": "vistor.microservices.nyaa.app.auth.jwt",
-        "description": "vistor.microservices.nyaa.app.auth.jwt",
-        "peekOfCode": "def create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username: str = payload.get(\"sub\")",
-        "detail": "vistor.microservices.nyaa.app.auth.jwt",
-        "documentation": {}
-    },
-    {
-        "label": "verify_token",
-        "kind": 2,
-        "importPath": "vistor.microservices.nyaa.app.auth.jwt",
-        "description": "vistor.microservices.nyaa.app.auth.jwt",
-        "peekOfCode": "def verify_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username: str = payload.get(\"sub\")\n        if username is None:\n            raise credentials_exception\n        token_data = TokenData(username=username)\n    except JWTError:\n        raise credentials_exception\n    return token_data",
-        "detail": "vistor.microservices.nyaa.app.auth.jwt",
-        "documentation": {}
-    },
-    {
-        "label": "SECRET_KEY",
-        "kind": 5,
-        "importPath": "vistor.microservices.nyaa.app.auth.jwt",
-        "description": "vistor.microservices.nyaa.app.auth.jwt",
-        "peekOfCode": "SECRET_KEY = settings.secret_key\nALGORITHM = settings.algorithm\nACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):",
-        "detail": "vistor.microservices.nyaa.app.auth.jwt",
-        "documentation": {}
-    },
-    {
-        "label": "ALGORITHM",
-        "kind": 5,
-        "importPath": "vistor.microservices.nyaa.app.auth.jwt",
-        "description": "vistor.microservices.nyaa.app.auth.jwt",
-        "peekOfCode": "ALGORITHM = settings.algorithm\nACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):\n    try:",
-        "detail": "vistor.microservices.nyaa.app.auth.jwt",
-        "documentation": {}
-    },
-    {
-        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
-        "kind": 5,
-        "importPath": "vistor.microservices.nyaa.app.auth.jwt",
-        "description": "vistor.microservices.nyaa.app.auth.jwt",
-        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])",
-        "detail": "vistor.microservices.nyaa.app.auth.jwt",
-        "documentation": {}
-    },
-    {
-        "label": "get_current_user",
-        "kind": 2,
-        "importPath": "vistor.microservices.nyaa.app.auth.oauth2",
-        "description": "vistor.microservices.nyaa.app.auth.oauth2",
-        "peekOfCode": "def get_current_user(db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    token_data = verify_token(token, credentials_exception)\n    user = db.query(User).filter(User.username == token_data.username).first()\n    if user is None:\n        raise credentials_exception",
-        "detail": "vistor.microservices.nyaa.app.auth.oauth2",
-        "documentation": {}
-    },
-    {
-        "label": "oauth2_scheme",
-        "kind": 5,
-        "importPath": "vistor.microservices.nyaa.app.auth.oauth2",
-        "description": "vistor.microservices.nyaa.app.auth.oauth2",
-        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\ndef get_current_user(db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    token_data = verify_token(token, credentials_exception)\n    user = db.query(User).filter(User.username == token_data.username).first()\n    if user is None:",
-        "detail": "vistor.microservices.nyaa.app.auth.oauth2",
         "documentation": {}
     },
     {
@@ -2955,7 +2641,7 @@
         "kind": 6,
         "importPath": "vistor.microservices.nyaa.app.core.config",
         "description": "vistor.microservices.nyaa.app.core.config",
-        "peekOfCode": "class Settings(BaseSettings):\n    database_url: str = \"sqlite:///./test.db\"\n    secret_key: str = \"supersecretkey\"\n    algorithm: str = \"HS256\"\n    access_token_expire_minutes: int = 30\n    class Config:\n        env_file = \".env\"\nsettings = Settings()",
+        "peekOfCode": "class Settings(BaseSettings):\n    database_url: str = \"sqlite:///./test.db\"\n    secret_key: str = \"supersecretkey\"\n    algorithm: str = \"HS256\"\n    access_token_expire_minutes: int = 30\n    BASE_DIR: str = os.environ.get(\"BASE_DIR\", os.path.dirname(os.path.dirname(os.path.abspath(__file__))))\n    LIBRARY_DIR: str = os.environ.get(\"LIBRARY_DIR\", 'Library')\n    DOWNLOAD_DIR: str = os.environ.get(\"DOWNLOAD_DIR\", 'Downloads')\n    MEDIA_DIR: str = os.environ.get(\"MEDIA_DIR\", 'Media')\n    SAVED_TORRENTS_DIR: str = os.environ.get(\"SAVED_TORRENTS_DIR\", '_torrent_files')",
         "detail": "vistor.microservices.nyaa.app.core.config",
         "documentation": {}
     },
@@ -2964,35 +2650,17 @@
         "kind": 5,
         "importPath": "vistor.microservices.nyaa.app.core.config",
         "description": "vistor.microservices.nyaa.app.core.config",
-        "peekOfCode": "settings = Settings()",
+        "peekOfCode": "settings = Settings()\n__version__ = \"0.10.3\"",
         "detail": "vistor.microservices.nyaa.app.core.config",
         "documentation": {}
     },
     {
-        "label": "verify_password",
-        "kind": 2,
-        "importPath": "vistor.microservices.nyaa.app.core.security",
-        "description": "vistor.microservices.nyaa.app.core.security",
-        "peekOfCode": "def verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    return pwd_context.hash(password)",
-        "detail": "vistor.microservices.nyaa.app.core.security",
-        "documentation": {}
-    },
-    {
-        "label": "get_password_hash",
-        "kind": 2,
-        "importPath": "vistor.microservices.nyaa.app.core.security",
-        "description": "vistor.microservices.nyaa.app.core.security",
-        "peekOfCode": "def get_password_hash(password):\n    return pwd_context.hash(password)",
-        "detail": "vistor.microservices.nyaa.app.core.security",
-        "documentation": {}
-    },
-    {
-        "label": "pwd_context",
+        "label": "__version__",
         "kind": 5,
-        "importPath": "vistor.microservices.nyaa.app.core.security",
-        "description": "vistor.microservices.nyaa.app.core.security",
-        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    return pwd_context.hash(password)",
-        "detail": "vistor.microservices.nyaa.app.core.security",
+        "importPath": "vistor.microservices.nyaa.app.core.config",
+        "description": "vistor.microservices.nyaa.app.core.config",
+        "peekOfCode": "__version__ = \"0.10.3\"",
+        "detail": "vistor.microservices.nyaa.app.core.config",
         "documentation": {}
     },
     {
@@ -3029,33 +2697,6 @@
         "description": "vistor.microservices.nyaa.app.crud.nyaa",
         "peekOfCode": "def delete_nyaa(db: Session, item_id: int):\n    db_item = db.query(Nyaa).filter(Nyaa.id == item_id).first()\n    db.delete(db_item)\n    db.commit()\n    return db_item",
         "detail": "vistor.microservices.nyaa.app.crud.nyaa",
-        "documentation": {}
-    },
-    {
-        "label": "get_user",
-        "kind": 2,
-        "importPath": "vistor.microservices.nyaa.app.crud.user_crud",
-        "description": "vistor.microservices.nyaa.app.crud.user_crud",
-        "peekOfCode": "def get_user(db: Session, user_id: int):\n    return db.query(User).filter(User.id == user_id).first()\ndef get_user_by_username(db: Session, username: str):\n    return db.query(User).filter(User.username == username).first()\ndef create_user(db: Session, user: UserCreate):\n    fake_hashed_password = user.password + \"notreallyhashed\"\n    db_user = User(username=user.username, email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)",
-        "detail": "vistor.microservices.nyaa.app.crud.user_crud",
-        "documentation": {}
-    },
-    {
-        "label": "get_user_by_username",
-        "kind": 2,
-        "importPath": "vistor.microservices.nyaa.app.crud.user_crud",
-        "description": "vistor.microservices.nyaa.app.crud.user_crud",
-        "peekOfCode": "def get_user_by_username(db: Session, username: str):\n    return db.query(User).filter(User.username == username).first()\ndef create_user(db: Session, user: UserCreate):\n    fake_hashed_password = user.password + \"notreallyhashed\"\n    db_user = User(username=user.username, email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user",
-        "detail": "vistor.microservices.nyaa.app.crud.user_crud",
-        "documentation": {}
-    },
-    {
-        "label": "create_user",
-        "kind": 2,
-        "importPath": "vistor.microservices.nyaa.app.crud.user_crud",
-        "description": "vistor.microservices.nyaa.app.crud.user_crud",
-        "peekOfCode": "def create_user(db: Session, user: UserCreate):\n    fake_hashed_password = user.password + \"notreallyhashed\"\n    db_user = User(username=user.username, email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user",
-        "detail": "vistor.microservices.nyaa.app.crud.user_crud",
         "documentation": {}
     },
     {
@@ -3122,11 +2763,20 @@
         "documentation": {}
     },
     {
+        "label": "FileList",
+        "kind": 6,
+        "importPath": "vistor.microservices.nyaa.app.schemas.nyaa",
+        "description": "vistor.microservices.nyaa.app.schemas.nyaa",
+        "peekOfCode": "class FileList(BaseModel):\n    id: int\n    filename: str\n    size: int\n    class Config:\n        from_attributes = True\nclass NyaaBase(BaseModel):\n    name: str\n    description: str\n    magnet_link: str",
+        "detail": "vistor.microservices.nyaa.app.schemas.nyaa",
+        "documentation": {}
+    },
+    {
         "label": "NyaaBase",
         "kind": 6,
         "importPath": "vistor.microservices.nyaa.app.schemas.nyaa",
         "description": "vistor.microservices.nyaa.app.schemas.nyaa",
-        "peekOfCode": "class NyaaBase(BaseModel):\n    name: str\n    description: str\nclass NyaaCreate(NyaaBase):\n    pass\nclass Nyaa(NyaaBase):\n    id: int\n    class Config:\n        from_attributes = True",
+        "peekOfCode": "class NyaaBase(BaseModel):\n    name: str\n    description: str\n    magnet_link: str\nclass NyaaCreate(NyaaBase):\n    pass\nclass Nyaa(NyaaBase):\n    id: int\n    class Config:\n        from_attributes = True",
         "detail": "vistor.microservices.nyaa.app.schemas.nyaa",
         "documentation": {}
     },
@@ -3146,51 +2796,6 @@
         "description": "vistor.microservices.nyaa.app.schemas.nyaa",
         "peekOfCode": "class Nyaa(NyaaBase):\n    id: int\n    class Config:\n        from_attributes = True",
         "detail": "vistor.microservices.nyaa.app.schemas.nyaa",
-        "documentation": {}
-    },
-    {
-        "label": "UserBase",
-        "kind": 6,
-        "importPath": "vistor.microservices.nyaa.app.schemas.user_schema",
-        "description": "vistor.microservices.nyaa.app.schemas.user_schema",
-        "peekOfCode": "class UserBase(BaseModel):\n    username: str\n    email: str\nclass UserCreate(UserBase):\n    password: str\nclass User(UserBase):\n    id: int\n    full_name: str\n    is_active: bool\n    is_superuser: bool",
-        "detail": "vistor.microservices.nyaa.app.schemas.user_schema",
-        "documentation": {}
-    },
-    {
-        "label": "UserCreate",
-        "kind": 6,
-        "importPath": "vistor.microservices.nyaa.app.schemas.user_schema",
-        "description": "vistor.microservices.nyaa.app.schemas.user_schema",
-        "peekOfCode": "class UserCreate(UserBase):\n    password: str\nclass User(UserBase):\n    id: int\n    full_name: str\n    is_active: bool\n    is_superuser: bool\n    class Config:\n        orm_mode = True\nclass Token(BaseModel):",
-        "detail": "vistor.microservices.nyaa.app.schemas.user_schema",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "kind": 6,
-        "importPath": "vistor.microservices.nyaa.app.schemas.user_schema",
-        "description": "vistor.microservices.nyaa.app.schemas.user_schema",
-        "peekOfCode": "class User(UserBase):\n    id: int\n    full_name: str\n    is_active: bool\n    is_superuser: bool\n    class Config:\n        orm_mode = True\nclass Token(BaseModel):\n    access_token: str\n    token_type: str",
-        "detail": "vistor.microservices.nyaa.app.schemas.user_schema",
-        "documentation": {}
-    },
-    {
-        "label": "Token",
-        "kind": 6,
-        "importPath": "vistor.microservices.nyaa.app.schemas.user_schema",
-        "description": "vistor.microservices.nyaa.app.schemas.user_schema",
-        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    username: str | None = None",
-        "detail": "vistor.microservices.nyaa.app.schemas.user_schema",
-        "documentation": {}
-    },
-    {
-        "label": "TokenData",
-        "kind": 6,
-        "importPath": "vistor.microservices.nyaa.app.schemas.user_schema",
-        "description": "vistor.microservices.nyaa.app.schemas.user_schema",
-        "peekOfCode": "class TokenData(BaseModel):\n    username: str | None = None",
-        "detail": "vistor.microservices.nyaa.app.schemas.user_schema",
         "documentation": {}
     },
     {
@@ -3263,6 +2868,42 @@
         "description": "vistor.microservices.nyaa.app.tests.test_example",
         "peekOfCode": "client = TestClient(app)\ndef test_create_nyaa():\n    response = client.post(\"/nyaa/\", json={\"name\": \"Test Nyaa\", \"description\": \"A nyaa for testing\"})\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Nyaa\"\ndef test_read_nyaa():\n    response = client.post(\"/nyaa/\", json={\"name\": \"Test Nyaa\", \"description\": \"A nyaa for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.get(f\"/nyaa/{item_id}\")\n    assert response.status_code == 200",
         "detail": "vistor.microservices.nyaa.app.tests.test_example",
+        "documentation": {}
+    },
+    {
+        "label": "get_magnet",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.utils.magnet",
+        "description": "vistor.microservices.nyaa.app.utils.magnet",
+        "peekOfCode": "def get_magnet(info_hash, title):\n    known_trackers = [\n        \"http://nyaa.tracker.wf:7777/announce\",\n        \"udp://open.stealth.si:80/announce\",\n        \"udp://tracker.opentrackr.org:1337/announce\",\n        \"udp://exodus.desync.com:6969/announce\",\n        \"udp://tracker.torrent.eu.org:451/announce\"\n    ]\n    magnet_link = f'magnet:?xt=urn:btih:{info_hash}&{urlencode({\"dn\": title}, quote_via=urllib.parse.quote)}'\n    for tracker in known_trackers:",
+        "detail": "vistor.microservices.nyaa.app.utils.magnet",
+        "documentation": {}
+    },
+    {
+        "label": "parse_rss",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.utils.parse",
+        "description": "vistor.microservices.nyaa.app.utils.parse",
+        "peekOfCode": "def parse_rss(request_text):\n    root =  etree.fromstring(request_text)\n    torrents = list()\n    for item in root.xpath(\"channel/item\"):\n        try:\n            item_type = \"remake\" if (item.findtext('nyaa:remake', namespaces=item.nsmap) == \"Yes\") else \"trusted\" if (item.findtext('nyaa:trusted', namespaces=item.nsmap) == 'Yes') else \"default\"\n            torrent = {\n                \"id\": item.findtext('guid').split('/')[-1],\n                \"publish_date\": item.findtext('pubDate'),\n                \"title\": item.findtext('title'),",
+        "detail": "vistor.microservices.nyaa.app.utils.parse",
+        "documentation": {}
+    },
+    {
+        "label": "parse_nyaa",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.utils.parse",
+        "description": "vistor.microservices.nyaa.app.utils.parse",
+        "peekOfCode": "def parse_nyaa(request_text):\n    request_text = request_text\n    torrents = list()\n    return torrents",
+        "detail": "vistor.microservices.nyaa.app.utils.parse",
+        "documentation": {}
+    },
+    {
+        "label": "query_nyaa",
+        "kind": 2,
+        "importPath": "vistor.microservices.nyaa.app.utils.search",
+        "description": "vistor.microservices.nyaa.app.utils.search",
+        "peekOfCode": "def query_nyaa(*args, **kwargs):\n    search = kwargs.get(\"search\", \"\")\n    search = search.replace(\" \", \"+\")\n    filter = kwargs.get(\"filter\", 0)\n    user = kwargs.get(\"user\", None)\n    category = kwargs.get(\"category\", 0)\n    sub_category = kwargs.get(\"sub_category\", 0)\n    page = kwargs.get(\"page\", 1)\n    if user is not None:\n        # url = f'{BASE_URL}/user/{user}?f={filter}&c={category}_{sub_category}&q={search}&p={page}'",
+        "detail": "vistor.microservices.nyaa.app.utils.search",
         "documentation": {}
     },
     {
