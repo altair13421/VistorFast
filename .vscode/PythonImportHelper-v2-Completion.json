@@ -160,6 +160,22 @@
         "documentation": {}
     },
     {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "Integer",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -554,30 +570,6 @@
         "documentation": {}
     },
     {
-        "label": "Depends",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "HTTPException",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
-        "label": "status",
-        "importPath": "fastapi",
-        "description": "fastapi",
-        "isExtraImport": true,
-        "detail": "fastapi",
-        "documentation": {}
-    },
-    {
         "label": "FastAPI",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -659,14 +651,6 @@
     },
     {
         "label": "sessionmaker",
-        "importPath": "sqlalchemy.orm",
-        "description": "sqlalchemy.orm",
-        "isExtraImport": true,
-        "detail": "sqlalchemy.orm",
-        "documentation": {}
-    },
-    {
-        "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -810,14 +794,6 @@
         "documentation": {}
     },
     {
-        "label": "get_db",
-        "importPath": "app.db.session",
-        "description": "app.db.session",
-        "isExtraImport": true,
-        "detail": "app.db.session",
-        "documentation": {}
-    },
-    {
         "label": "engine",
         "importPath": "app.db.session",
         "description": "app.db.session",
@@ -858,38 +834,6 @@
         "documentation": {}
     },
     {
-        "label": "OAuth2PasswordRequestForm",
-        "importPath": "fastapi.security",
-        "description": "fastapi.security",
-        "isExtraImport": true,
-        "detail": "fastapi.security",
-        "documentation": {}
-    },
-    {
-        "label": "OAuth2PasswordBearer",
-        "importPath": "fastapi.security",
-        "description": "fastapi.security",
-        "isExtraImport": true,
-        "detail": "fastapi.security",
-        "documentation": {}
-    },
-    {
-        "label": "crud",
-        "importPath": "app",
-        "description": "app",
-        "isExtraImport": true,
-        "detail": "app",
-        "documentation": {}
-    },
-    {
-        "label": "schemas",
-        "importPath": "app",
-        "description": "app",
-        "isExtraImport": true,
-        "detail": "app",
-        "documentation": {}
-    },
-    {
         "label": "crud",
         "importPath": "app",
         "description": "app",
@@ -922,30 +866,6 @@
         "documentation": {}
     },
     {
-        "label": "create_access_token",
-        "importPath": "app.auth.jwt",
-        "description": "app.auth.jwt",
-        "isExtraImport": true,
-        "detail": "app.auth.jwt",
-        "documentation": {}
-    },
-    {
-        "label": "verify_token",
-        "importPath": "app.auth.jwt",
-        "description": "app.auth.jwt",
-        "isExtraImport": true,
-        "detail": "app.auth.jwt",
-        "documentation": {}
-    },
-    {
-        "label": "get_current_user",
-        "importPath": "app.auth.oauth2",
-        "description": "app.auth.oauth2",
-        "isExtraImport": true,
-        "detail": "app.auth.oauth2",
-        "documentation": {}
-    },
-    {
         "label": "get_current_user",
         "importPath": "app.auth.oauth2",
         "description": "app.auth.oauth2",
@@ -959,30 +879,6 @@
         "description": "app.core.security",
         "isExtraImport": true,
         "detail": "app.core.security",
-        "documentation": {}
-    },
-    {
-        "label": "verify_password",
-        "importPath": "app.core.security",
-        "description": "app.core.security",
-        "isExtraImport": true,
-        "detail": "app.core.security",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "timedelta",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -1026,30 +922,6 @@
         "documentation": {}
     },
     {
-        "label": "JWTError",
-        "importPath": "jose",
-        "description": "jose",
-        "isExtraImport": true,
-        "detail": "jose",
-        "documentation": {}
-    },
-    {
-        "label": "jwt",
-        "importPath": "jose",
-        "description": "jose",
-        "isExtraImport": true,
-        "detail": "jose",
-        "documentation": {}
-    },
-    {
-        "label": "JWTError",
-        "importPath": "jose",
-        "description": "jose",
-        "isExtraImport": true,
-        "detail": "jose",
-        "documentation": {}
-    },
-    {
         "label": "TokenData",
         "importPath": "app.schemas.user_schema",
         "description": "app.schemas.user_schema",
@@ -1059,14 +931,6 @@
     },
     {
         "label": "UserCreate",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
-        "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
-        "documentation": {}
-    },
-    {
-        "label": "TokenData",
         "importPath": "app.schemas.user_schema",
         "description": "app.schemas.user_schema",
         "isExtraImport": true,
@@ -1106,30 +970,6 @@
         "documentation": {}
     },
     {
-        "label": "settings",
-        "importPath": "app.core.config",
-        "description": "app.core.config",
-        "isExtraImport": true,
-        "detail": "app.core.config",
-        "documentation": {}
-    },
-    {
-        "label": "settings",
-        "importPath": "app.core.config",
-        "description": "app.core.config",
-        "isExtraImport": true,
-        "detail": "app.core.config",
-        "documentation": {}
-    },
-    {
-        "label": "User",
-        "importPath": "app.models.user_model",
-        "description": "app.models.user_model",
-        "isExtraImport": true,
-        "detail": "app.models.user_model",
-        "documentation": {}
-    },
-    {
         "label": "User",
         "importPath": "app.models.user_model",
         "description": "app.models.user_model",
@@ -1175,14 +1015,6 @@
         "description": "pydantic_settings",
         "isExtraImport": true,
         "detail": "pydantic_settings",
-        "documentation": {}
-    },
-    {
-        "label": "CryptContext",
-        "importPath": "passlib.context",
-        "description": "passlib.context",
-        "isExtraImport": true,
-        "detail": "passlib.context",
         "documentation": {}
     },
     {
@@ -1394,27 +1226,35 @@
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "app.crud.music",
-        "description": "app.crud.music",
+        "label": "Song",
+        "importPath": "app.models.music",
+        "description": "app.models.music",
         "isExtraImport": true,
-        "detail": "app.crud.music",
+        "detail": "app.models.music",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "app.schemas.music",
-        "description": "app.schemas.music",
+        "label": "Artist",
+        "importPath": "app.models.music",
+        "description": "app.models.music",
         "isExtraImport": true,
-        "detail": "app.schemas.music",
+        "detail": "app.models.music",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "app.schemas.music",
-        "description": "app.schemas.music",
+        "label": "Album",
+        "importPath": "app.models.music",
+        "description": "app.models.music",
         "isExtraImport": true,
-        "detail": "app.schemas.music",
+        "detail": "app.models.music",
+        "documentation": {}
+    },
+    {
+        "label": "Genre",
+        "importPath": "app.models.music",
+        "description": "app.models.music",
+        "isExtraImport": true,
+        "detail": "app.models.music",
         "documentation": {}
     },
     {
@@ -1423,6 +1263,14 @@
         "description": "app.models.music",
         "isExtraImport": true,
         "detail": "app.models.music",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "app.schemas.music",
+        "description": "app.schemas.music",
+        "isExtraImport": true,
+        "detail": "app.schemas.music",
         "documentation": {}
     },
     {
@@ -2097,65 +1945,11 @@
         "documentation": {}
     },
     {
-        "label": "login_for_access_token",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.api.v1.endpoints.auth",
-        "description": "vistor.microservices.music.app.api.v1.endpoints.auth",
-        "peekOfCode": "def login_for_access_token(db: Session = Depends(get_db), form_data: OAuth2PasswordRequestForm = Depends()):\n    user = crud.get_user_by_username(db, username=form_data.username)\n    if not user or not verify_password(form_data.password, user.hashed_password):\n        raise HTTPException(\n            status_code=400,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )\n    access_token = create_access_token(data={\"sub\": user.username})\n    return {\"access_token\": access_token, \"token_type\": \"bearer\"}",
-        "detail": "vistor.microservices.music.app.api.v1.endpoints.auth",
-        "documentation": {}
-    },
-    {
-        "label": "read_users_me",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.api.v1.endpoints.auth",
-        "description": "vistor.microservices.music.app.api.v1.endpoints.auth",
-        "peekOfCode": "def read_users_me(current_user: schemas.User = Depends(get_current_user)):\n    return current_user",
-        "detail": "vistor.microservices.music.app.api.v1.endpoints.auth",
-        "documentation": {}
-    },
-    {
-        "label": "router",
-        "kind": 5,
-        "importPath": "vistor.microservices.music.app.api.v1.endpoints.auth",
-        "description": "vistor.microservices.music.app.api.v1.endpoints.auth",
-        "peekOfCode": "router = APIRouter()\n@router.post(\"/token\", response_model=schemas.Token)\ndef login_for_access_token(db: Session = Depends(get_db), form_data: OAuth2PasswordRequestForm = Depends()):\n    user = crud.get_user_by_username(db, username=form_data.username)\n    if not user or not verify_password(form_data.password, user.hashed_password):\n        raise HTTPException(\n            status_code=400,\n            detail=\"Incorrect username or password\",\n            headers={\"WWW-Authenticate\": \"Bearer\"},\n        )",
-        "detail": "vistor.microservices.music.app.api.v1.endpoints.auth",
-        "documentation": {}
-    },
-    {
-        "label": "create_music",
+        "label": "read_song",
         "kind": 2,
         "importPath": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
         "description": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
-        "peekOfCode": "def create_music(item: MusicCreate, db: Session = Depends(get_db)):\n    return create_music(db=db, item=item)\n@router.get(\"/{item_id}\", response_model=Music)\ndef read_music(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_music(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Music not found\")\n    return db_item\n@router.put(\"/{item_id}\", response_model=Music)\ndef update_music(item_id: int, item: MusicCreate, db: Session = Depends(get_db)):",
-        "detail": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
-        "documentation": {}
-    },
-    {
-        "label": "read_music",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
-        "description": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
-        "peekOfCode": "def read_music(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_music(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Music not found\")\n    return db_item\n@router.put(\"/{item_id}\", response_model=Music)\ndef update_music(item_id: int, item: MusicCreate, db: Session = Depends(get_db)):\n    db_item = get_music(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Music not found\")",
-        "detail": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
-        "documentation": {}
-    },
-    {
-        "label": "update_music",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
-        "description": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
-        "peekOfCode": "def update_music(item_id: int, item: MusicCreate, db: Session = Depends(get_db)):\n    db_item = get_music(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Music not found\")\n    return update_music(db=db, db_item=db_item, item=item)\n@router.delete(\"/{item_id}\", response_model=Music)\ndef delete_music(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_music(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Music not found\")",
-        "detail": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
-        "documentation": {}
-    },
-    {
-        "label": "delete_music",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
-        "description": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
-        "peekOfCode": "def delete_music(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_music(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Music not found\")\n    return delete_music(db=db, item_id=item_id)\n# Add more routes as needed",
+        "peekOfCode": "def read_song(song_id: int, db: Session = Depends(get_db)):\n    # Placeholder implementation\n    song = db.query(Song).filter(Song.id == song_id).first()\n    if not song:\n        raise HTTPException(status_code=404, detail=\"Song not found\")\n    return song",
         "detail": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
         "documentation": {}
     },
@@ -2164,71 +1958,17 @@
         "kind": 5,
         "importPath": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
         "description": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
-        "peekOfCode": "router = APIRouter()\n@router.post(\"/\", response_model=Music)\ndef create_music(item: MusicCreate, db: Session = Depends(get_db)):\n    return create_music(db=db, item=item)\n@router.get(\"/{item_id}\", response_model=Music)\ndef read_music(item_id: int, db: Session = Depends(get_db)):\n    db_item = get_music(db=db, item_id=item_id)\n    if db_item is None:\n        raise HTTPException(status_code=404, detail=\"Music not found\")\n    return db_item",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/songs/{song_id}\")\ndef read_song(song_id: int, db: Session = Depends(get_db)):\n    # Placeholder implementation\n    song = db.query(Song).filter(Song.id == song_id).first()\n    if not song:\n        raise HTTPException(status_code=404, detail=\"Song not found\")\n    return song",
         "detail": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
         "documentation": {}
     },
     {
-        "label": "create_access_token",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.auth.jwt",
-        "description": "vistor.microservices.music.app.auth.jwt",
-        "peekOfCode": "def create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username: str = payload.get(\"sub\")",
-        "detail": "vistor.microservices.music.app.auth.jwt",
-        "documentation": {}
-    },
-    {
-        "label": "verify_token",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.auth.jwt",
-        "description": "vistor.microservices.music.app.auth.jwt",
-        "peekOfCode": "def verify_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n        username: str = payload.get(\"sub\")\n        if username is None:\n            raise credentials_exception\n        token_data = TokenData(username=username)\n    except JWTError:\n        raise credentials_exception\n    return token_data",
-        "detail": "vistor.microservices.music.app.auth.jwt",
-        "documentation": {}
-    },
-    {
-        "label": "SECRET_KEY",
+        "label": "router",
         "kind": 5,
-        "importPath": "vistor.microservices.music.app.auth.jwt",
-        "description": "vistor.microservices.music.app.auth.jwt",
-        "peekOfCode": "SECRET_KEY = settings.secret_key\nALGORITHM = settings.algorithm\nACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):",
-        "detail": "vistor.microservices.music.app.auth.jwt",
-        "documentation": {}
-    },
-    {
-        "label": "ALGORITHM",
-        "kind": 5,
-        "importPath": "vistor.microservices.music.app.auth.jwt",
-        "description": "vistor.microservices.music.app.auth.jwt",
-        "peekOfCode": "ALGORITHM = settings.algorithm\nACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):\n    try:",
-        "detail": "vistor.microservices.music.app.auth.jwt",
-        "documentation": {}
-    },
-    {
-        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
-        "kind": 5,
-        "importPath": "vistor.microservices.music.app.auth.jwt",
-        "description": "vistor.microservices.music.app.auth.jwt",
-        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = settings.access_token_expire_minutes\ndef create_access_token(data: dict):\n    to_encode = data.copy()\n    expire = datetime.utcnow() + timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)\n    to_encode.update({\"exp\": expire})\n    encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n    return encoded_jwt\ndef verify_token(token: str, credentials_exception):\n    try:\n        payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])",
-        "detail": "vistor.microservices.music.app.auth.jwt",
-        "documentation": {}
-    },
-    {
-        "label": "get_current_user",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.auth.oauth2",
-        "description": "vistor.microservices.music.app.auth.oauth2",
-        "peekOfCode": "def get_current_user(db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    token_data = verify_token(token, credentials_exception)\n    user = db.query(User).filter(User.username == token_data.username).first()\n    if user is None:\n        raise credentials_exception",
-        "detail": "vistor.microservices.music.app.auth.oauth2",
-        "documentation": {}
-    },
-    {
-        "label": "oauth2_scheme",
-        "kind": 5,
-        "importPath": "vistor.microservices.music.app.auth.oauth2",
-        "description": "vistor.microservices.music.app.auth.oauth2",
-        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"token\")\ndef get_current_user(db: Session = Depends(get_db), token: str = Depends(oauth2_scheme)):\n    credentials_exception = HTTPException(\n        status_code=status.HTTP_401_UNAUTHORIZED,\n        detail=\"Could not validate credentials\",\n        headers={\"WWW-Authenticate\": \"Bearer\"},\n    )\n    token_data = verify_token(token, credentials_exception)\n    user = db.query(User).filter(User.username == token_data.username).first()\n    if user is None:",
-        "detail": "vistor.microservices.music.app.auth.oauth2",
+        "importPath": "vistor.microservices.music.app.api.v1.endpoints.playlist_endpoint",
+        "description": "vistor.microservices.music.app.api.v1.endpoints.playlist_endpoint",
+        "peekOfCode": "router = APIRouter()",
+        "detail": "vistor.microservices.music.app.api.v1.endpoints.playlist_endpoint",
         "documentation": {}
     },
     {
@@ -2236,7 +1976,7 @@
         "kind": 6,
         "importPath": "vistor.microservices.music.app.core.config",
         "description": "vistor.microservices.music.app.core.config",
-        "peekOfCode": "class Settings(BaseSettings):\n    database_url: str = \"sqlite:///./test.db\"\n    secret_key: str = \"supersecretkey\"\n    algorithm: str = \"HS256\"\n    access_token_expire_minutes: int = 30\n    class Config:\n        env_file = \".env\"\nsettings = Settings()",
+        "peekOfCode": "class Settings(BaseSettings):\n    database_url: str = os.environ.get(\"DATABASE_URL\", \"sqlite:///./test.db\")\n    song_dir: str = os.environ.get(\"SONG_DIR\", \"/app/music\")\n    log_level: str = os.environ.get(\"LOG_LEVEL\", \"info\")\n    class Config:\n        env_file = \".env\"\nsettings = Settings()",
         "detail": "vistor.microservices.music.app.core.config",
         "documentation": {}
     },
@@ -2247,33 +1987,6 @@
         "description": "vistor.microservices.music.app.core.config",
         "peekOfCode": "settings = Settings()",
         "detail": "vistor.microservices.music.app.core.config",
-        "documentation": {}
-    },
-    {
-        "label": "verify_password",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.core.security",
-        "description": "vistor.microservices.music.app.core.security",
-        "peekOfCode": "def verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    return pwd_context.hash(password)",
-        "detail": "vistor.microservices.music.app.core.security",
-        "documentation": {}
-    },
-    {
-        "label": "get_password_hash",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.core.security",
-        "description": "vistor.microservices.music.app.core.security",
-        "peekOfCode": "def get_password_hash(password):\n    return pwd_context.hash(password)",
-        "detail": "vistor.microservices.music.app.core.security",
-        "documentation": {}
-    },
-    {
-        "label": "pwd_context",
-        "kind": 5,
-        "importPath": "vistor.microservices.music.app.core.security",
-        "description": "vistor.microservices.music.app.core.security",
-        "peekOfCode": "pwd_context = CryptContext(schemes=[\"bcrypt\"], deprecated=\"auto\")\ndef verify_password(plain_password, hashed_password):\n    return pwd_context.verify(plain_password, hashed_password)\ndef get_password_hash(password):\n    return pwd_context.hash(password)",
-        "detail": "vistor.microservices.music.app.core.security",
         "documentation": {}
     },
     {
@@ -2389,7 +2102,43 @@
         "kind": 6,
         "importPath": "vistor.microservices.music.app.models.music",
         "description": "vistor.microservices.music.app.models.music",
-        "peekOfCode": "class Music(Base):\n    __tablename__ = \"musics\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    description = Column(String, index=True)",
+        "peekOfCode": "class Music(Base):\n    __tablename__ = \"musics\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    description = Column(String, index=True)\nclass Artist(Base):\n    __tablename__ = \"artists\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    romaji_name = Column(String, index=True)",
+        "detail": "vistor.microservices.music.app.models.music",
+        "documentation": {}
+    },
+    {
+        "label": "Artist",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.models.music",
+        "description": "vistor.microservices.music.app.models.music",
+        "peekOfCode": "class Artist(Base):\n    __tablename__ = \"artists\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    romaji_name = Column(String, index=True)\n    created_at = Column(DateTime, index=True)\n    @property\n    def full_name(self) -> str:\n        return f\"{self.name} ({self.romaji_name})\"\nclass Genre(Base):",
+        "detail": "vistor.microservices.music.app.models.music",
+        "documentation": {}
+    },
+    {
+        "label": "Genre",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.models.music",
+        "description": "vistor.microservices.music.app.models.music",
+        "peekOfCode": "class Genre(Base):\n    __tablename__ = \"genres\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\nclass Album(Base):\n    __tablename__ = \"albums\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, index=True)\n    artist = Column(ForeignKey(\"artists.id\"))\nclass Song(Base):",
+        "detail": "vistor.microservices.music.app.models.music",
+        "documentation": {}
+    },
+    {
+        "label": "Album",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.models.music",
+        "description": "vistor.microservices.music.app.models.music",
+        "peekOfCode": "class Album(Base):\n    __tablename__ = \"albums\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, index=True)\n    artist = Column(ForeignKey(\"artists.id\"))\nclass Song(Base):\n    __tablename__ = \"songs\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, index=True)\n    genre = Column()",
+        "detail": "vistor.microservices.music.app.models.music",
+        "documentation": {}
+    },
+    {
+        "label": "Song",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.models.music",
+        "description": "vistor.microservices.music.app.models.music",
+        "peekOfCode": "class Song(Base):\n    __tablename__ = \"songs\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, index=True)\n    genre = Column()",
         "detail": "vistor.microservices.music.app.models.music",
         "documentation": {}
     },
