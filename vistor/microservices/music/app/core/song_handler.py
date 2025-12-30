@@ -17,7 +17,7 @@ MIME_TYPES = {
 
 def get_song_metadata(file_path: Path) -> dict:
     if not file_path.exists() or not file_path.is_file():
-        raise FileNotFoundError(f"File {file_path} does not exist.")
+        raise FileNotFoundError(f"File not found: {file_path}")
 
     audio = MutagenFile(file_path)
     if audio is None:

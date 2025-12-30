@@ -58,9 +58,9 @@ class AlbumSummary(BaseModel):
         orm_mode = True
 
 
-class SongRead(SongBase):
+class SongsDisplayable(SongBase):
     id: int
-    album: Optional[List[AlbumSummary]] = None
+    album: Optional[AlbumSummary] = []
     genres: List[GenreSummary] = []
     artists: List[ArtistSummary] = []
 

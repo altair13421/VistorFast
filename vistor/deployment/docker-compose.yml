@@ -33,6 +33,7 @@ services:
         condition: service_healthy
     restart: unless-stopped
     volumes:
+      # - ../microservices/music/app:/app  # Application code
       - /mnt/games/Music:/app/music  # Music directory
 
 networks:
