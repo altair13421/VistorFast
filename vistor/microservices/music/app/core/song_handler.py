@@ -5,6 +5,10 @@ from pathlib import Path
 import mimetypes
 
 from app.core.config import settings
+from app.crud.album import create_album, get_album
+from app.crud.artist import create_artist, get_artist
+from app.crud.genre import create_genre, get_genre
+from app.crud.song import create_song, get_song
 
 BASE_DIR = Path(settings.song_dir)
 MIME_TYPES = {
@@ -31,3 +35,13 @@ def get_song_metadata(file_path: Path) -> dict:
         "bitrate": int(audio.info.bitrate) if audio.info and hasattr(audio.info, 'bitrate') else 0,
     }
     return metadata
+
+def scan_directory(directory: Path = BASE_DIR) -> list[Path]:
+    if not directory.exists() or not directory.is_dir():
+        raise NotADirectoryError(f"Directory not found: {directory}")
+
+    song_files = []
+    for ext in MIME_TYPES.keys():
+        song_files.extend(directory.rglob(f"*.{ext}"))
+
+    return song_files

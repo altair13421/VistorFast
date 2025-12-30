@@ -1,18 +1,27 @@
-from pydantic_settings import BaseSettings
+# app/settings.py
+from pydantic_settings import BaseSettings, SettingsConfigDict
 import os
 
-class Settings(BaseSettings):
-    database_url: str = os.environ.get("DATABASE_URL", "sqlite:///./test.db")
-    postgres_db: str = os.environ.get("POSTGRES_DB")
-    postgres_host: str = os.environ.get("POSTGRES_HOST")
-    postgres_port: int = os.environ.get("POSTGRES_PORT")
-    postgres_user: str = os.environ.get("POSTGRES_USER")
-    postgres_password: str = os.environ.get("POSTGRES_PASSWORD")
 
-    song_dir: str = os.environ.get("SONG_DIR", "/app/music")
-    log_level: str = os.environ.get("LOG_LEVEL", "info")
+class Settings(BaseSettings):
+    # DATABASE_URL should already contain the full connection string:
+    #   postgresql://user:pass@host:port/dbname
+    database_url: str = os.getenv("DATABASE_URL", "sqlite:///./test.db")
+
+    # Optional explicit parts – handy if you build the URL manually
+    postgres_db: str | None = os.getenv("POSTGRES_DB")
+    postgres_host: str | None = os.getenv("POSTGRES_HOST")
+    postgres_port: int | None = os.getenv("POSTGRES_PORT", 5432)
+    postgres_user: str | None = os.getenv("POSTGRES_USER")
+    postgres_password: str | None = os.getenv("POSTGRES_PASSWORD")
+
+    # App‑specific
+    song_dir: str = os.getenv("SONG_DIR", "/app/music")
+    log_level: str = os.getenv("LOG_LEVEL", "info")
 
     class Config:
         env_file = ".env"
+        case_sensitive = True
+
 
 settings = Settings()

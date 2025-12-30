@@ -52,7 +52,7 @@ class Song(Base):
     romaji_title = Column(String, index=True)
 
     # Metadata
-    file_location = Column(String, index=True)
+    file_path = Column(String, index=True)
     duration = Column(Integer, index=True)  # duration in seconds
     track_number = Column(Integer, index=True)
     times_played = Column(Integer, index=True, default=0)
