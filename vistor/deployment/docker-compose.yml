@@ -1,17 +1,44 @@
 services:
 
+  music_db:
+    image: postgres:13
+    environment:
+      POSTGRES_DB: music_db
+      POSTGRES_USER: music_user
+      POSTGRES_PASSWORD: music_password
+    ports:
+      - "5431:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U music_user -d music_db"]
+      interval: 20s
+      timeout: 10s
+      retries: 3
+
+
   microservice-music:
     build:
       context: ../microservices/music
     container_name: vistor-microservice-music
-    restart: unless-stopped
     ports:
       - "8002:8000"
     environment:
-      - DATABASE_URL=sqlite:///./test.db
+      - DATABASE_URL=postgres://music_user:music_password@music_db:5431/music_db
+      - POSTGRES_HOST=music_db
+      - POSTGRES_PORT=5431
+    depends_on:
+      music_db:
+        condition: service_healthy
+    restart: unless-stopped
     volumes:
       - /mnt/games/Music:/app/music  # Music directory
 
 networks:
   default:
     driver: bridge
+
+volumes:
+  postgres_data:
+

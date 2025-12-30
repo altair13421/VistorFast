@@ -1,7 +1,11 @@
 fastapi
 sqlalchemy
+pillow
+requests
+
 pydantic
-uvicorn
-passlib[bcrypt]
+mutagen
 pytest
 pydantic-settings
+uvicorn
+

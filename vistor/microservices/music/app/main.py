@@ -1,9 +1,9 @@
 from fastapi import FastAPI
 from app.api.v1.endpoints.music_endpoint import router as music_router
+from app.api.v1.endpoints.meta_endpoints import router as meta_router
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
-
 origins = [
     "http://localhost",
     "http://localhost:3000",
@@ -18,6 +18,7 @@ app.add_middleware(
 )
 
 app.include_router(music_router, prefix="/music", tags=["music"])
+app.include_router(meta_router, prefix="/meta", tags=["meta"])
 
 if __name__ == "__main__":
     import uvicorn

@@ -16,6 +16,38 @@
         "documentation": {}
     },
     {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
+        "label": "annotations",
+        "importPath": "__future__",
+        "description": "__future__",
+        "isExtraImport": true,
+        "detail": "__future__",
+        "documentation": {}
+    },
+    {
         "label": "with_statement",
         "importPath": "__future__",
         "description": "__future__",
@@ -185,38 +217,6 @@
     },
     {
         "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Column",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Integer",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "String",
-        "importPath": "sqlalchemy",
-        "description": "sqlalchemy",
-        "isExtraImport": true,
-        "detail": "sqlalchemy",
-        "documentation": {}
-    },
-    {
-        "label": "Boolean",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
         "isExtraImport": true,
@@ -434,14 +434,6 @@
         "documentation": {}
     },
     {
-        "label": "Base",
-        "importPath": "app.db.base",
-        "description": "app.db.base",
-        "isExtraImport": true,
-        "detail": "app.db.base",
-        "documentation": {}
-    },
-    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -530,6 +522,22 @@
         "documentation": {}
     },
     {
+        "label": "Request",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "Depends",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -666,6 +674,46 @@
         "documentation": {}
     },
     {
+        "label": "joinedload",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "subqueryload",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -691,6 +739,14 @@
     },
     {
         "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -898,6 +954,30 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "JWTError",
         "importPath": "jose",
         "description": "jose",
@@ -938,14 +1018,6 @@
         "documentation": {}
     },
     {
-        "label": "UserCreate",
-        "importPath": "app.schemas.user_schema",
-        "description": "app.schemas.user_schema",
-        "isExtraImport": true,
-        "detail": "app.schemas.user_schema",
-        "documentation": {}
-    },
-    {
         "label": "settings",
         "importPath": "app.core.config",
         "description": "app.core.config",
@@ -970,11 +1042,11 @@
         "documentation": {}
     },
     {
-        "label": "User",
-        "importPath": "app.models.user_model",
-        "description": "app.models.user_model",
+        "label": "settings",
+        "importPath": "app.core.config",
+        "description": "app.core.config",
         "isExtraImport": true,
-        "detail": "app.models.user_model",
+        "detail": "app.core.config",
         "documentation": {}
     },
     {
@@ -1082,7 +1154,55 @@
         "documentation": {}
     },
     {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
         "importPath": "pydantic",
         "description": "pydantic",
         "isExtraImport": true,
@@ -1127,38 +1247,6 @@
         "description": "fastapi.testclient",
         "isExtraImport": true,
         "detail": "fastapi.testclient",
-        "documentation": {}
-    },
-    {
-        "label": "TestClient",
-        "importPath": "fastapi.testclient",
-        "description": "fastapi.testclient",
-        "isExtraImport": true,
-        "detail": "fastapi.testclient",
-        "documentation": {}
-    },
-    {
-        "label": "TestClient",
-        "importPath": "fastapi.testclient",
-        "description": "fastapi.testclient",
-        "isExtraImport": true,
-        "detail": "fastapi.testclient",
-        "documentation": {}
-    },
-    {
-        "label": "app",
-        "importPath": "app.main",
-        "description": "app.main",
-        "isExtraImport": true,
-        "detail": "app.main",
-        "documentation": {}
-    },
-    {
-        "label": "app",
-        "importPath": "app.main",
-        "description": "app.main",
-        "isExtraImport": true,
-        "detail": "app.main",
         "documentation": {}
     },
     {
@@ -1226,6 +1314,14 @@
         "documentation": {}
     },
     {
+        "label": "JSONResponse",
+        "importPath": "fastapi.responses",
+        "description": "fastapi.responses",
+        "isExtraImport": true,
+        "detail": "fastapi.responses",
+        "documentation": {}
+    },
+    {
         "label": "Song",
         "importPath": "app.models.music",
         "description": "app.models.music",
@@ -1258,7 +1354,7 @@
         "documentation": {}
     },
     {
-        "label": "*",
+        "label": "Album",
         "importPath": "app.models.music",
         "description": "app.models.music",
         "isExtraImport": true,
@@ -1266,11 +1362,180 @@
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "app.schemas.music",
-        "description": "app.schemas.music",
+        "label": "Artist",
+        "importPath": "app.models.music",
+        "description": "app.models.music",
         "isExtraImport": true,
-        "detail": "app.schemas.music",
+        "detail": "app.models.music",
+        "documentation": {}
+    },
+    {
+        "label": "Genre",
+        "importPath": "app.models.music",
+        "description": "app.models.music",
+        "isExtraImport": true,
+        "detail": "app.models.music",
+        "documentation": {}
+    },
+    {
+        "label": "Song",
+        "importPath": "app.models.music",
+        "description": "app.models.music",
+        "isExtraImport": true,
+        "detail": "app.models.music",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "mutagen",
+        "description": "mutagen",
+        "isExtraImport": true,
+        "detail": "mutagen",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "mimetypes",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mimetypes",
+        "description": "mimetypes",
+        "detail": "mimetypes",
+        "documentation": {}
+    },
+    {
+        "label": "AlbumCreate",
+        "importPath": "app.schemas.album",
+        "description": "app.schemas.album",
+        "isExtraImport": true,
+        "detail": "app.schemas.album",
+        "documentation": {}
+    },
+    {
+        "label": "AlbumUpdate",
+        "importPath": "app.schemas.album",
+        "description": "app.schemas.album",
+        "isExtraImport": true,
+        "detail": "app.schemas.album",
+        "documentation": {}
+    },
+    {
+        "label": "ArtistCreate",
+        "importPath": "app.schemas.artist",
+        "description": "app.schemas.artist",
+        "isExtraImport": true,
+        "detail": "app.schemas.artist",
+        "documentation": {}
+    },
+    {
+        "label": "ArtistUpdate",
+        "importPath": "app.schemas.artist",
+        "description": "app.schemas.artist",
+        "isExtraImport": true,
+        "detail": "app.schemas.artist",
+        "documentation": {}
+    },
+    {
+        "label": "GenreCreate",
+        "importPath": "app.schemas.genre",
+        "description": "app.schemas.genre",
+        "isExtraImport": true,
+        "detail": "app.schemas.genre",
+        "documentation": {}
+    },
+    {
+        "label": "GenreUpdate",
+        "importPath": "app.schemas.genre",
+        "description": "app.schemas.genre",
+        "isExtraImport": true,
+        "detail": "app.schemas.genre",
+        "documentation": {}
+    },
+    {
+        "label": "SongCreate",
+        "importPath": "app.schemas.song",
+        "description": "app.schemas.song",
+        "isExtraImport": true,
+        "detail": "app.schemas.song",
+        "documentation": {}
+    },
+    {
+        "label": "SongUpdate",
+        "importPath": "app.schemas.song",
+        "description": "app.schemas.song",
+        "isExtraImport": true,
+        "detail": "app.schemas.song",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
         "documentation": {}
     },
     {
@@ -1279,6 +1544,14 @@
         "description": "app.api.v1.endpoints.music_endpoint",
         "isExtraImport": true,
         "detail": "app.api.v1.endpoints.music_endpoint",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "importPath": "app.api.v1.endpoints.meta_endpoints",
+        "description": "app.api.v1.endpoints.meta_endpoints",
+        "isExtraImport": true,
+        "detail": "app.api.v1.endpoints.meta_endpoints",
         "documentation": {}
     },
     {
@@ -1945,11 +2218,38 @@
         "documentation": {}
     },
     {
+        "label": "list_routes",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.api.v1.endpoints.meta_endpoints",
+        "description": "vistor.microservices.music.app.api.v1.endpoints.meta_endpoints",
+        "peekOfCode": "def list_routes(request: Request):\n    app = request.app  # FastAPI instance\n    return [\n        {\n            \"path\": r.path,\n            \"methods\": list(r.methods),\n            \"name\": r.name,\n            \"endpoint\": r.endpoint.__qualname__,\n        }\n        for r in app.routes",
+        "detail": "vistor.microservices.music.app.api.v1.endpoints.meta_endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "health_check",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.api.v1.endpoints.meta_endpoints",
+        "description": "vistor.microservices.music.app.api.v1.endpoints.meta_endpoints",
+        "peekOfCode": "def health_check():\n    \"\"\"\n    Simple health check endpoint to verify that the service is running.\n    \"\"\"\n    return {\"status\": \"ok\"}",
+        "detail": "vistor.microservices.music.app.api.v1.endpoints.meta_endpoints",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.api.v1.endpoints.meta_endpoints",
+        "description": "vistor.microservices.music.app.api.v1.endpoints.meta_endpoints",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/routes\", tags=[\"meta\"])\ndef list_routes(request: Request):\n    app = request.app  # FastAPI instance\n    return [\n        {\n            \"path\": r.path,\n            \"methods\": list(r.methods),\n            \"name\": r.name,\n            \"endpoint\": r.endpoint.__qualname__,",
+        "detail": "vistor.microservices.music.app.api.v1.endpoints.meta_endpoints",
+        "documentation": {}
+    },
+    {
         "label": "read_song",
         "kind": 2,
         "importPath": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
         "description": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
-        "peekOfCode": "def read_song(song_id: int, db: Session = Depends(get_db)):\n    # Placeholder implementation\n    song = db.query(Song).filter(Song.id == song_id).first()\n    if not song:\n        raise HTTPException(status_code=404, detail=\"Song not found\")\n    return song",
+        "peekOfCode": "def read_song(song_id: int, db: Session = Depends(get_db)):\n    # Fetch the song with its related data using relationships\n    song_query = db.query(Song).filter(Song.id == song_id)\n    # Use `.options()` to load related objects eagerly (avoid N+1 query problem)\n    song = song_query.options(\n        joinedload(Song.artists),         # 1:1 Artist relationship\n        joinedload(Song.album),          # 1:1 Album if linked directly\n        subqueryload(Song.genres)         # Many-to-many Genre relation (if using a secondary table)\n    ).first()\n    if not song:",
         "detail": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
         "documentation": {}
     },
@@ -1958,7 +2258,7 @@
         "kind": 5,
         "importPath": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
         "description": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
-        "peekOfCode": "router = APIRouter()\n@router.get(\"/songs/{song_id}\")\ndef read_song(song_id: int, db: Session = Depends(get_db)):\n    # Placeholder implementation\n    song = db.query(Song).filter(Song.id == song_id).first()\n    if not song:\n        raise HTTPException(status_code=404, detail=\"Song not found\")\n    return song",
+        "peekOfCode": "router = APIRouter()\n@router.get(\"/songs/{song_id}\")\ndef read_song(song_id: int, db: Session = Depends(get_db)):\n    # Fetch the song with its related data using relationships\n    song_query = db.query(Song).filter(Song.id == song_id)\n    # Use `.options()` to load related objects eagerly (avoid N+1 query problem)\n    song = song_query.options(\n        joinedload(Song.artists),         # 1:1 Artist relationship\n        joinedload(Song.album),          # 1:1 Album if linked directly\n        subqueryload(Song.genres)         # Many-to-many Genre relation (if using a secondary table)",
         "detail": "vistor.microservices.music.app.api.v1.endpoints.music_endpoint",
         "documentation": {}
     },
@@ -1976,7 +2276,7 @@
         "kind": 6,
         "importPath": "vistor.microservices.music.app.core.config",
         "description": "vistor.microservices.music.app.core.config",
-        "peekOfCode": "class Settings(BaseSettings):\n    database_url: str = os.environ.get(\"DATABASE_URL\", \"sqlite:///./test.db\")\n    song_dir: str = os.environ.get(\"SONG_DIR\", \"/app/music\")\n    log_level: str = os.environ.get(\"LOG_LEVEL\", \"info\")\n    class Config:\n        env_file = \".env\"\nsettings = Settings()",
+        "peekOfCode": "class Settings(BaseSettings):\n    database_url: str = os.environ.get(\"DATABASE_URL\", \"sqlite:///./test.db\")\n    postgres_db: str = os.environ.get(\"POSTGRES_DB\")\n    postgres_host: str = os.environ.get(\"POSTGRES_HOST\")\n    postgres_port: int = os.environ.get(\"POSTGRES_PORT\")\n    postgres_user: str = os.environ.get(\"POSTGRES_USER\")\n    postgres_password: str = os.environ.get(\"POSTGRES_PASSWORD\")\n    song_dir: str = os.environ.get(\"SONG_DIR\", \"/app/music\")\n    log_level: str = os.environ.get(\"LOG_LEVEL\", \"info\")\n    class Config:",
         "detail": "vistor.microservices.music.app.core.config",
         "documentation": {}
     },
@@ -1990,66 +2290,174 @@
         "documentation": {}
     },
     {
-        "label": "get_music",
+        "label": "get_song_metadata",
         "kind": 2,
-        "importPath": "vistor.microservices.music.app.crud.music",
-        "description": "vistor.microservices.music.app.crud.music",
-        "peekOfCode": "def get_music(db: Session, item_id: int):\n    return db.query(Music).filter(Music.id == item_id).first()\ndef create_music(db: Session, item: MusicCreate):\n    db_item = Music(name=item.name, description=item.description)\n    db.add(db_item)\n    db.commit()\n    db.refresh(db_item)\n    return db_item\ndef update_music(db: Session, db_item: Music, item: MusicCreate):\n    db_item.name = item.name",
-        "detail": "vistor.microservices.music.app.crud.music",
+        "importPath": "vistor.microservices.music.app.core.song_handler",
+        "description": "vistor.microservices.music.app.core.song_handler",
+        "peekOfCode": "def get_song_metadata(file_path: Path) -> dict:\n    if not file_path.exists() or not file_path.is_file():\n        raise FileNotFoundError(f\"File {file_path} does not exist.\")\n    audio = MutagenFile(file_path)\n    if audio is None:\n        raise ValueError(f\"Unsupported or corrupted audio file: {file_path}\")\n    metadata = {\n        \"title\": audio.tags.get(\"TIT2\").text[0] if audio.tags.get(\"TIT2\") else file_path.stem,\n        \"artists\": audio.tags.get(\"TPE1\").text[0] if audio.tags.get(\"TPE1\") else \"Unknown Artist\",\n        \"albums\": audio.tags.get(\"TALB\").text[0] if audio.tags.get(\"TALB\") else \"Unknown Album\",",
+        "detail": "vistor.microservices.music.app.core.song_handler",
         "documentation": {}
     },
     {
-        "label": "create_music",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.crud.music",
-        "description": "vistor.microservices.music.app.crud.music",
-        "peekOfCode": "def create_music(db: Session, item: MusicCreate):\n    db_item = Music(name=item.name, description=item.description)\n    db.add(db_item)\n    db.commit()\n    db.refresh(db_item)\n    return db_item\ndef update_music(db: Session, db_item: Music, item: MusicCreate):\n    db_item.name = item.name\n    db_item.description = item.description\n    db.commit()",
-        "detail": "vistor.microservices.music.app.crud.music",
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.core.song_handler",
+        "description": "vistor.microservices.music.app.core.song_handler",
+        "peekOfCode": "BASE_DIR = Path(settings.song_dir)\nMIME_TYPES = {\n    \"mp3\": \"audio/mpeg\",\n    \"flac\": \"audio/flac\",\n    \"wav\": \"audio/wav\",\n    \"aac\": \"audio/aac\",\n    \"ogg\": \"audio/ogg\",\n}\ndef get_song_metadata(file_path: Path) -> dict:\n    if not file_path.exists() or not file_path.is_file():",
+        "detail": "vistor.microservices.music.app.core.song_handler",
         "documentation": {}
     },
     {
-        "label": "update_music",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.crud.music",
-        "description": "vistor.microservices.music.app.crud.music",
-        "peekOfCode": "def update_music(db: Session, db_item: Music, item: MusicCreate):\n    db_item.name = item.name\n    db_item.description = item.description\n    db.commit()\n    db.refresh(db_item)\n    return db_item\ndef delete_music(db: Session, item_id: int):\n    db_item = db.query(Music).filter(Music.id == item_id).first()\n    db.delete(db_item)\n    db.commit()",
-        "detail": "vistor.microservices.music.app.crud.music",
+        "label": "MIME_TYPES",
+        "kind": 5,
+        "importPath": "vistor.microservices.music.app.core.song_handler",
+        "description": "vistor.microservices.music.app.core.song_handler",
+        "peekOfCode": "MIME_TYPES = {\n    \"mp3\": \"audio/mpeg\",\n    \"flac\": \"audio/flac\",\n    \"wav\": \"audio/wav\",\n    \"aac\": \"audio/aac\",\n    \"ogg\": \"audio/ogg\",\n}\ndef get_song_metadata(file_path: Path) -> dict:\n    if not file_path.exists() or not file_path.is_file():\n        raise FileNotFoundError(f\"File {file_path} does not exist.\")",
+        "detail": "vistor.microservices.music.app.core.song_handler",
         "documentation": {}
     },
     {
-        "label": "delete_music",
+        "label": "get_album",
         "kind": 2,
-        "importPath": "vistor.microservices.music.app.crud.music",
-        "description": "vistor.microservices.music.app.crud.music",
-        "peekOfCode": "def delete_music(db: Session, item_id: int):\n    db_item = db.query(Music).filter(Music.id == item_id).first()\n    db.delete(db_item)\n    db.commit()\n    return db_item",
-        "detail": "vistor.microservices.music.app.crud.music",
+        "importPath": "vistor.microservices.music.app.crud.album",
+        "description": "vistor.microservices.music.app.crud.album",
+        "peekOfCode": "def get_album(db: Session, album_id: int):\n    return db.query(Album).filter(Album.id == album_id).first()\ndef create_album(db: Session, album: AlbumCreate):\n    db_album = Album(\n        title=album.title,\n        artist_id=album.artist_id,\n        album_art=album.album_art\n    )\n    db.add(db_album)\n    db.commit()",
+        "detail": "vistor.microservices.music.app.crud.album",
         "documentation": {}
     },
     {
-        "label": "get_user",
+        "label": "create_album",
         "kind": 2,
-        "importPath": "vistor.microservices.music.app.crud.user_crud",
-        "description": "vistor.microservices.music.app.crud.user_crud",
-        "peekOfCode": "def get_user(db: Session, user_id: int):\n    return db.query(User).filter(User.id == user_id).first()\ndef get_user_by_username(db: Session, username: str):\n    return db.query(User).filter(User.username == username).first()\ndef create_user(db: Session, user: UserCreate):\n    fake_hashed_password = user.password + \"notreallyhashed\"\n    db_user = User(username=user.username, email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)",
-        "detail": "vistor.microservices.music.app.crud.user_crud",
+        "importPath": "vistor.microservices.music.app.crud.album",
+        "description": "vistor.microservices.music.app.crud.album",
+        "peekOfCode": "def create_album(db: Session, album: AlbumCreate):\n    db_album = Album(\n        title=album.title,\n        artist_id=album.artist_id,\n        album_art=album.album_art\n    )\n    db.add(db_album)\n    db.commit()\n    db.refresh(db_album)\n    return db_album",
+        "detail": "vistor.microservices.music.app.crud.album",
         "documentation": {}
     },
     {
-        "label": "get_user_by_username",
+        "label": "update_album",
         "kind": 2,
-        "importPath": "vistor.microservices.music.app.crud.user_crud",
-        "description": "vistor.microservices.music.app.crud.user_crud",
-        "peekOfCode": "def get_user_by_username(db: Session, username: str):\n    return db.query(User).filter(User.username == username).first()\ndef create_user(db: Session, user: UserCreate):\n    fake_hashed_password = user.password + \"notreallyhashed\"\n    db_user = User(username=user.username, email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user",
-        "detail": "vistor.microservices.music.app.crud.user_crud",
+        "importPath": "vistor.microservices.music.app.crud.album",
+        "description": "vistor.microservices.music.app.crud.album",
+        "peekOfCode": "def update_album(db: Session, db_album: Album, album_update: AlbumUpdate):\n    if album_update.title is not None:\n        db_album.title = album_update.title\n    if album_update.artist_id is not None:\n        db_album.artist_id = album_update.artist_id\n    if album_update.album_art is not None:\n        db_album.album_art = album_update.album_art\n    db.commit()\n    db.refresh(db_album)\n    return db_album",
+        "detail": "vistor.microservices.music.app.crud.album",
         "documentation": {}
     },
     {
-        "label": "create_user",
+        "label": "delete_album",
         "kind": 2,
-        "importPath": "vistor.microservices.music.app.crud.user_crud",
-        "description": "vistor.microservices.music.app.crud.user_crud",
-        "peekOfCode": "def create_user(db: Session, user: UserCreate):\n    fake_hashed_password = user.password + \"notreallyhashed\"\n    db_user = User(username=user.username, email=user.email, hashed_password=fake_hashed_password)\n    db.add(db_user)\n    db.commit()\n    db.refresh(db_user)\n    return db_user",
-        "detail": "vistor.microservices.music.app.crud.user_crud",
+        "importPath": "vistor.microservices.music.app.crud.album",
+        "description": "vistor.microservices.music.app.crud.album",
+        "peekOfCode": "def delete_album(db: Session, album_id: int):\n    db_album = db.query(Album).filter(Album.id == album_id).first()\n    db.delete(db_album)\n    db.commit()\n    return db_album",
+        "detail": "vistor.microservices.music.app.crud.album",
+        "documentation": {}
+    },
+    {
+        "label": "get_artist",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.artist",
+        "description": "vistor.microservices.music.app.crud.artist",
+        "peekOfCode": "def get_artist(db: Session, artist_id: int):\n    return db.query(Artist).filter(Artist.id == artist_id).first()\ndef create_artist(db: Session, artist: ArtistCreate):\n    db_artist = Artist(\n        name=artist.name,\n        romaji_name=artist.romaji_name,\n        created_at=artist.created_at\n    )\n    db.add(db_artist)\n    db.commit()",
+        "detail": "vistor.microservices.music.app.crud.artist",
+        "documentation": {}
+    },
+    {
+        "label": "create_artist",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.artist",
+        "description": "vistor.microservices.music.app.crud.artist",
+        "peekOfCode": "def create_artist(db: Session, artist: ArtistCreate):\n    db_artist = Artist(\n        name=artist.name,\n        romaji_name=artist.romaji_name,\n        created_at=artist.created_at\n    )\n    db.add(db_artist)\n    db.commit()\n    db.refresh(db_artist)\n    return db_artist",
+        "detail": "vistor.microservices.music.app.crud.artist",
+        "documentation": {}
+    },
+    {
+        "label": "update_artist",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.artist",
+        "description": "vistor.microservices.music.app.crud.artist",
+        "peekOfCode": "def update_artist(db: Session, db_artist: Artist, artist_update: ArtistUpdate):\n    if artist_update.name is not None:\n        db_artist.name = artist_update.name\n    if artist_update.romaji_name is not None:\n        db_artist.romaji_name = artist_update.romaji_name\n    if artist_update.created_at is not None:\n        db_artist.created_at = artist_update.created_at\n    db.commit()\n    db.refresh(db_artist)\n    return db_artist",
+        "detail": "vistor.microservices.music.app.crud.artist",
+        "documentation": {}
+    },
+    {
+        "label": "delete_artist",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.artist",
+        "description": "vistor.microservices.music.app.crud.artist",
+        "peekOfCode": "def delete_artist(db: Session, artist_id: int):\n    db_artist = db.query(Artist).filter(Artist.id == artist_id).first()\n    db.delete(db_artist)\n    db.commit()\n    return db_artist",
+        "detail": "vistor.microservices.music.app.crud.artist",
+        "documentation": {}
+    },
+    {
+        "label": "get_genre",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.genre",
+        "description": "vistor.microservices.music.app.crud.genre",
+        "peekOfCode": "def get_genre(db: Session, genre_id: int):\n    return db.query(Genre).filter(Genre.id == genre_id).first()\ndef create_genre(db: Session, genre: GenreCreate):\n    db_genre = Genre(\n        name=genre.name\n    )\n    db.add(db_genre)\n    db.commit()\n    db.refresh(db_genre)\n    return db_genre",
+        "detail": "vistor.microservices.music.app.crud.genre",
+        "documentation": {}
+    },
+    {
+        "label": "create_genre",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.genre",
+        "description": "vistor.microservices.music.app.crud.genre",
+        "peekOfCode": "def create_genre(db: Session, genre: GenreCreate):\n    db_genre = Genre(\n        name=genre.name\n    )\n    db.add(db_genre)\n    db.commit()\n    db.refresh(db_genre)\n    return db_genre\ndef update_genre(db: Session, db_genre: Genre, genre_update: GenreUpdate):\n    if genre_update.name is not None:",
+        "detail": "vistor.microservices.music.app.crud.genre",
+        "documentation": {}
+    },
+    {
+        "label": "update_genre",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.genre",
+        "description": "vistor.microservices.music.app.crud.genre",
+        "peekOfCode": "def update_genre(db: Session, db_genre: Genre, genre_update: GenreUpdate):\n    if genre_update.name is not None:\n        db_genre.name = genre_update.name\n    db.commit()\n    db.refresh(db_genre)\n    return db_genre\ndef delete_genre(db: Session, genre_id: int):\n    db_genre = db.query(Genre).filter(Genre.id == genre_id).first()\n    db.delete(db_genre)\n    db.commit()",
+        "detail": "vistor.microservices.music.app.crud.genre",
+        "documentation": {}
+    },
+    {
+        "label": "delete_genre",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.genre",
+        "description": "vistor.microservices.music.app.crud.genre",
+        "peekOfCode": "def delete_genre(db: Session, genre_id: int):\n    db_genre = db.query(Genre).filter(Genre.id == genre_id).first()\n    db.delete(db_genre)\n    db.commit()\n    return db_genre",
+        "detail": "vistor.microservices.music.app.crud.genre",
+        "documentation": {}
+    },
+    {
+        "label": "get_song",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.song",
+        "description": "vistor.microservices.music.app.crud.song",
+        "peekOfCode": "def get_song(db: Session, song_id: int):\n    return db.query(Song).filter(Song.id == song_id).first()\ndef create_song(db: Session, song: SongCreate):\n    db_song = Song(\n        title=song.title,\n        duration=song.duration,\n        album_id=song.album_id,\n        times_played=song.times_played\n    )\n    db.add(db_song)",
+        "detail": "vistor.microservices.music.app.crud.song",
+        "documentation": {}
+    },
+    {
+        "label": "create_song",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.song",
+        "description": "vistor.microservices.music.app.crud.song",
+        "peekOfCode": "def create_song(db: Session, song: SongCreate):\n    db_song = Song(\n        title=song.title,\n        duration=song.duration,\n        album_id=song.album_id,\n        times_played=song.times_played\n    )\n    db.add(db_song)\n    db.commit()\n    db.refresh(db_song)",
+        "detail": "vistor.microservices.music.app.crud.song",
+        "documentation": {}
+    },
+    {
+        "label": "update_song",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.song",
+        "description": "vistor.microservices.music.app.crud.song",
+        "peekOfCode": "def update_song(db: Session, db_song: Song, song_update: SongUpdate):\n    if song_update.title is not None:\n        db_song.title = song_update.title\n    if song_update.duration is not None:\n        db_song.duration = song_update.duration\n    if song_update.album_id is not None:\n        db_song.album_id = song_update.album_id\n    if song_update.times_played is not None:\n        db_song.times_played = song_update.times_played\n    db.commit()",
+        "detail": "vistor.microservices.music.app.crud.song",
+        "documentation": {}
+    },
+    {
+        "label": "delete_song",
+        "kind": 2,
+        "importPath": "vistor.microservices.music.app.crud.song",
+        "description": "vistor.microservices.music.app.crud.song",
+        "peekOfCode": "def delete_song(db: Session, song_id: int):\n    db_song = db.query(Song).filter(Song.id == song_id).first()\n    db.delete(db_song)\n    db.commit()\n    return db_song",
+        "detail": "vistor.microservices.music.app.crud.song",
         "documentation": {}
     },
     {
@@ -2098,20 +2506,11 @@
         "documentation": {}
     },
     {
-        "label": "Music",
-        "kind": 6,
-        "importPath": "vistor.microservices.music.app.models.music",
-        "description": "vistor.microservices.music.app.models.music",
-        "peekOfCode": "class Music(Base):\n    __tablename__ = \"musics\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    description = Column(String, index=True)\nclass Artist(Base):\n    __tablename__ = \"artists\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    romaji_name = Column(String, index=True)",
-        "detail": "vistor.microservices.music.app.models.music",
-        "documentation": {}
-    },
-    {
         "label": "Artist",
         "kind": 6,
         "importPath": "vistor.microservices.music.app.models.music",
         "description": "vistor.microservices.music.app.models.music",
-        "peekOfCode": "class Artist(Base):\n    __tablename__ = \"artists\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    romaji_name = Column(String, index=True)\n    created_at = Column(DateTime, index=True)\n    @property\n    def full_name(self) -> str:\n        return f\"{self.name} ({self.romaji_name})\"\nclass Genre(Base):",
+        "peekOfCode": "class Artist(Base):\n    __tablename__ = \"artists\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    romaji_name = Column(String, index=True)\n    created_at = Column(DateTime, index=True)\n    albums = relationship(\"Album\", back_populates=\"artist\")\n    songs = relationship(\"Song\", secondary=\"song_artists\", back_populates=\"artists\")\n    @property\n    def full_name(self) -> str:",
         "detail": "vistor.microservices.music.app.models.music",
         "documentation": {}
     },
@@ -2120,7 +2519,7 @@
         "kind": 6,
         "importPath": "vistor.microservices.music.app.models.music",
         "description": "vistor.microservices.music.app.models.music",
-        "peekOfCode": "class Genre(Base):\n    __tablename__ = \"genres\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\nclass Album(Base):\n    __tablename__ = \"albums\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, index=True)\n    artist = Column(ForeignKey(\"artists.id\"))\nclass Song(Base):",
+        "peekOfCode": "class Genre(Base):\n    __tablename__ = \"genres\"\n    id = Column(Integer, primary_key=True, index=True)\n    name = Column(String, index=True)\n    songs = relationship(\"Song\", secondary=\"song_genres\", back_populates=\"genre\")\nclass Album(Base):\n    __tablename__ = \"albums\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, index=True)\n    romaji_title = Column(String, index=True)",
         "detail": "vistor.microservices.music.app.models.music",
         "documentation": {}
     },
@@ -2129,7 +2528,7 @@
         "kind": 6,
         "importPath": "vistor.microservices.music.app.models.music",
         "description": "vistor.microservices.music.app.models.music",
-        "peekOfCode": "class Album(Base):\n    __tablename__ = \"albums\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, index=True)\n    artist = Column(ForeignKey(\"artists.id\"))\nclass Song(Base):\n    __tablename__ = \"songs\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, index=True)\n    genre = Column()",
+        "peekOfCode": "class Album(Base):\n    __tablename__ = \"albums\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, index=True)\n    romaji_title = Column(String, index=True)\n    release_date = Column(DateTime, index=True)\n    artist_id = Column(ForeignKey(\"artists.id\"))\n    album_art = Column(String)\n    artist = relationship(\"Artist\", back_populates=\"albums\")\n    songs = relationship(\"Song\", back_populates=\"album\")",
         "detail": "vistor.microservices.music.app.models.music",
         "documentation": {}
     },
@@ -2138,161 +2537,224 @@
         "kind": 6,
         "importPath": "vistor.microservices.music.app.models.music",
         "description": "vistor.microservices.music.app.models.music",
-        "peekOfCode": "class Song(Base):\n    __tablename__ = \"songs\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, index=True)\n    genre = Column()",
+        "peekOfCode": "class Song(Base):\n    __tablename__ = \"songs\"\n    id = Column(Integer, primary_key=True, index=True)\n    title = Column(String, index=True)\n    romaji_title = Column(String, index=True)\n    # Metadata\n    file_location = Column(String, index=True)\n    duration = Column(Integer, index=True)  # duration in seconds\n    track_number = Column(Integer, index=True)\n    times_played = Column(Integer, index=True, default=0)",
         "detail": "vistor.microservices.music.app.models.music",
         "documentation": {}
     },
     {
-        "label": "User",
+        "label": "AlbumBase",
         "kind": 6,
-        "importPath": "vistor.microservices.music.app.models.user_model",
-        "description": "vistor.microservices.music.app.models.user_model",
-        "peekOfCode": "class User(Base):\n    __tablename__ = \"users\"\n    id = Column(Integer, primary_key=True, index=True)\n    username = Column(String, unique=True, index=True)\n    email = Column(String, unique=True, index=True)\n    full_name = Column(String, index=True)\n    hashed_password = Column(String)\n    is_active = Column(Boolean, default=True)\n    is_superuser = Column(Boolean, default=False)",
-        "detail": "vistor.microservices.music.app.models.user_model",
+        "importPath": "vistor.microservices.music.app.schemas.album",
+        "description": "vistor.microservices.music.app.schemas.album",
+        "peekOfCode": "class AlbumBase(BaseModel):\n    title: str = Field(..., example=\"旅人\")\n    romaji_title: str | None = Field(None, example=\"Tabibito\")\n    release_date: datetime | None = None\n    album_art: Optional[str] = None\n    artist_id: int\nclass AlbumCreate(AlbumBase):\n    pass\nclass AlbumUpdate(BaseModel):\n    title: Optional[str] = None",
+        "detail": "vistor.microservices.music.app.schemas.album",
         "documentation": {}
     },
     {
-        "label": "MusicBase",
+        "label": "AlbumCreate",
         "kind": 6,
-        "importPath": "vistor.microservices.music.app.schemas.music",
-        "description": "vistor.microservices.music.app.schemas.music",
-        "peekOfCode": "class MusicBase(BaseModel):\n    name: str\n    description: str\nclass MusicCreate(MusicBase):\n    pass\nclass Music(MusicBase):\n    id: int\n    class Config:\n        from_attributes = True",
-        "detail": "vistor.microservices.music.app.schemas.music",
+        "importPath": "vistor.microservices.music.app.schemas.album",
+        "description": "vistor.microservices.music.app.schemas.album",
+        "peekOfCode": "class AlbumCreate(AlbumBase):\n    pass\nclass AlbumUpdate(BaseModel):\n    title: Optional[str] = None\n    romaji_title: Optional[str] = None\n    release_date: Optional[datetime] = None\n    album_art: Optional[str] = None\n    artist_id: Optional[int] = None\n# ---------- nested schemas ----------\nclass SongSummary(BaseModel):",
+        "detail": "vistor.microservices.music.app.schemas.album",
         "documentation": {}
     },
     {
-        "label": "MusicCreate",
+        "label": "AlbumUpdate",
         "kind": 6,
-        "importPath": "vistor.microservices.music.app.schemas.music",
-        "description": "vistor.microservices.music.app.schemas.music",
-        "peekOfCode": "class MusicCreate(MusicBase):\n    pass\nclass Music(MusicBase):\n    id: int\n    class Config:\n        from_attributes = True",
-        "detail": "vistor.microservices.music.app.schemas.music",
+        "importPath": "vistor.microservices.music.app.schemas.album",
+        "description": "vistor.microservices.music.app.schemas.album",
+        "peekOfCode": "class AlbumUpdate(BaseModel):\n    title: Optional[str] = None\n    romaji_title: Optional[str] = None\n    release_date: Optional[datetime] = None\n    album_art: Optional[str] = None\n    artist_id: Optional[int] = None\n# ---------- nested schemas ----------\nclass SongSummary(BaseModel):\n    id: int\n    title: str",
+        "detail": "vistor.microservices.music.app.schemas.album",
         "documentation": {}
     },
     {
-        "label": "Music",
+        "label": "SongSummary",
         "kind": 6,
-        "importPath": "vistor.microservices.music.app.schemas.music",
-        "description": "vistor.microservices.music.app.schemas.music",
-        "peekOfCode": "class Music(MusicBase):\n    id: int\n    class Config:\n        from_attributes = True",
-        "detail": "vistor.microservices.music.app.schemas.music",
+        "importPath": "vistor.microservices.music.app.schemas.album",
+        "description": "vistor.microservices.music.app.schemas.album",
+        "peekOfCode": "class SongSummary(BaseModel):\n    id: int\n    title: str\n    romaji_title: Optional[str] = None\n    track_number: int | None = None\n    class Config:\n        orm_mode = True\nclass ArtistSummary(BaseModel):\n    id: int\n    name: str",
+        "detail": "vistor.microservices.music.app.schemas.album",
         "documentation": {}
     },
     {
-        "label": "UserBase",
+        "label": "ArtistSummary",
         "kind": 6,
-        "importPath": "vistor.microservices.music.app.schemas.user_schema",
-        "description": "vistor.microservices.music.app.schemas.user_schema",
-        "peekOfCode": "class UserBase(BaseModel):\n    username: str\n    email: str\nclass UserCreate(UserBase):\n    password: str\nclass User(UserBase):\n    id: int\n    full_name: str\n    is_active: bool\n    is_superuser: bool",
-        "detail": "vistor.microservices.music.app.schemas.user_schema",
+        "importPath": "vistor.microservices.music.app.schemas.album",
+        "description": "vistor.microservices.music.app.schemas.album",
+        "peekOfCode": "class ArtistSummary(BaseModel):\n    id: int\n    name: str\n    romaji_name: str\n    class Config:\n        orm_mode = True\nclass AlbumRead(AlbumBase):\n    id: int\n    artist: ArtistSummary\n    songs: List[SongSummary] = []",
+        "detail": "vistor.microservices.music.app.schemas.album",
         "documentation": {}
     },
     {
-        "label": "UserCreate",
+        "label": "AlbumRead",
         "kind": 6,
-        "importPath": "vistor.microservices.music.app.schemas.user_schema",
-        "description": "vistor.microservices.music.app.schemas.user_schema",
-        "peekOfCode": "class UserCreate(UserBase):\n    password: str\nclass User(UserBase):\n    id: int\n    full_name: str\n    is_active: bool\n    is_superuser: bool\n    class Config:\n        orm_mode = True\nclass Token(BaseModel):",
-        "detail": "vistor.microservices.music.app.schemas.user_schema",
+        "importPath": "vistor.microservices.music.app.schemas.album",
+        "description": "vistor.microservices.music.app.schemas.album",
+        "peekOfCode": "class AlbumRead(AlbumBase):\n    id: int\n    artist: ArtistSummary\n    songs: List[SongSummary] = []\n    class Config:\n        orm_mode = True",
+        "detail": "vistor.microservices.music.app.schemas.album",
         "documentation": {}
     },
     {
-        "label": "User",
+        "label": "ArtistBase",
         "kind": 6,
-        "importPath": "vistor.microservices.music.app.schemas.user_schema",
-        "description": "vistor.microservices.music.app.schemas.user_schema",
-        "peekOfCode": "class User(UserBase):\n    id: int\n    full_name: str\n    is_active: bool\n    is_superuser: bool\n    class Config:\n        orm_mode = True\nclass Token(BaseModel):\n    access_token: str\n    token_type: str",
-        "detail": "vistor.microservices.music.app.schemas.user_schema",
+        "importPath": "vistor.microservices.music.app.schemas.artist",
+        "description": "vistor.microservices.music.app.schemas.artist",
+        "peekOfCode": "class ArtistBase(BaseModel):\n    name: str = Field(..., example=\"坂本龍一\")\n    romaji_name: str = Field(..., example=\"Ryuichi Sakamoto\")\n    created_at: datetime | None = None  # will be set by DB if omitted\nclass ArtistCreate(ArtistBase):\n    pass\nclass ArtistUpdate(BaseModel):\n    name: Optional[str] = None\n    romaji_name: Optional[str] = None\n    created_at: Optional[datetime] = None",
+        "detail": "vistor.microservices.music.app.schemas.artist",
         "documentation": {}
     },
     {
-        "label": "Token",
+        "label": "ArtistCreate",
         "kind": 6,
-        "importPath": "vistor.microservices.music.app.schemas.user_schema",
-        "description": "vistor.microservices.music.app.schemas.user_schema",
-        "peekOfCode": "class Token(BaseModel):\n    access_token: str\n    token_type: str\nclass TokenData(BaseModel):\n    username: str | None = None",
-        "detail": "vistor.microservices.music.app.schemas.user_schema",
+        "importPath": "vistor.microservices.music.app.schemas.artist",
+        "description": "vistor.microservices.music.app.schemas.artist",
+        "peekOfCode": "class ArtistCreate(ArtistBase):\n    pass\nclass ArtistUpdate(BaseModel):\n    name: Optional[str] = None\n    romaji_name: Optional[str] = None\n    created_at: Optional[datetime] = None\n# ---------- nested schemas for relations ----------\nclass AlbumSummary(BaseModel):\n    id: int\n    title: str",
+        "detail": "vistor.microservices.music.app.schemas.artist",
         "documentation": {}
     },
     {
-        "label": "TokenData",
+        "label": "ArtistUpdate",
         "kind": 6,
-        "importPath": "vistor.microservices.music.app.schemas.user_schema",
-        "description": "vistor.microservices.music.app.schemas.user_schema",
-        "peekOfCode": "class TokenData(BaseModel):\n    username: str | None = None",
-        "detail": "vistor.microservices.music.app.schemas.user_schema",
+        "importPath": "vistor.microservices.music.app.schemas.artist",
+        "description": "vistor.microservices.music.app.schemas.artist",
+        "peekOfCode": "class ArtistUpdate(BaseModel):\n    name: Optional[str] = None\n    romaji_name: Optional[str] = None\n    created_at: Optional[datetime] = None\n# ---------- nested schemas for relations ----------\nclass AlbumSummary(BaseModel):\n    id: int\n    title: str\n    romaji_title: str | None = None\n    release_date: datetime | None = None",
+        "detail": "vistor.microservices.music.app.schemas.artist",
         "documentation": {}
     },
     {
-        "label": "test_login",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.tests.test_auth",
-        "description": "vistor.microservices.music.app.tests.test_auth",
-        "peekOfCode": "def test_login():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    assert response.status_code == 200\n    assert \"access_token\" in response.json()\ndef test_get_current_user():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    token = response.json()[\"access_token\"]\n    response = client.get(\"/users/me/\", headers={\"Authorization\": f\"Bearer {token}\"})\n    assert response.status_code == 200\n    assert response.json()[\"username\"] == \"testuser\"",
-        "detail": "vistor.microservices.music.app.tests.test_auth",
+        "label": "AlbumSummary",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.artist",
+        "description": "vistor.microservices.music.app.schemas.artist",
+        "peekOfCode": "class AlbumSummary(BaseModel):\n    id: int\n    title: str\n    romaji_title: str | None = None\n    release_date: datetime | None = None\n    class Config:\n        orm_mode = True\nclass SongSummary(BaseModel):\n    id: int\n    title: str",
+        "detail": "vistor.microservices.music.app.schemas.artist",
         "documentation": {}
     },
     {
-        "label": "test_get_current_user",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.tests.test_auth",
-        "description": "vistor.microservices.music.app.tests.test_auth",
-        "peekOfCode": "def test_get_current_user():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    token = response.json()[\"access_token\"]\n    response = client.get(\"/users/me/\", headers={\"Authorization\": f\"Bearer {token}\"})\n    assert response.status_code == 200\n    assert response.json()[\"username\"] == \"testuser\"",
-        "detail": "vistor.microservices.music.app.tests.test_auth",
+        "label": "SongSummary",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.artist",
+        "description": "vistor.microservices.music.app.schemas.artist",
+        "peekOfCode": "class SongSummary(BaseModel):\n    id: int\n    title: str\n    romaji_title: Optional[str] = None\n    track_number: int | None = None\n    class Config:\n        orm_mode = True\nclass ArtistRead(ArtistBase):\n    id: int\n    albums: List[AlbumSummary] = []",
+        "detail": "vistor.microservices.music.app.schemas.artist",
         "documentation": {}
     },
     {
-        "label": "client",
-        "kind": 5,
-        "importPath": "vistor.microservices.music.app.tests.test_auth",
-        "description": "vistor.microservices.music.app.tests.test_auth",
-        "peekOfCode": "client = TestClient(app)\ndef test_login():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    assert response.status_code == 200\n    assert \"access_token\" in response.json()\ndef test_get_current_user():\n    response = client.post(\"/token\", data={\"username\": \"testuser\", \"password\": \"testpassword\"})\n    token = response.json()[\"access_token\"]\n    response = client.get(\"/users/me/\", headers={\"Authorization\": f\"Bearer {token}\"})\n    assert response.status_code == 200",
-        "detail": "vistor.microservices.music.app.tests.test_auth",
+        "label": "ArtistRead",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.artist",
+        "description": "vistor.microservices.music.app.schemas.artist",
+        "peekOfCode": "class ArtistRead(ArtistBase):\n    id: int\n    albums: List[AlbumSummary] = []\n    songs: List[SongSummary] = []\n    # computed properties from the model\n    full_name: str\n    stats: dict[str, int]\n    class Config:\n        orm_mode = True",
+        "detail": "vistor.microservices.music.app.schemas.artist",
         "documentation": {}
     },
     {
-        "label": "test_create_music",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.tests.test_example",
-        "description": "vistor.microservices.music.app.tests.test_example",
-        "peekOfCode": "def test_create_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Music\"\ndef test_read_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.get(f\"/music/{item_id}\")\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Music\"",
-        "detail": "vistor.microservices.music.app.tests.test_example",
+        "label": "GenreBase",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.genre",
+        "description": "vistor.microservices.music.app.schemas.genre",
+        "peekOfCode": "class GenreBase(BaseModel):\n    name: str = Field(..., example=\"Jazz\")\nclass GenreCreate(GenreBase):\n    pass\nclass GenreUpdate(BaseModel):\n    name: Optional[str] = None\n# ---------- nested schemas ----------\nclass SongSummary(BaseModel):\n    id: int\n    title: str",
+        "detail": "vistor.microservices.music.app.schemas.genre",
         "documentation": {}
     },
     {
-        "label": "test_read_music",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.tests.test_example",
-        "description": "vistor.microservices.music.app.tests.test_example",
-        "peekOfCode": "def test_read_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.get(f\"/music/{item_id}\")\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Music\"\ndef test_update_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.put(f\"/music/{item_id}\", json={\"name\": \"Updated Music\", \"description\": \"Updated description\"})",
-        "detail": "vistor.microservices.music.app.tests.test_example",
+        "label": "GenreCreate",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.genre",
+        "description": "vistor.microservices.music.app.schemas.genre",
+        "peekOfCode": "class GenreCreate(GenreBase):\n    pass\nclass GenreUpdate(BaseModel):\n    name: Optional[str] = None\n# ---------- nested schemas ----------\nclass SongSummary(BaseModel):\n    id: int\n    title: str\n    class Config:\n        orm_mode = True",
+        "detail": "vistor.microservices.music.app.schemas.genre",
         "documentation": {}
     },
     {
-        "label": "test_update_music",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.tests.test_example",
-        "description": "vistor.microservices.music.app.tests.test_example",
-        "peekOfCode": "def test_update_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.put(f\"/music/{item_id}\", json={\"name\": \"Updated Music\", \"description\": \"Updated description\"})\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Updated Music\"\ndef test_delete_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.delete(f\"/music/{item_id}\")",
-        "detail": "vistor.microservices.music.app.tests.test_example",
+        "label": "GenreUpdate",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.genre",
+        "description": "vistor.microservices.music.app.schemas.genre",
+        "peekOfCode": "class GenreUpdate(BaseModel):\n    name: Optional[str] = None\n# ---------- nested schemas ----------\nclass SongSummary(BaseModel):\n    id: int\n    title: str\n    class Config:\n        orm_mode = True\nclass GenreRead(GenreBase):\n    id: int",
+        "detail": "vistor.microservices.music.app.schemas.genre",
         "documentation": {}
     },
     {
-        "label": "test_delete_music",
-        "kind": 2,
-        "importPath": "vistor.microservices.music.app.tests.test_example",
-        "description": "vistor.microservices.music.app.tests.test_example",
-        "peekOfCode": "def test_delete_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.delete(f\"/music/{item_id}\")\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Music\"",
-        "detail": "vistor.microservices.music.app.tests.test_example",
+        "label": "SongSummary",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.genre",
+        "description": "vistor.microservices.music.app.schemas.genre",
+        "peekOfCode": "class SongSummary(BaseModel):\n    id: int\n    title: str\n    class Config:\n        orm_mode = True\nclass GenreRead(GenreBase):\n    id: int\n    songs: List[SongSummary] = []\n    class Config:\n        orm_mode = True",
+        "detail": "vistor.microservices.music.app.schemas.genre",
         "documentation": {}
     },
     {
-        "label": "client",
-        "kind": 5,
-        "importPath": "vistor.microservices.music.app.tests.test_example",
-        "description": "vistor.microservices.music.app.tests.test_example",
-        "peekOfCode": "client = TestClient(app)\ndef test_create_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    assert response.status_code == 200\n    assert response.json()[\"name\"] == \"Test Music\"\ndef test_read_music():\n    response = client.post(\"/music/\", json={\"name\": \"Test Music\", \"description\": \"A music for testing\"})\n    item_id = response.json()[\"id\"]\n    response = client.get(f\"/music/{item_id}\")\n    assert response.status_code == 200",
-        "detail": "vistor.microservices.music.app.tests.test_example",
+        "label": "GenreRead",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.genre",
+        "description": "vistor.microservices.music.app.schemas.genre",
+        "peekOfCode": "class GenreRead(GenreBase):\n    id: int\n    songs: List[SongSummary] = []\n    class Config:\n        orm_mode = True",
+        "detail": "vistor.microservices.music.app.schemas.genre",
+        "documentation": {}
+    },
+    {
+        "label": "SongBase",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.song",
+        "description": "vistor.microservices.music.app.schemas.song",
+        "peekOfCode": "class SongBase(BaseModel):\n    title: str = Field(..., example=\"旅人\")\n    romaji_title: str | None = None\n    file_location: str | None = None  # path or URL\n    duration: int | None = None        # seconds\n    track_number: int | None = None\n    times_played: int | None = None\n    created_at: datetime | None = None\n    album_id: Optional[int] = None\nclass SongCreate(SongBase):",
+        "detail": "vistor.microservices.music.app.schemas.song",
+        "documentation": {}
+    },
+    {
+        "label": "SongCreate",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.song",
+        "description": "vistor.microservices.music.app.schemas.song",
+        "peekOfCode": "class SongCreate(SongBase):\n    pass\nclass SongUpdate(BaseModel):\n    title: Optional[str] = None\n    romaji_title: Optional[str] = None\n    file_location: Optional[str] = None\n    duration: Optional[int] = None\n    track_number: Optional[int] = None\n    times_played: Optional[int] = None\n    album_id: Optional[int] = None",
+        "detail": "vistor.microservices.music.app.schemas.song",
+        "documentation": {}
+    },
+    {
+        "label": "SongUpdate",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.song",
+        "description": "vistor.microservices.music.app.schemas.song",
+        "peekOfCode": "class SongUpdate(BaseModel):\n    title: Optional[str] = None\n    romaji_title: Optional[str] = None\n    file_location: Optional[str] = None\n    duration: Optional[int] = None\n    track_number: Optional[int] = None\n    times_played: Optional[int] = None\n    album_id: Optional[int] = None\n# ---------- nested schemas ----------\nclass GenreSummary(BaseModel):",
+        "detail": "vistor.microservices.music.app.schemas.song",
+        "documentation": {}
+    },
+    {
+        "label": "GenreSummary",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.song",
+        "description": "vistor.microservices.music.app.schemas.song",
+        "peekOfCode": "class GenreSummary(BaseModel):\n    id: int\n    name: str\n    class Config:\n        orm_mode = True\nclass ArtistSummary(BaseModel):\n    id: int\n    name: str\n    romaji_name: str\n    class Config:",
+        "detail": "vistor.microservices.music.app.schemas.song",
+        "documentation": {}
+    },
+    {
+        "label": "ArtistSummary",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.song",
+        "description": "vistor.microservices.music.app.schemas.song",
+        "peekOfCode": "class ArtistSummary(BaseModel):\n    id: int\n    name: str\n    romaji_name: str\n    class Config:\n        orm_mode = True\nclass AlbumSummary(BaseModel):\n    id: int\n    title: str\n    class Config:",
+        "detail": "vistor.microservices.music.app.schemas.song",
+        "documentation": {}
+    },
+    {
+        "label": "AlbumSummary",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.song",
+        "description": "vistor.microservices.music.app.schemas.song",
+        "peekOfCode": "class AlbumSummary(BaseModel):\n    id: int\n    title: str\n    class Config:\n        orm_mode = True\nclass SongRead(SongBase):\n    id: int\n    album: Optional[AlbumSummary] = None\n    genres: List[GenreSummary] = []\n    artists: List[ArtistSummary] = []",
+        "detail": "vistor.microservices.music.app.schemas.song",
+        "documentation": {}
+    },
+    {
+        "label": "SongRead",
+        "kind": 6,
+        "importPath": "vistor.microservices.music.app.schemas.song",
+        "description": "vistor.microservices.music.app.schemas.song",
+        "peekOfCode": "class SongRead(SongBase):\n    id: int\n    album: Optional[AlbumSummary] = None\n    genres: List[GenreSummary] = []\n    artists: List[ArtistSummary] = []\n    class Config:\n        orm_mode = True",
+        "detail": "vistor.microservices.music.app.schemas.song",
         "documentation": {}
     },
     {
