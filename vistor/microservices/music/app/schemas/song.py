@@ -60,7 +60,7 @@ class AlbumSummary(BaseModel):
 
 class SongRead(SongBase):
     id: int
-    album: Optional[AlbumSummary] = None
+    album: Optional[List[AlbumSummary]] = None
     genres: List[GenreSummary] = []
     artists: List[ArtistSummary] = []
 

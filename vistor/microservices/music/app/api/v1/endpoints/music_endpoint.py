@@ -1,6 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlalchemy.orm import Session, joinedload, subqueryload
-from app.models.music import Song, Artist, Album, Genre
+from app.models.music import Song
+from app.schemas.song import SongCreate, SongUpdate
 from app.db.session import get_db
 
 router = APIRouter()
