@@ -1,0 +1,13 @@
+fastapi
+sqlalchemy
+pillow
+requests
+alembic
+pydantic
+mutagen
+psycopg2-binary
+asyncpg
+pytest
+pydantic-settings
+uvicorn
+

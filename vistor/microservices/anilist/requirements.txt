@@ -1,7 +1,0 @@
-fastapi
-sqlalchemy
-pydantic
-uvicorn
-passlib[bcrypt]
-pytest
-pydantic-settings
