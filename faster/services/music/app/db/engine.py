@@ -1,22 +1,23 @@
+from sqlalchemy import create_engine
+from sqlalchemy.orm import sessionmaker
+from app.db.base import Base, engine, SessionLocal
 
-import sqlalchemy.ext.asyncio as async_sqlalchemy
-from app.core.config import settings
-# ------------------------------------------------------------------
-DATABASE_URL = (
-    settings.database_url  # e.g., "postgresql+asyncpg://user:password@localhost/dbname"
-)
+# Create database if it doesn't exist
+def create_database():
+    try:
+        engine.connect()
+        print("Database connected successfully")
+    except Exception as e:
+        print(f"Error connecting to database: {e}")
+        raise
 
-engine = async_sqlalchemy.create_async_engine(
-    DATABASE_URL,
-    echo=True,          # Log SQL statements – handy during dev
-    future=True,
-)
+def init_db():
+    """Initialize the database with tables."""
+    Base.metadata.create_all(bind=engine)
+    print("Database initialized with tables")
 
-# Create a session factory that returns an AsyncSession
-AsyncSessionLocal = async_sqlalchemy.async_sessionmaker(engine, expire_on_commit=False)
+# Create the database if it doesn't exist
+create_database()
 
-async def init_db():
-    from models.music import metadata
-    """Create tables on first run. In production you’d use Alembic."""
-    async with engine.begin() as conn:
-        await conn.run_sync(metadata.create_all)
+# Initialize tables
+init_db()

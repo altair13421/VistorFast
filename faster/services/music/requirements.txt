@@ -10,4 +10,6 @@ asyncpg
 pytest
 pydantic-settings
 uvicorn
-
+pytest-asyncio
+pytest-tornasync
+python-dotenv

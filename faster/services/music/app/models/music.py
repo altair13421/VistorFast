@@ -1,24 +1,26 @@
 from sqlalchemy import Column, DateTime, ForeignKey, Integer, String, Table
 from sqlalchemy.orm import relationship
-from sqlalchemy import Column, Integer, String, MetaData, Table
 
-metadata = MetaData()
+from sqlalchemy.ext.declarative import declarative_base
+from datetime import datetime
+
+Base = declarative_base()
 
 song_artists = Table(
     "song_artists",
-    metadata,
+    Base.metadata,
     Column("artist_id", ForeignKey("artists.id"), primary_key=True),
     Column("song_id", ForeignKey("songs.id"), primary_key=True),
 )
 
 song_genres = Table(
     "song_genres",
-    metadata,
+    Base.metadata,
     Column("genre_id", ForeignKey("genres.id"), primary_key=True),
     Column("song_id", ForeignKey("songs.id"), primary_key=True),
 )
 
-class Artist():
+class Artist(Base):
     __tablename__ = "artists"
 
     id = Column(Integer, primary_key=True, index=True)
@@ -41,14 +43,14 @@ class Artist():
         }
 
 
-class Genre():
+class Genre(Base):
     __tablename__ = "genres"
 
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, index=True)
     songs = relationship("Song", secondary="song_genres", back_populates="genre")
 
-class Album():
+class Album(Base):
     __tablename__ = "albums"
 
     id = Column(Integer, primary_key=True, index=True)
@@ -60,7 +62,7 @@ class Album():
     artist = relationship("Artist", back_populates="albums")
     songs = relationship("Song", back_populates="album")
 
-class Song():
+class Song(Base):
     __tablename__ = "songs"
 
     id = Column(Integer, primary_key=True, index=True)

@@ -25,7 +25,8 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - DATABASE_URL=postgres://music_user:music_password@music_db:5431/music_db
+      # - DATABASE_URL=postgresql+asyncpg://music_user:music_password@music_db:5431/music_db
+      - DATABASE_URL=sqlite+aiosqlite:///./app.db
       - POSTGRES_HOST=music_db
       - POSTGRES_PORT=5431
     depends_on:

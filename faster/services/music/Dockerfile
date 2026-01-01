@@ -39,6 +39,8 @@ RUN chown -R appuser:appuser /app
 
 # Switch to non-root user
 USER appuser
+# Make Alembic script executable
+RUN chmod +x alembic.sh
 
 # Expose port
 EXPOSE 8000
