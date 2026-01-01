@@ -1,10 +1,8 @@
 from sqlalchemy import Column, DateTime, ForeignKey, Integer, String, Table
 from sqlalchemy.orm import relationship
-
-from sqlalchemy.ext.declarative import declarative_base
+from app.db.base import Base
 from datetime import datetime
-
-Base = declarative_base()
+import datetime
 
 song_artists = Table(
     "song_artists",
@@ -26,7 +24,6 @@ class Artist(Base):
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, index=True)
     romaji_name = Column(String, index=True)
-    created_at = Column(DateTime, index=True)
     albums = relationship("Album", back_populates="artist")
     songs = relationship("Song", secondary="song_artists", back_populates="artists")
 
@@ -74,7 +71,7 @@ class Song(Base):
     duration = Column(Integer, index=True)  # duration in seconds
     track_number = Column(Integer, index=True)
     times_played = Column(Integer, index=True, default=0)
-    created_at = Column(DateTime, index=True)
+    created_at = Column(DateTime, index=True, default=datetime.datetime.now(datetime.timezone.utc))
 
     # Relations
     genres = relationship(Genre, secondary="song_genre_association", back_populates="songs")
