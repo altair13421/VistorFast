@@ -24,8 +24,10 @@ class Artist(Base):
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, index=True)
     romaji_name = Column(String, index=True)
+    created_at = Column(DateTime, index=True, default=datetime.datetime.now(datetime.timezone.utc))
     albums = relationship("Album", back_populates="artist")
     songs = relationship("Song", secondary="song_artists", back_populates="artists")
+
 
     @property
     def full_name(self) -> str:
@@ -46,6 +48,7 @@ class Genre(Base):
     id = Column(Integer, primary_key=True, index=True)
     name = Column(String, index=True)
     songs = relationship("Song", secondary="song_genres", back_populates="genre")
+    created_at = Column(DateTime, index=True, default=datetime.datetime.now(datetime.timezone.utc))
 
 class Album(Base):
     __tablename__ = "albums"
@@ -54,6 +57,7 @@ class Album(Base):
     title = Column(String, index=True)
     romaji_title = Column(String, index=True)
     release_date = Column(DateTime, index=True)
+    created_at = Column(DateTime, index=True, default=datetime.datetime.now(datetime.timezone.utc))
     artist_id = Column(ForeignKey("artists.id"))
     album_art = Column(String)
     artist = relationship("Artist", back_populates="albums")
