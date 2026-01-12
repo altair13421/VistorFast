@@ -2,7 +2,6 @@ from sqlalchemy import Column, DateTime, ForeignKey, Integer, String, Table
 from sqlalchemy.orm import relationship
 from app.db.base import Base
 from datetime import datetime
-import datetime
 
 song_artists = Table(
     "song_artists",
