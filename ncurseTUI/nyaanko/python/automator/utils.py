@@ -1,12 +1,11 @@
 import os
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-import json
 import time
 import urllib
-import os
 from lxml import etree
 from rich.console import Console
 from urllib.parse import urlencode
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 console = Console()
 
 # Nyaa Related
@@ -52,12 +51,6 @@ def parse_nyaa(request_text):
     request_text = request_text
     torrents = list()
     return torrents
-
-# Json READER METHODS
-def read_json():
-    with open(f'{BASE_DIR}{os.sep}configs.json', 'r') as jsonfile:
-        data = dict(json.loads(jsonfile.read()))
-    return data["ANIME_TO_AUTO_DOWNLOAD"], data["USERS"]
 
 # OTHERS
 def rprint_error(string):

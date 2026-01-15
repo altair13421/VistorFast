@@ -3,8 +3,93 @@ import curses
 import json
 import os
 from datetime import datetime
+from typing import Any
 from automator.nyaa import search_torrent
 from automator import get_categories
+
+CONFIG_FILE = os.path.join(".", "config.json")
+
+def get_config() -> dict[str,Any]:
+    with open(CONFIG_FILE) as config_read:
+        config = json.load(config_read)
+    return config
+
+def create_config(config: dict["str", Any]) -> bool:
+    try:
+        with open(CONFIG_FILE, "w") as config_write:
+            config_write.write(json.dumps(config, indent=4, sort_keys=False))
+        return True
+    except:
+        return False
+class TorrentHelper:
+    def __init__(self):
+        pass
+
+    def get_default_settings(self): ...
+
+    def add_magnet(self, magnet): ...
+
+
+class Torrenting(TorrentHelper):
+    def __init__(self):
+        self.torrents = []
+
+    def draw_header(self, stdscr, height, width):
+        """Draw application header"""
+        # Title
+        title = " Torrentor "
+        stdscr.addstr(1, (width - len(title)) // 2, title, curses.A_BOLD)
+
+        # Stats
+        total = len(self.torrents)
+        stats = f"Torrent-or| Total: {total}"
+        stdscr.addstr(2, (width - len(stats)) // 2, stats)
+
+        # Separator
+        stdscr.addstr(3, 0, "=" * width)
+
+
+    def draw_torrents(self, stdscr, height, width): ...
+
+
+    def draw_footer(self, stdscr, height, width):
+        """Draw help/status footer"""
+        # Separator
+        stdscr.addstr(height - 4, 0, "-" * width)
+
+        # Help text
+        help_items = [
+            ("a", "Add Magnet"),
+            ("s", "Stop/Start"),
+            ("d", "Delete"),
+            ("f", "Search Files"),
+            ("o", "Open (Linux Only)"),
+            ("T", "Change Screen"),
+            ("q", "Quit"),
+        ]
+
+        help_text = " | ".join([f"{key}: {desc}" for key, desc in help_items])
+        stdscr.addstr(height - 2, (width - len(help_text)) // 2, help_text)
+
+    def draw_ui(self, stdscr):
+        """Main UI drawing function"""
+        stdscr.clear()
+        height, width = stdscr.getmaxyx()
+
+        # Title
+        title = "Torrenting Screen"
+        win = curses.initscr()
+        win.addstr(0, (width - len(title)) // 2, title, curses.A_BOLD)
+
+        # Setup colors (if supported)
+        if curses.has_colors():
+            curses.start_color()
+            curses.init_pair(1, curses.COLOR_GREEN, curses.COLOR_BLACK)  # Pending
+            curses.init_pair(2, curses.COLOR_CYAN, curses.COLOR_BLACK)  # Completed
+            curses.init_pair(3, curses.COLOR_YELLOW, curses.COLOR_BLACK)  # Highlight
+        self.draw_header(win, height, width)
+
+        self.draw_footer(win, height, width)
 
 
 class NyaaHelper:
@@ -31,8 +116,7 @@ class NyaaHelper:
             return f"{self.categories[cat]["name"]} - All"
         return f"{self.categories[cat]['name']} - {self.categories[cat]['sub_cats'][sub_cat]}"
 
-
-class NyaaUI(NyaaHelper):
+class NyaaScreen(NyaaHelper):
     def __init__(self):
         super().__init__()
         self.torrents = []
@@ -42,11 +126,10 @@ class NyaaUI(NyaaHelper):
         self.sub_category = 0
         self.page = 1
         self.running = True
-        self.filter_mode = ""  # Added missing attribute filter_mode
-        self.selected = 0  # Added attribute selected
+        self.selected = 0
         self.startup()
-
-    def copy_to_clipboard(self, index): ...
+        self.filter_mode = ""  # Added missing attribute filter_mode
+        self.start_index = 0
 
     def draw_header(self, stdscr, height, width):
         """Draw application header"""
@@ -61,8 +144,6 @@ class NyaaUI(NyaaHelper):
 
         # Separator
         stdscr.addstr(3, 0, "=" * width)
-
-    def create_table_heading(self, stdscr, height, width): ...
 
     def draw_footer(self, stdscr, height, width):
         """Draw help/status footer"""
@@ -79,8 +160,8 @@ class NyaaUI(NyaaHelper):
             ("f", "Filter"),
             ("r", "Reset"),
             ("Space", "Toggle"),
-            ("c", "Copy"),
             ("o", "Open Torrent App"),
+            ("T", "Change Screen"),
             ("q", "Quit"),
         ]
 
@@ -103,6 +184,32 @@ class NyaaUI(NyaaHelper):
                 stdscr.addstr(i + 4, 2, text, curses.A_REVERSE)
             else:
                 stdscr.addstr(i + 4, 2, text)
+
+    def handle_input(self, stdscr, key):
+        # Navigation
+        if key == curses.KEY_UP:
+            self.selected = max(0, self.selected - 1)
+        elif key == curses.KEY_DOWN:
+            self.selected = min(len(self.torrents) - 1, self.selected + 1)
+
+        # No Page Stuff
+        # elif key == curses.KEY_LEFT:
+        #     if self.page > 1:
+        #         self.page -= 1
+        #     self.torrents = self.search()
+        # elif key == curses.KEY_RIGHT:
+        #     self.page += 1
+        #     self.torrents = self.search()
+        # main UI
+        elif key == ord("s"):
+            self.handle_search(stdscr)
+        elif key == ord("f"):
+            self.handle_filter(stdscr)
+        elif key == ord('r'):
+            self.query = ""
+            self.category = 0
+            self.sub_category = 0
+            self.torrents = self.search()
 
     def handle_filter(self, stdscr):
         h, w = stdscr.getmaxyx()
@@ -174,8 +281,8 @@ class NyaaUI(NyaaHelper):
 
         # Title
         title = "Simple NYAA Interpreter"
-        stdscr.addstr(0, (width - len(title)) // 2, title, curses.A_BOLD)
-
+        win = curses.initscr()
+        win.addstr(0, (width - len(title)) // 2, title, curses.A_BOLD)
         # Setup colors (if supported)
         if curses.has_colors():
             curses.start_color()
@@ -184,40 +291,46 @@ class NyaaUI(NyaaHelper):
             curses.init_pair(3, curses.COLOR_YELLOW, curses.COLOR_BLACK)  # Highlight
 
         # Draw all UI components
-        self.draw_header(stdscr, height, width)
-        self.draw_torrents(stdscr, height, width)
-        self.draw_footer(stdscr, height, width)
+        self.draw_header(win, height, width)
+        self.draw_torrents(win, height, width)
+        self.draw_footer(win, height, width)
 
         stdscr.refresh()
+
+
+class TerminalUI():
+    def __init__(self):
+        self.running = True
+        self.screens = {
+            "NyaaScreen": NyaaScreen(),
+            "TorrentScreen": Torrenting(),
+        }
+        self.active_screen = self.get_home_screen()
+
+    def get_home_screen(self):
+        screen_keys = list(self.screens.keys())
+        return screen_keys[0]
+
+    def get_next_screen(self):
+        screen_keys = list(self.screens.keys())
+        current_idx = screen_keys.index(self.active_screen)
+        self.active_screen = screen_keys[(current_idx + 1) % len(screen_keys)]
+
+    def copy_to_clipboard(self, index): ...
+
+
+    def draw_ui(self, stdscr):
+        self.screens[self.active_screen].draw_ui(stdscr)
 
     def handle_input(self, stdscr, key):
         if key == ord("q"):
             self.running = False
 
-        # Navigation
-        elif key == curses.KEY_UP:
-            self.selected = max(0, self.selected - 1)
-        elif key == curses.KEY_DOWN:
-            self.selected = min(len(self.torrents) - 1, self.selected + 1)
+        elif key == ord("T"):
+            self.get_next_screen()
 
-        # No Page Stuff
-        # elif key == curses.KEY_LEFT:
-        #     if self.page > 1:
-        #         self.page -= 1
-        #     self.torrents = self.search()
-        # elif key == curses.KEY_RIGHT:
-        #     self.page += 1
-        #     self.torrents = self.search()
-        # main UI
-        elif key == ord("s"):
-            self.handle_search(stdscr)
-        elif key == ord("f"):
-            self.handle_filter(stdscr)
-        elif key == ord('r'):
-            self.query = ""
-            self.category = 0
-            self.sub_category = 0
-            self.torrents = self.search()
+        else:
+            self.screens[self.active_screen].handle_input(stdscr, key)
 
     def run(self, stdscr):
         """Main application loop"""
@@ -259,7 +372,7 @@ class NyaaUI(NyaaHelper):
 
 
 def main():
-    app = NyaaUI()
+    app = TerminalUI()
     curses.wrapper(app.run)
 
 

@@ -1,7 +1,5 @@
 import os
-from automator import BASE_DIR, LIBRARY_DIR, DOWNLOAD_DIR, MEDIA_DIR
-import ffmpeg
-import sys
+from automator import MEDIA_DIR
 import subprocess
 import json
 from automator import utils
@@ -46,7 +44,7 @@ def check_video_information(path: str = "") -> list:
             else:
                 working_dir = None
     all_media = list() # all_media in sub_folder
-    if working_dir != None:
+    if working_dir is not None:
         for root, dirs, files in os.walk(working_dir):
             for filename in files:
                 if filename.__contains__(".mkv") or filename.__contains__(".mp4"):

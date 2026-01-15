@@ -1,7 +1,5 @@
 import requests
-import bs4
 from automator import BASE_URL, utils
-import os
 
 def search_torrent(*args, **kwargs):
     search = kwargs.get('search', "")
