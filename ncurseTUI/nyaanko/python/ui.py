@@ -354,7 +354,6 @@ class TerminalUI():
             except KeyboardInterrupt:
                 self.running = False
             except Exception as e:
-                # Handle any errors gracefully
                 self.draw_error(stdscr, str(e))
 
         # Cleanup
