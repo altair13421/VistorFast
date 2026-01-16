@@ -2,37 +2,55 @@
 import curses
 import json
 import os
-from datetime import datetime
 from typing import Any
 from automator.nyaa import search_torrent
 from automator import get_categories
+from automator.downloader import TorrentClient
+from time import sleep
+from curses.textpad import Textbox, rectangle
+
+client = TorrentClient(download_dir=".")
 
 CONFIG_FILE = os.path.join(".", "config.json")
 
-def get_config() -> dict[str,Any]:
+
+def get_config() -> dict[str, Any]:
     with open(CONFIG_FILE) as config_read:
         config = json.load(config_read)
     return config
+
 
 def create_config(config: dict["str", Any]) -> bool:
     try:
         with open(CONFIG_FILE, "w") as config_write:
             config_write.write(json.dumps(config, indent=4, sort_keys=False))
         return True
-    except:
+    except Exception:
         return False
-class TorrentHelper:
+
+
+class UniversalTorrentor:
     def __init__(self):
-        pass
+        self.refresh_timer = 5
 
-    def get_default_settings(self): ...
+    def create_torrent_adding_dialog(self): ...
 
-    def add_magnet(self, magnet): ...
+    def add_torrent(self): ...
+
+    @property
+    def check_if_quitable(self):
+        return len(self.get_active_torrents()) == 0
+
+    def get_torrents(self):
+        return client.get_torrents()
+
+    def get_active_torrents(self): ...
 
 
-class Torrenting(TorrentHelper):
+class Torrenting(UniversalTorrentor):
     def __init__(self):
         self.torrents = []
+        self.selected = 0
 
     def draw_header(self, stdscr, height, width):
         """Draw application header"""
@@ -48,9 +66,59 @@ class Torrenting(TorrentHelper):
         # Separator
         stdscr.addstr(3, 0, "=" * width)
 
+    def get_color_on_status(self, status):
+        if status == "seeding":
+            return curses.color_pair(2)
+        elif status == "downloading":
+            return curses.color_pair(1)
+        elif status == "stopped":
+            return curses.color_pair(3)
+        return None
 
-    def draw_torrents(self, stdscr, height, width): ...
+    def draw_torrents(self, stdscr, height, width):
+        self.torrents = self.get_torrents()
+        max_height = height - 7
+        for i, torrent in enumerate(self.torrents[:max_height]):
+            text = f"{torrent['id']}|\tStatus: {torrent['status']}\t| Progress: {torrent['progress']} out of {torrent['formatted_size'][0]:.3f} {torrent['formatted_size'][1]}  \t| ETA:{torrent['eta']}\t| Download Location: {torrent['download_dir']} |\t{torrent['name'][:50]}"
+            if i == self.selected:
+                color = self.get_color_on_status(torrent['status'])
+                attr = curses.A_REVERSE
+                if color is not None:
+                    attr |= color
+                stdscr.addstr(
+                    i + 4,
+                    2,
+                    text,
+                    attr,
+                )
+            else:
+                color = self.get_color_on_status(torrent['status'])
+                attr = color if color is not None else 0
+                stdscr.addstr(i + 4, 2, text, attr)
 
+    def draw_finalizing_dialog(self, stdscr, height, width): ...
+
+    # this is for when you are adding a magnet link, will use the same logic for the main Torrent Adding
+    def add_torrent_dialog(self, stdscr, height, width):
+        dimh, dimw = 10, 100
+        dh, dw = (height - dimh) // 2, (width - dimw) // 2
+        stdscr.addstr(0,0, f"{dh}, {dw}")
+        # stdscr.addstr(dimh-1, dimw, "Enter IM message: (hit Ctrl-G to send)")
+
+        editwin = curses.newwin(dimh,dimw, dh,dw)
+        prompt = "(Enter to Finish) Enter Magnet: "
+        editwin.addstr(1,1,prompt)
+        stdscr.refresh()
+
+        # box = Textbox(editwin)
+
+        # box.edit()
+
+        # message = box.gather().strip().replace("\n", "").replace(prompt, "")
+        message = editwin.getstr()
+        text = message.encode("utf-8").strip()
+        stdscr.addstr(height-30, 10, f"'{text}'")
+        stdscr.refresh()
 
     def draw_footer(self, stdscr, height, width):
         """Draw help/status footer"""
@@ -61,8 +129,8 @@ class Torrenting(TorrentHelper):
         help_items = [
             ("a", "Add Magnet"),
             ("s", "Stop/Start"),
-            ("d", "Delete"),
-            ("f", "Search Files"),
+            ("S", "Start All/Stop All"),
+            ("d", "Delete Single"),
             ("o", "Open (Linux Only)"),
             ("T", "Change Screen"),
             ("q", "Quit"),
@@ -87,9 +155,19 @@ class Torrenting(TorrentHelper):
             curses.init_pair(1, curses.COLOR_GREEN, curses.COLOR_BLACK)  # Pending
             curses.init_pair(2, curses.COLOR_CYAN, curses.COLOR_BLACK)  # Completed
             curses.init_pair(3, curses.COLOR_YELLOW, curses.COLOR_BLACK)  # Highlight
-        self.draw_header(win, height, width)
 
+        self.draw_header(win, height, width)
+        self.draw_torrents(win, height, width)
         self.draw_footer(win, height, width)
+
+    def handle_input(self, stdscr, key):
+        if key == curses.KEY_UP:
+            self.selected = max(0, self.selected - 1)
+        elif key == curses.KEY_DOWN:
+            self.selected = min(len(self.torrents) - 1, self.selected + 1)
+
+        elif key == ord("a"):
+            self.add_torrent_dialog(stdscr, *stdscr.getmaxyx())
 
 
 class NyaaHelper:
@@ -101,7 +179,7 @@ class NyaaHelper:
             search=self.query,
             category=self.category,
             sub_category=self.sub_category,
-            page = self.page,
+            page=self.page,
         )
 
     def startup(self):
@@ -113,12 +191,14 @@ class NyaaHelper:
         if cat == "0" and sub_cat == "0":
             return "All"
         if sub_cat == "0":
-            return f"{self.categories[cat]["name"]} - All"
+            return f"{self.categories[cat]['name']} - All"
         return f"{self.categories[cat]['name']} - {self.categories[cat]['sub_cats'][sub_cat]}"
 
-class NyaaScreen(NyaaHelper):
+
+class NyaaScreen(NyaaHelper, UniversalTorrentor):
     def __init__(self):
-        super().__init__()
+        super(NyaaHelper).__init__()
+        super(UniversalTorrentor).__init__()
         self.torrents = []
         self.query = ""
         self.filter = 0
@@ -205,7 +285,7 @@ class NyaaScreen(NyaaHelper):
             self.handle_search(stdscr)
         elif key == ord("f"):
             self.handle_filter(stdscr)
-        elif key == ord('r'):
+        elif key == ord("r"):
             self.query = ""
             self.category = 0
             self.sub_category = 0
@@ -214,11 +294,13 @@ class NyaaScreen(NyaaHelper):
     def handle_filter(self, stdscr):
         h, w = stdscr.getmaxyx()
 
-        category = " | ".join([f"{key}: {desc['name']}" for key, desc in self.categories.items()])
-        stdscr.addstr(h-3, 2, category)
+        category = " | ".join(
+            [f"{key}: {desc['name']}" for key, desc in self.categories.items()]
+        )
+        stdscr.addstr(h - 3, 2, category)
 
         prompt = "Filter: "
-        stdscr.addstr(h-2, 2, prompt)
+        stdscr.addstr(h - 2, 2, prompt)
 
         # Setting up for input
         curses.echo()
@@ -234,10 +316,17 @@ class NyaaScreen(NyaaHelper):
                 if self.category == 0:
                     self.torrents = self.search()
                 else:
-                    sub_cat = " | ".join([f"{key}: {desc}" for key, desc in self.categories[text]["sub_cats"].items()])
-                    stdscr.addstr(h-3, 2, sub_cat)
+                    sub_cat = " | ".join(
+                        [
+                            f"{key}: {desc}"
+                            for key, desc in self.categories[text]["sub_cats"].items()
+                        ]
+                    )
+                    stdscr.addstr(h - 3, 2, sub_cat)
                     try:
-                        user_input = stdscr.getstr(h - 2, len(prompt) + 2, w - len(prompt) - 4)
+                        user_input = stdscr.getstr(
+                            h - 2, len(prompt) + 2, w - len(prompt) - 4
+                        )
                         text = user_input.decode("utf-8").strip()
                         if text:
                             self.sub_category = text
@@ -298,12 +387,12 @@ class NyaaScreen(NyaaHelper):
         stdscr.refresh()
 
 
-class TerminalUI():
+class TerminalUI:
     def __init__(self):
         self.running = True
         self.screens = {
-            "NyaaScreen": NyaaScreen(),
             "TorrentScreen": Torrenting(),
+            "NyaaScreen": NyaaScreen(),
         }
         self.active_screen = self.get_home_screen()
 
@@ -317,7 +406,6 @@ class TerminalUI():
         self.active_screen = screen_keys[(current_idx + 1) % len(screen_keys)]
 
     def copy_to_clipboard(self, index): ...
-
 
     def draw_ui(self, stdscr):
         self.screens[self.active_screen].draw_ui(stdscr)
@@ -364,7 +452,12 @@ class TerminalUI():
         stdscr.clear()
         height, width = stdscr.getmaxyx()
         error_msg = f"Error: {message}"
-        stdscr.addstr(height // 2, (width - len(error_msg)) // 2, error_msg, curses.A_BOLD | curses.color_pair(3))
+        stdscr.addstr(
+            height // 2,
+            (width - len(error_msg)) // 2,
+            error_msg,
+            curses.A_BOLD | curses.color_pair(3),
+        )
         stdscr.refresh()
         stdscr.getch()  # Wait for user to acknowledge
         self.running = False
