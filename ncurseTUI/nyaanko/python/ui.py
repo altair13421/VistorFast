@@ -11,7 +11,7 @@ from curses.textpad import Textbox, rectangle
 
 client = TorrentClient(download_dir=".")
 
-CONFIG_FILE = os.path.join(".", "config.json")
+CONFIG_FILE = os.path.join(".", "configs.json")
 
 
 def get_config() -> dict[str, Any]:
@@ -32,10 +32,19 @@ def create_config(config: dict["str", Any]) -> bool:
 class UniversalTorrentor:
     def __init__(self):
         self.refresh_timer = 5
+        self.config = get_config()["config"]
+        self.selected = 0
 
     def create_torrent_adding_dialog(self): ...
 
-    def add_torrent(self): ...
+    def add_torrent(self, data: dict):
+        # get labels and Magnet, only that is Required
+        client.add_torrent(
+            torrent_=data["magnet"],
+            download_dir=data.get("download_dir", None),
+            paused=self.config["paused"],
+            labels=data.get("labels", []),
+        )
 
     @property
     def check_if_quitable(self):
@@ -45,6 +54,62 @@ class UniversalTorrentor:
         return client.get_torrents()
 
     def get_active_torrents(self): ...
+
+    def draw_finalizing_dialog(
+        self, stdscr, height, width, selected_idx: int, magnet: str = None
+    ):
+        if magnet:
+            data = {
+                "magnet": magnet,
+                "labels": ["manual"],
+            }
+        selected_torrent = self.torrents[selected_idx]
+        data = {
+            "title": selected_torrent["title"],
+            "size": selected_torrent["size"],
+            "labels": selected_torrent["category"].strip().split("-"),
+            "magnet": selected_torrent["magnet"],
+        }
+        datah, dw = height - 3, 2
+        prompth = height - 1
+        numh = height - 2
+        prompts = [
+            "[Separator: ','] Labels: ",
+            f"[Relative/Absolute, ] Save Location: {self.config['download_dir']}",
+            "[y/n] Finalize:",
+        ]
+        for i, prompt in enumerate(prompts):
+            if data.get("title", "") != "" and data.get("size", 0) != 0:
+                stdscr.addstr(
+                    datah,
+                    dw,
+                    f"Size: {data['size']}\t|\t{data['title']}\t|\t{data['labels']}",
+                )
+            stdscr.addstr(numh, dw, f"{i}/{len(prompts)}")
+            stdscr.addstr(prompth, dw, " "*width)
+            stdscr.addstr(prompth, dw, prompt)
+            # the input be like
+            curses.echo()
+            curses.curs_set(1)
+            # getting the actual input
+            stdscr.refresh()
+            try:
+                user_input = stdscr.getstr(
+                    height - 1, len(prompt) + 2, width - len(prompt) - 4
+                )
+                text = user_input.decode("utf-8").strip()
+                if "Save Location" in prompt:
+                    data["download_dir"] = text if text else self.config["download_dir"]
+                elif "Labels" in prompt:
+                    if text:
+                        data["labels"].append(text.split(","))
+                elif "Finalize" in prompt:
+                    if text in ["y", "Y", "yes", "Yes"]:
+                        self.add_torrent(data)
+            except Exception:
+                pass
+            curses.noecho()
+            curses.curs_set(0)
 
 
 class Torrenting(UniversalTorrentor):
@@ -79,9 +144,9 @@ class Torrenting(UniversalTorrentor):
         self.torrents = self.get_torrents()
         max_height = height - 7
         for i, torrent in enumerate(self.torrents[:max_height]):
-            text = f"{torrent['id']}|\tStatus: {torrent['status']}\t| Progress: {torrent['progress']} out of {torrent['formatted_size'][0]:.3f} {torrent['formatted_size'][1]}  \t| ETA:{torrent['eta']}\t| Download Location: {torrent['download_dir']} |\t{torrent['name'][:50]}"
+            text = f"{torrent['id']}|\t Rate: {torrent['get_speed'][0]:.2f} {torrent['get_speed'][1]}|\tStatus: {torrent['status']}  \t| Progress: {torrent['progress']} out of {torrent['formatted_size'][0]:.3f} {torrent['formatted_size'][1]}  \t| ETA:{torrent['eta']}\t| Download Location: {torrent['download_dir']} |\t{torrent['name'][:50]}"
             if i == self.selected:
-                color = self.get_color_on_status(torrent['status'])
+                color = self.get_color_on_status(torrent["status"])
                 attr = curses.A_REVERSE
                 if color is not None:
                     attr |= color
@@ -92,32 +157,30 @@ class Torrenting(UniversalTorrentor):
                     attr,
                 )
             else:
-                color = self.get_color_on_status(torrent['status'])
+                color = self.get_color_on_status(torrent["status"])
                 attr = color if color is not None else 0
                 stdscr.addstr(i + 4, 2, text, attr)
-
-    def draw_finalizing_dialog(self, stdscr, height, width): ...
 
     # this is for when you are adding a magnet link, will use the same logic for the main Torrent Adding
     def add_torrent_dialog(self, stdscr, height, width):
         dimh, dimw = 10, 100
         dh, dw = (height - dimh) // 2, (width - dimw) // 2
-        stdscr.addstr(0,0, f"{dh}, {dw}")
+        stdscr.addstr(0, 0, f"{dh}, {dw}")
         # stdscr.addstr(dimh-1, dimw, "Enter IM message: (hit Ctrl-G to send)")
 
-        editwin = curses.newwin(dimh,dimw, dh,dw)
+        editwin = curses.newwin(dimh, dimw, dh, dw)
         prompt = "(Enter to Finish) Enter Magnet: "
-        editwin.addstr(1,1,prompt)
+        editwin.addstr(1, 1, prompt)
         stdscr.refresh()
 
         # box = Textbox(editwin)
 
         # box.edit()
-
         # message = box.gather().strip().replace("\n", "").replace(prompt, "")
         message = editwin.getstr()
         text = message.encode("utf-8").strip()
-        stdscr.addstr(height-30, 10, f"'{text}'")
+        if text and "magnet" in text:
+            self.draw_finalizing_dialog(stdscr, height, width, magnet=text)
         stdscr.refresh()
 
     def draw_footer(self, stdscr, height, width):
@@ -199,6 +262,7 @@ class NyaaScreen(NyaaHelper, UniversalTorrentor):
     def __init__(self):
         super(NyaaHelper).__init__()
         super(UniversalTorrentor).__init__()
+        self.config: dict[str, Any] = get_config()["config"]
         self.torrents = []
         self.query = ""
         self.filter = 0
@@ -240,7 +304,7 @@ class NyaaScreen(NyaaHelper, UniversalTorrentor):
             ("f", "Filter"),
             ("r", "Reset"),
             ("Space", "Toggle"),
-            ("o", "Open Torrent App"),
+            ("d", "Download"),
             ("T", "Change Screen"),
             ("q", "Quit"),
         ]
@@ -266,11 +330,16 @@ class NyaaScreen(NyaaHelper, UniversalTorrentor):
                 stdscr.addstr(i + 4, 2, text)
 
     def handle_input(self, stdscr, key):
+        height, width = stdscr.getmaxyx()
         # Navigation
         if key == curses.KEY_UP:
             self.selected = max(0, self.selected - 1)
+            if self.selected <= 3:
+                stdscr.scroll(-1)
         elif key == curses.KEY_DOWN:
             self.selected = min(len(self.torrents) - 1, self.selected + 1)
+            if self.selected >= height - 3 - 4:
+                stdscr.scroll(1)
 
         # No Page Stuff
         # elif key == curses.KEY_LEFT:
@@ -285,6 +354,8 @@ class NyaaScreen(NyaaHelper, UniversalTorrentor):
             self.handle_search(stdscr)
         elif key == ord("f"):
             self.handle_filter(stdscr)
+        elif key == ord("d"):
+            self.draw_finalizing_dialog(stdscr, height, width, self.selected)
         elif key == ord("r"):
             self.query = ""
             self.category = 0
@@ -367,7 +438,7 @@ class NyaaScreen(NyaaHelper, UniversalTorrentor):
         """Main UI drawing function"""
         stdscr.clear()
         height, width = stdscr.getmaxyx()
-
+        stdscr.scrollok(True)
         # Title
         title = "Simple NYAA Interpreter"
         win = curses.initscr()

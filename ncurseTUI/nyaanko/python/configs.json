@@ -83,5 +83,9 @@
             "suffix": " (x265 H.265 1080p)",
             "multi-sub": false
         }
+    },
+    "config": {
+        "download_dir": "/home/yeager/Downloads",
+        "paused": false
     }
 }
