@@ -2,12 +2,10 @@
 import curses
 import json
 import os
-from typing import Any
+from typing import Any, Literal
 from automator.nyaa import search_torrent
 from automator import get_categories
-from automator.downloader import TorrentClient
-from time import sleep
-from curses.textpad import Textbox, rectangle
+from automator.downloader import TorrentClient, Status
 
 client = TorrentClient(download_dir=".")
 
@@ -31,11 +29,8 @@ def create_config(config: dict["str", Any]) -> bool:
 
 class UniversalTorrentor:
     def __init__(self):
-        self.refresh_timer = 5
         self.config = get_config()["config"]
         self.selected = 0
-
-    def create_torrent_adding_dialog(self): ...
 
     def add_torrent(self, data: dict):
         # get labels and Magnet, only that is Required
@@ -46,14 +41,17 @@ class UniversalTorrentor:
             labels=data.get("labels", []),
         )
 
-    @property
-    def check_if_quitable(self):
-        return len(self.get_active_torrents()) == 0
+    @staticmethod
+    def check_if_quitable():
+        torrents = client.get_torrents()
+        active = []
+        for torrent in torrents:
+            if torrent["status"] == Status.DOWNLOADING:
+                active.append(torrent)
+        return len(active) == 0
 
     def get_torrents(self):
         return client.get_torrents()
-
-    def get_active_torrents(self): ...
 
     def draw_finalizing_dialog(
         self, stdscr, height, width, selected_idx: int, magnet: str = None
@@ -85,8 +83,8 @@ class UniversalTorrentor:
                     dw,
                     f"Size: {data['size']}\t|\t{data['title']}\t|\t{data['labels']}",
                 )
-            stdscr.addstr(numh, dw, f"{i}/{len(prompts)}")
-            stdscr.addstr(prompth, dw, " "*width)
+            stdscr.addstr(numh, dw, f"{i + 1}/{len(prompts)}")
+
             stdscr.addstr(prompth, dw, prompt)
             # the input be like
             curses.echo()
@@ -116,6 +114,45 @@ class Torrenting(UniversalTorrentor):
     def __init__(self):
         self.torrents = []
         self.selected = 0
+        self.current_state: Literal["active", "stopped"] = "stopped"
+
+    def stop_torrents(self):
+        client.stop_all_torrents()
+        self.current_state = "stopped"
+
+    def stop_torrent(self, torrent_idx):
+        client.stop_torrent(torrent_idx)
+
+    def start_torrent(self, torrent_idx):
+        client.start_torrent(torrent_idx)
+
+    def start_torrents(self):
+        client.start_all()
+        self.current_state = "active"
+
+    def delete(self, stdscr, selected_idx):
+        """Simple input dialog"""
+        h, w = stdscr.getmaxyx()
+        torrent = self.torrents[selected_idx]
+        # Show input prompt
+        prompt = "Delete data? (y/N): "
+        stdscr.addstr(h - 3, 2, prompt, curses.A_BOLD)
+
+        # Setup for input
+        curses.echo()
+        curses.curs_set(1)
+
+        # Get input
+        stdscr.refresh()
+        try:
+            user_input = stdscr.getstr(h - 3, len(prompt) + 2, w - len(prompt) - 4)
+            text = user_input.decode("utf-8").strip()
+            client.remove_torrent(torrent["id"], delete_data=text in ["y", "Y", "yes", "Yes"] if text else False)
+        except Exception:
+            pass
+        curses.noecho()
+        curses.curs_set(0)
+
 
     def draw_header(self, stdscr, height, width):
         """Draw application header"""
@@ -125,7 +162,7 @@ class Torrenting(UniversalTorrentor):
 
         # Stats
         total = len(self.torrents)
-        stats = f"Torrent-or| Total: {total}"
+        stats = f"Torrent-or| Total: {total} | {self.current_state}"
         stdscr.addstr(2, (width - len(stats)) // 2, stats)
 
         # Separator
@@ -228,14 +265,26 @@ class Torrenting(UniversalTorrentor):
             self.selected = max(0, self.selected - 1)
         elif key == curses.KEY_DOWN:
             self.selected = min(len(self.torrents) - 1, self.selected + 1)
+        elif key == ord("S"):
+            if self.current_state == "active":
+                self.stop_torrents()
+            if self.current_state == "stopped":
+                self.start_torrents()
+        elif key == ord("s"):
+            torrent = self.torrents[self.selected]
+            if torrent["status"] == "seeding" or torrent["status"] == "downloading":
+                self.stop_torrent(torrent["id"])
+            elif torrent["status"] == "stopped" and torrent["progress"] < 100:
+                self.start_torrent(torrent["id"])
+        elif key == ord("d"):
+            self.delete(stdscr, self.selected)
 
         elif key == ord("a"):
             self.add_torrent_dialog(stdscr, *stdscr.getmaxyx())
 
 
 class NyaaHelper:
-    def __init__(self):
-        self.categories = get_categories()
+    def __init__(self): ...
 
     def search(self):
         return search_torrent(
@@ -262,6 +311,7 @@ class NyaaScreen(NyaaHelper, UniversalTorrentor):
     def __init__(self):
         super(NyaaHelper).__init__()
         super(UniversalTorrentor).__init__()
+        self.categories = get_categories()
         self.config: dict[str, Any] = get_config()["config"]
         self.torrents = []
         self.query = ""
@@ -481,9 +531,38 @@ class TerminalUI:
     def draw_ui(self, stdscr):
         self.screens[self.active_screen].draw_ui(stdscr)
 
+    def handle_quit(self, stdscr):
+        if UniversalTorrentor.check_if_quitable():
+            self.running = False
+        else:
+            self.running = True
+        if self.running:
+            h, w = stdscr.getmaxyx()
+
+            # Show input prompt
+            prompt = "Sure you want to Quit? There are active torrents in the Work: (y/N)"
+            stdscr.addstr(h - 3, 2, prompt)
+
+            # Setup for input
+            curses.echo()
+            curses.curs_set(1)
+
+            # Get input
+            stdscr.refresh()
+            try:
+                user_input = stdscr.getstr(h - 3, len(prompt) + 2, w - len(prompt) - 4)
+                text = user_input.decode("utf-8").strip()
+                if text in ["y", 'Y', "yes", "Yes"]:
+                    self.running = False
+            except Exception:
+                pass
+            curses.noecho()
+            curses.curs_set(0)
+        return
+
     def handle_input(self, stdscr, key):
         if key == ord("q"):
-            self.running = False
+            self.handle_quit(stdscr)
 
         elif key == ord("T"):
             self.get_next_screen()
