@@ -1,0 +1,3 @@
+[submodule "ncurseTUI/nyaanko/nyaapy-ncurses"]
+	path = ncurseTUI/nyaanko/nyaapy-ncurses
+	url = https://github.com/altair13421/nyaapy-ncurses
